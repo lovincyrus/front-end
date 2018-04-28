@@ -1,7 +1,26 @@
-import React, {Component} from 'react';
+/* Import statements */
+import React, { Component } from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 
-export default class App extends Component {
-    render () {
-        return <p>This is my lit react app</p>
-    }
-}
+/* Home component */
+import Home from './pages/home/'
+
+/* App component */
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <nav>
+          <ul>
+            <li><Link to="/">Homes</Link></li>
+          </ul>
+        </nav>
+
+        <Route path="/" component={Home}/>
+
+      </div>
+    )
+  }
+};
+
+export default App;
