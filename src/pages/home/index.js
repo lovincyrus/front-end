@@ -1,6 +1,7 @@
 /* Import statements */
 import React, { Component } from 'react';
 import EcosystemBox from '../../components/ecosystem-box';
+import TokenHoldersBox from '../../components/token-holders-box';
 
 import styles from './style.scss';
 
@@ -78,6 +79,9 @@ class Home extends Component {
 
                         <div class="token-holders">
 
+                            <TokenHoldersBox title="Initial Transaction" description="When a customer subscribes to a plan, the transaction is emitted to token holders. Token holders are given the option to claim the right to process the transaction. 8x tokens need to be staked in order to claim."/>
+                            <TokenHoldersBox title="Claim Period" description="The earlier a transaction is claimed the less token holders earn in fees. If the claim period is open for 10 days, transactions claimed on the 1st day would earn 10% of the 1% fee. The resulting 90% results in token burn."/>
+                            <TokenHoldersBox title="Execution Time" description="When the subscription is to be paid, claimants are required to call the 8x protocol and execute the transaction. Failing to do so will result in their stake of 8x tokens to be burned. This will reduce the total supply of tokens."/>
 
                         </div>
 

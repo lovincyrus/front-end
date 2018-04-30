@@ -8,7 +8,7 @@ class EcosystemBox extends Component {
         return (
             <div>
 
-                <div class="box-header">
+                <div class="box-header-container">
                     <img/>
                     <h4>{this.props.title}</h4>
                     {
