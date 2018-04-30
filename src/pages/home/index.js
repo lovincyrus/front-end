@@ -1,5 +1,6 @@
 /* Import statements */
 import React, { Component } from 'react';
+import EcosystemBox from '../../components/ecosystem-box';
 
 import styles from './style.scss';
 
@@ -39,6 +40,9 @@ class Home extends Component {
 
                         <div class="ecosystem-items">
 
+                            <EcosystemBox title="Businesses" features={["Zero volatility through the use of Dai stable coin", "Cheaper than Stripe & PayPal", "Easy to implement SDKs"]}/>
+                            <EcosystemBox title="Users" features={["Zero volatility through the use of Dai stable coin", "Manage all your subscriptions through one interface", "Your funds always stay with you, in your control"]}/>
+                            <EcosystemBox title="Token Holders" features={["Earn 8x tokens by processing transactions on the network", "Have a say in what changes are made to the protocol"]}/>
 
                         </div>
 
@@ -73,7 +77,6 @@ class Home extends Component {
                         <h2>Token Holders</h2>
 
                         <div class="token-holders">
-
 
 
                         </div>
