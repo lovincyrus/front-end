@@ -1,3 +1,5 @@
+@import "button.scss";
+
 @mixin mobile {
     @media (max-device-width: 1200px) {
         @content;
@@ -14,11 +16,14 @@
 h1 {
     font-family: 'Avenir-Heavy', sans-serif;
     font-weight: 800;
+    line-height: 1.65em;
+    font-size: 2.25em;
 }
 
 h2 {
     font-family: 'Avenir-Medium', sans-serif;
     font-weight: 500;
+    font-size: 1.75em;
 }
 
 h3 {
@@ -34,6 +39,7 @@ h4 {
 body {
     font-family: 'Avenir-Roman', sans-serif;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .container {
@@ -41,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    max-width: 80%;
+    max-width: 1200px;
     margin: auto;
 
     box-sizing: border-box;
@@ -49,4 +55,5 @@ body {
 
 .section {
     padding: 3em 0;
+    margin: 0em 3em;
 }

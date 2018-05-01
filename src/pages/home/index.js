@@ -4,26 +4,25 @@ import EcosystemBox from '../../components/ecosystem-box';
 import TokenHoldersBox from '../../components/token-holders-box';
 
 import styles from './style.scss';
+import diagram from '../../assets/images/8x-diagram.png';
 
 class Home extends Component {
    render() {
         return (
             <div>
 
-                <div class="section">
+                <div class="hero section">
 
                     <div class="container">
 
                         <div class="left-side">
-                            <h1>Recurring Ethereum payments made possible.</h1>
-                            <p>Whether it’s paying for your favourite shows, rent or making a monthly contribution, we’re creating a protocol to power recurring payments on the blockchain.</p>
-                            <div class="button">
-                                <a href="/">Download Whitepaper</a>
-                            </div>
+                            <h1>Recurring Ethereum<br/>payments made possible.</h1>
+                            <p class="description">Whether it’s paying for your favourite shows, rent or making a monthly contribution, we’re creating a protocol to power recurring payments on the blockchain.</p>
+                            <a class="button" href="/">Download Whitepaper</a>
                         </div>
 
                         <div class="right-side">
-                            <img/>
+                            <img src={diagram}/>
                         </div>
 
                     </div>
