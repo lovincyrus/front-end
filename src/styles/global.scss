@@ -4,6 +4,38 @@
     }
 }
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('/assets/fonts/Avenir-Roman') format('truetype'),
+         url('/assets/fonts/Avenir-Medium') format('truetype'), 
+         url('/assets/fonts/Avenir-Heavy') format('truetype');
+}
+
+h1 {
+    font-family: 'Avenir-Heavy', sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Avenir-Medium', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Avenir-Medium', sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Avenir-Medium', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Avenir-Roman', sans-serif;
+    font-weight: 400;
+}
+
 .container {
 
     display: flex;
@@ -16,9 +48,5 @@
 }
 
 .section {
-    padding: 6em 0;
-
-    @include mobile {
-        padding: 3em 0;
-    }
+    padding: 3em 0;
 }
