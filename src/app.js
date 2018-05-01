@@ -1,6 +1,7 @@
 /* Import statements */
 import React, { Component } from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+import Header from './components/header';
 
 /* Home component */
 import Home from './pages/home/';
@@ -10,13 +11,9 @@ import styles from './styles/global.scss';
 class App extends Component {
   render() {
     return (
-      <div class="container">
-        <nav>
-          <ul>
-            <li><Link to="/">Homes</Link></li>
-          </ul>
-        </nav>
-
+      <div>
+      
+        <Header/>
         <Route path="/" component={Home}/>
 
       </div>
