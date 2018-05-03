@@ -20,11 +20,11 @@ module.exports = {
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,
-                loader: 'file?name=public/fonts/[name].[ext]'
+                loader: 'file?name=assets/fonts/[name].[ext]'
             },
             {
-                test: /\.(jpe?g|png|gif|svg)$/i,
-                loader: 'url-loader'
+                test: /\.(jpe?g|png|gif|svg)$/,
+                loader: 'file-loader?name=assets/images/[name].[ext]'
               }
         ]
     },

@@ -6,14 +6,14 @@ import styles from './style.scss';
 class TokenHoldersBox extends Component {
    render() {
         return (
-            <div>
+            <div class="token-box-header-container">
 
-                <div class="box-header-container">
-                    <img/>
+                <div class="header-container">
+                    <img class="icon" src={this.props.icon}/>
                     <h4>{this.props.title}</h4>
                 </div>
                 
-                <div class="box-description-container">
+                <div class="description-container">
                     <p>{this.props.description}</p>
                 </div>
 

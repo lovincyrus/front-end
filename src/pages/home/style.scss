@@ -20,3 +20,36 @@
     }
 
 }
+
+.ecosystem {
+
+    .items {
+
+        display: flex;
+        margin-top: 2.5em;
+
+    }
+
+    .items > div {
+        width: 33%;
+    }
+
+}
+
+.protocol {
+
+}
+
+.token-holders {
+
+    .items {
+
+        display: flex;
+
+    }
+
+    .items > div {
+        width: 33%;
+    }
+
+}

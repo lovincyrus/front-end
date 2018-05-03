@@ -1,4 +1,5 @@
 @import "button.scss";
+@import "card.scss";
 
 @mixin mobile {
     @media (max-device-width: 1200px) {
@@ -12,6 +13,8 @@
          url('/assets/fonts/Avenir-Medium') format('truetype'), 
          url('/assets/fonts/Avenir-Heavy') format('truetype');
 }
+
+$standard-letter-spacing: 0.03em;
 
 h1 {
     font-family: 'Avenir-Heavy', sans-serif;
@@ -33,7 +36,11 @@ h3 {
 
 h4 {
     font-family: 'Avenir-Medium', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+p {
+    margin: 0.5em 0;
 }
 
 body {
@@ -54,6 +61,10 @@ body {
 }
 
 .section {
-    padding: 3em 0;
-    margin: 0em 3em;
+    padding: 3em;
+}
+
+.section-alt {
+    padding: 3em;
+    background-color: #FAFAFA;
 }
