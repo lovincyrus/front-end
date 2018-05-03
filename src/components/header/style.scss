@@ -1,17 +1,28 @@
 .navigation-header-container {
 
-    margin: 0.1em;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #E7E7E7;
-        
-    a:link {
-        text-decoration: none;
-    }
 
-    ul {
-        padding: 0;
-        list-style-type: none;
+    padding: 1em 3em;
+    
+    .container {
+
+        a:link {
+            text-decoration: none;
+        }
+    
+        ul {
+            padding: 0;
+            margin: 0;
+    
+            list-style-type: none;
+        }
+
+        img {
+            height: 2em;
+        }
+
     }
     
 }

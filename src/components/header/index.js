@@ -4,16 +4,18 @@ import { Link } from 'react-router-dom';
 
 import styles from './style.scss';
 
+import logo from '../../assets/images/full-logo.png';
+
 class Header extends Component {
    render() {
         return (
-            <nav class="navigation-header-container">
-                <div class="container">
+            <div class="navigation-header-container">
+                <nav class="container">
                     <ul>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/"><img src={logo}/></Link></li>
                     </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         )
    }
 }
