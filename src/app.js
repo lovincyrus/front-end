@@ -1,7 +1,9 @@
 /* Import statements */
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
+
 import Header from './components/header';
+import Footer from './components/footer';
 
 /* Home component */
 import Home from './pages/home/';
@@ -15,6 +17,7 @@ class App extends Component {
       
         <Header/>
         <Route path="/" component={Home}/>
+        <Footer/>
 
       </div>
     )
