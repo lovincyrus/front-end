@@ -1,9 +1,19 @@
+@mixin mobile {
+    @media (max-device-width: 1200px) {
+        @content;
+    }
+}
+
 .hero {
 
     .container {
 
         display: flex;
         flex-direction: row;
+
+        @include mobile {
+            flex-direction: column-reverse;
+        }
 
     }
 
@@ -17,6 +27,10 @@
 
         margin-left: 5em;
 
+        @include mobile {
+            display: none;
+        }
+
     }
 
 }
@@ -26,12 +40,20 @@
     .items {
 
         display: flex;
-        margin-top: 2.5em;
+
+        @include mobile {
+            flex-direction: column;
+        }
 
     }
 
     .items > div {
         width: 33%;
+
+        @include mobile {
+            width: 100%;
+            margin: 1.5em 0;
+        }
     }
 
 }
@@ -46,10 +68,19 @@
 
         display: flex;
 
+        @include mobile {
+            flex-direction: column;
+        }
+
     }
 
     .items > div {
         width: 33%;
+
+        @include mobile {
+            width: 100%;
+            margin: 1.5em 0;
+        }
     }
 
 }

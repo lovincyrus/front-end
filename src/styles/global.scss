@@ -14,7 +14,15 @@
          url('/assets/fonts/Avenir-Heavy') format('truetype');
 }
 
-$standard-letter-spacing: 0.03em;
+body {
+    font-family: 'Avenir-Roman', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    @include mobile {
+        font-size: 14px;
+    }
+}
 
 h1 {
     font-family: 'Avenir-Heavy', sans-serif;
@@ -32,21 +40,17 @@ h2 {
 h3 {
     font-family: 'Avenir-Medium', sans-serif;
     font-weight: 500;
+    font-size: 1.5em;
 }
 
 h4 {
     font-family: 'Avenir-Medium', sans-serif;
     font-weight: 500;
+    font-size: 1.25em;
 }
 
 p {
     margin: 0.5em 0;
-}
-
-body {
-    font-family: 'Avenir-Roman', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 .container {
