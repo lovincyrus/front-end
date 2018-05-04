@@ -41,7 +41,10 @@
 
         display: flex;
 
+        margin-top: 1.5em;
+
         @include mobile {
+            margin-top: 0em;
             flex-direction: column;
         }
 
