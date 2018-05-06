@@ -30,7 +30,7 @@ class Home extends Component {
                         <div class="left-side">
                             <h1>Recurring Ethereum<br/>payments made possible.</h1>
                             <p class="description">Whether it’s paying for your favourite shows, rent or making a monthly contribution, we’re creating a protocol to power recurring payments on the blockchain.</p>
-                            <a class="button" target="_blank" href="https://github.com/8x-protocol/whitepaper/blob/master/8x_protocol_whitepaper.pdf">Download Whitepaper</a>
+                            <a class="button" target="_blank" href="https://github.com/8x-protocol/whitepaper/">Download Whitepaper</a>
                         </div>
 
                         <div class="right-side">
