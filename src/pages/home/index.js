@@ -36,9 +36,24 @@ class Home extends Component {
 
                         <div class="content-side">
                             <h1>Recurring stable payments<br/>on the blockchain.</h1>
-                            <p class="description">Decentralised recurring cryptocurrency payments powered by Ethereum Smart Contracts and Stable Coin technology.</p>
+                            <p class="description">Decentralised recurring cryptocurrency payments powered by<br/>Ethereum Smart Contracts and Stable Coin technology.</p>
                             <Subscribe/>
                         </div>
+
+                    </div>
+
+                </div>
+
+                <hr/>
+
+                <div class="what-is-8x section">
+
+                    <div class="container">
+
+                        <h1>What is 8x?</h1>
+                        <h5>
+                            8x is a protocol for facilitating recurring crypto payments without exposing consumers or businesses to the volatility of crypto currencies. Gartner estimates the subscription economy will be worth $3.3T by 2020 with 80% of software products & services moving to a subscription model.
+                        </h5>
 
                     </div>
 
