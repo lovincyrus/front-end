@@ -18,6 +18,8 @@ import broadcastIcon from '../../assets/images/broadcast.png';
 import claimIcon from '../../assets/images/flag.png';
 import executionIcon from '../../assets/images/time.png';
 
+import memphisBackground from '../../assets/images/memphis-colorful.png';
+
 class Home extends Component {
    render() {
         return (
@@ -62,7 +64,7 @@ class Home extends Component {
 
                 </div>
 
-                <div class="protocol section">
+                <div class="protocol section" style ={ { backgroundImage: "url("+memphisBackground+")" } }>
 
                     <div class="container">
 
