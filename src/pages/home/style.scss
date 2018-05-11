@@ -23,6 +23,18 @@
 
     }
 
+    .left-side {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .button {
+            align-self: flex-start;
+        }
+
+    }
+
     .right-side {
 
         margin-left: 5em;
