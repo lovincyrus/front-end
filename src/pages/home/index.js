@@ -44,6 +44,8 @@ class Home extends Component {
 
                 </div>
 
+                <hr/>
+
                 <div class="ecosystem section-alt">
 
                     <div class="container">
