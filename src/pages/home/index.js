@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import EcosystemBox from '../../components/ecosystem-box';
 import TokenHoldersBox from '../../components/token-holders-box';
+import Subscribe from '../../components/subscribe';
 
 import styles from './style.scss';
 import diagram from '../../assets/images/8x-diagram.png';
@@ -29,14 +30,14 @@ class Home extends Component {
 
                     <div class="container">
 
-                        <div class="left-side">
-                            <h1>Recurring Ethereum<br/>payments made possible.</h1>
-                            <p class="description">Whether it’s paying for your favourite shows, rent or making a monthly contribution, we’re creating a protocol to power recurring payments on the blockchain.</p>
-                            <a class="button" target="_blank" href="https://github.com/8x-protocol/whitepaper/">Download Whitepaper</a>
+                        <div class="image-side">
+                            <img src={diagram}/>
                         </div>
 
-                        <div class="right-side">
-                            <img src={diagram}/>
+                        <div class="content-side">
+                            <h1>Recurring stable payments<br/>on the blockchain.</h1>
+                            <p class="description">Decentralised recurring cryptocurrency payments powered by Ethereum Smart Contracts and Stable Coin technology.</p>
+                            <Subscribe/>
                         </div>
 
                     </div>

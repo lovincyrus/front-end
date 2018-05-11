@@ -10,6 +10,7 @@
 
         display: flex;
         flex-direction: row;
+        margin: 5em auto;
 
         @include mobile {
             flex-direction: column-reverse;
@@ -19,11 +20,11 @@
 
     .description {
 
-        margin-bottom: 3.5em;
+        margin-bottom: 2.5em;
 
     }
 
-    .left-side {
+    .content-side {
         
         display: flex;
         flex-direction: column;
@@ -35,9 +36,9 @@
 
     }
 
-    .right-side {
+    .image-side {
 
-        margin-left: 5em;
+        margin-right: 5em;
 
         @include mobile {
             display: none;

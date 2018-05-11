@@ -1,0 +1,27 @@
+.subscribe-container {
+
+    .heading {
+        color: #4A4A4A;
+
+        margin-bottom: 1.5em;
+    }
+
+    .email-form {
+
+        display: flex;
+
+        .email {
+            width: 50%;
+            margin-right: 1em;
+            font-size: 0.85em;
+            letter-spacing: 0.04em;
+        }
+
+        .submit {
+            font-size: 0.85em;
+            letter-spacing: 0.08em;
+        }
+
+    }
+
+}
