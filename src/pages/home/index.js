@@ -1,8 +1,8 @@
 /* Import statements */
 import React, { Component } from 'react';
 import EcosystemBox from '../../components/ecosystem-box';
-import TokenHoldersBox from '../../components/token-holders-box';
 import Subscribe from '../../components/subscribe';
+import PersonBox from '../../components/person-box';
 
 import styles from './style.scss';
 import diagram from '../../assets/images/8x-diagram.png';
@@ -26,6 +26,14 @@ import overview from '../../assets/images/overview.png';
 import desk from '../../assets/images/desk.png';
 import platform from '../../assets/images/platform.png';
 import chip from '../../assets/images/chip.png';
+
+import kerman from '../../assets/images/kerman.png';
+import andy from '../../assets/images/andy.png';
+import kevinL from '../../assets/images/kevin-l.png';
+import kevinZ from '../../assets/images/kevin-z.png';
+import daniel from '../../assets/images/daniel.png';
+import kamal from '../../assets/images/kamal.png';
+import rob from '../../assets/images/rob.png';
 
 class Home extends Component {
    render() {
@@ -134,6 +142,35 @@ class Home extends Component {
 
                 </div>
 
+                {/*
+
+                <hr/>
+
+                <div class="who section">
+
+                    <div class="container">
+
+                        <div class="header-container">
+                            <h1 class="center-text">Who's in the team?</h1>
+                        </div>
+
+                        <div class="people">
+
+                            <PersonBox name="Kerman Kohli" description="Role" photo={kerman}/>
+                            <PersonBox name="Kevin Lu" description="Role" photo={kevinL}/>
+                            <PersonBox name="Andy Chen Fang" description="Role" photo={andy}/>
+                            <PersonBox name="Rob Morris" description="Role" photo={rob} advisor={true}/>
+                            <PersonBox name="Daniel Bar" description="Role" photo={daniel} advisor={true}/>
+                            <PersonBox name="Kamal Samra" description="Role" photo={kamal} advisor={true}/>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                */}
+
                 <hr/>
 
                 <div class="ecosystem section">
@@ -141,7 +178,7 @@ class Home extends Component {
                     <div class="container">
 
                         <div class="header-container">
-                            <h1 class="center-text">Ecosystem</h1>
+                            <h1 className="center-text">Ecosystem</h1>
                             <h5>The 8x protocol requires an ecosystem of businesses, consumers and token holders in order to operate. </h5>
                         </div>
 
