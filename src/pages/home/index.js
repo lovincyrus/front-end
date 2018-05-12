@@ -49,8 +49,8 @@ class Home extends Component {
                         </div>
 
                         <div class="content-side">
-                            <h1>Recurring stable payments<br/>on the blockchain.</h1>
-                            <p class="description">Decentralised recurring cryptocurrency payments powered by<br/>Ethereum Smart Contracts and Stable Coin technology.</p>
+                            <h1>Recurring stable payments on the blockchain.</h1>
+                            <p class="description">Decentralised recurring cryptocurrency payments powered by Ethereum smart contracts and stable coin technology.</p>
                             <Subscribe/>
                         </div>
 
