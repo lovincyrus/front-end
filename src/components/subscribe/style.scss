@@ -1,3 +1,9 @@
+@mixin mobile {
+    @media (max-device-width: 1200px) {
+        @content;
+    }
+}
+
 .subscribe-container {
 
     .heading {
@@ -10,11 +16,20 @@
 
         display: flex;
 
+        @include mobile {
+            flex-direction: column;
+        }
+
         .email {
             width: 50%;
             margin-right: 1em;
             font-size: 0.85em;
             letter-spacing: 0.04em;
+
+            @include mobile {
+                width: 75%;
+                margin-bottom: 1em;
+            }
         }
 
         .submit {
