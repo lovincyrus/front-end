@@ -47,6 +47,103 @@
 
 }
 
+.what {
+
+    .header-container {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            height: 5em;
+            margin-right: 2em;
+        }
+        
+    }
+
+}
+
+.how {
+
+    .header-container {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            height: 5em;
+            margin-right: 2em;
+        }
+        
+    }
+
+    .container {
+
+        .description {
+
+            margin-bottom: 5em;
+
+        }
+
+        .overview-image {
+
+            max-width: 100%;
+            width: 80%;
+
+            @include mobile {
+                width: 100%
+            }
+
+        }
+
+    }
+
+}
+
+.why {
+
+    .header-container {
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .description {
+
+        margin-bottom: 2.5em;
+
+    }
+
+    .reason {
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5em;
+
+        @include mobile {
+            flex-direction: column;
+            margin-bottom: 5em;
+        }
+
+        .icon {
+
+            margin-right: 2em;
+
+            @include mobile {
+
+                margin-bottom: 1em;
+
+            }
+
+        }
+
+    }
+
+}
+
 .ecosystem {
 
     .items {

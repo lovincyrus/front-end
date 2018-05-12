@@ -54,6 +54,7 @@ h5 {
     font-weight: 300;
     font-size: 1.25em;
     text-align: center;
+    margin-top: 2em;
 }
 
 p {
@@ -66,12 +67,16 @@ hr {
     border: 1px solid #E7E7E7;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .container {
 
     display: flex;
     flex-direction: column;
 
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 
     box-sizing: border-box;
@@ -80,9 +85,4 @@ hr {
 
 .section {
     padding: 6em 3em;
-}
-
-.section-alt {
-    padding: 3em;
-    background-color: #FAFAFA;
 }
