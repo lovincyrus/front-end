@@ -21,7 +21,7 @@ class Footer extends Component {
                         <h4>Community</h4>
                         <a style={{color: '#7D94DF'}} href="https://t.me/joinchat/AXlpZ1LUmBqu3ySXHVh8qA">Telegram</a>
                         <a style={{color: '#000000'}} href="https://medium.com/8x-protocol">Medium</a>
-                        <a style={{color: '#1EABF5'}} href="https://twitter.com/8xProtocol">Twitter</a>
+                        <a style={{color: '#1EABF5'}} href="https://twitter.com/8x_protocol">Twitter</a>
                         <a style={{color: '#FD4E02'}} href="https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb">Youtube</a>
                     </div>
 
