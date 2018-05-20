@@ -35,6 +35,8 @@ import daniel from '../../assets/images/daniel.png';
 import kamal from '../../assets/images/kamal.png';
 import rob from '../../assets/images/rob.png';
 
+import subscriptionsPreview from '../../assets/images/subscriptions-preview.png';
+
 class Home extends Component {
    render() {
         return (
@@ -69,9 +71,10 @@ class Home extends Component {
                             <h1>What is 8x?</h1>
                         </div>
                         <h5>
-                            8x is a protocol for facilitating recurring crypto payments without exposing consumers or businesses to the volatility of crypto currencies. Gartner estimates the subscription economy will be worth $3.3T by 2020 with 80% of software products & services moving to a subscription model.
+                            8x is a protocol for facilitating recurring crypto payments without exposing consumers or businesses to the volatility of crypto currencies. McKinsey estimates the subscription economy will be worth over $500B by 2020 with 80% of software products & services moving to a subscription model.
                         </h5>
-
+                        
+                        <img class="preview-image" src={subscriptionsPreview}/>
                     </div>
 
                 </div>
