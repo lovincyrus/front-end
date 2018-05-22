@@ -7,12 +7,12 @@ class PersonBox extends Component {
    render() {
         return (
             <div class="person-container" style={{ backgroundImage: `url(${this.props.photo})`, backgroundPosition: 'center' }}>
-                <div class="overlay">
+                <a class="overlay" href={this.props.linkedIn} target="_blank">
                     <div class="content-container">
                         <p class="description">{this.props.description}</p>
                         <p class="heading">{this.props.name}</p>
                     </div>
-                </div>
+                </a>
             </div>
         )
    }

@@ -173,15 +173,15 @@ class Home extends Component {
 
                         <div class="people">
 
-                            <PersonBox name="Kerman" description="Engineering" photo={kerman}/>
-                            <PersonBox name="Kevin L." description="Marketing" photo={kevinL}/>
-                            <PersonBox name="Andy" description="Community" photo={andy}/>
-                            <PersonBox name="Gal" description="Business Dev" photo={gal}/>
-                            <PersonBox name="Kevin Z." description="Business Analyst" photo={kevinZ}/>
+                            <PersonBox name="Kerman" description="Engineering" photo={kerman} linkedIn="https://www.linkedin.com/in/kermankohli/"/>
+                            <PersonBox name="Kevin L." description="Marketing" photo={kevinL} linkedIn="https://www.linkedin.com/in/kevin-lu-a95017147/"/>
+                            <PersonBox name="Andy" description="Community" photo={andy} linkedIn="https://www.linkedin.com/in/andy-chen-fang/"/>
+                            <PersonBox name="Gal" description="Business Dev" photo={gal} linkedIn="https://www.linkedin.com/in/gal-stern-90058713a/"/>
+                            <PersonBox name="Kevin Z." description="Business Analyst" photo={kevinZ} linkedIn="https://www.linkedin.com/in/kevin-zheng-04470a58/"/>
                             {/*<PersonBox name="Renee" description="Community (Mandarin)" photo={kerman}/>*/}
-                            <PersonBox name="Rob" description="Advisor" photo={rob} advisor={true}/>
-                            <PersonBox name="Daniel" description="Advisor" photo={daniel} advisor={true}/>
-                            <PersonBox name="Kamal" description="Advisor" photo={kamal} advisor={true}/>
+                            <PersonBox name="Rob" description="Advisor" photo={rob} advisor={true} linkedIn="https://www.linkedin.com/in/robmorris/"/>
+                            <PersonBox name="Daniel" description="Advisor" photo={daniel} advisor={true} linkedIn="https://www.linkedin.com/in/dtbar/"/>
+                            <PersonBox name="Kamal" description="Advisor" photo={kamal} advisor={true} linkedIn="https://www.linkedin.com/in/kamalsarma/"/>
 
                         </div>
                         
