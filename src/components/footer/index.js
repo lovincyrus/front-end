@@ -9,6 +9,7 @@ import logo from '../../assets/images/full-logo.png';
 class Footer extends Component {
    render() {
         return (
+
             <div class="navigation-footer-container">
 
                 <nav class="logo-container">
@@ -34,6 +35,7 @@ class Footer extends Component {
                 </div>
 
             </div>
+            
         )
    }
 }

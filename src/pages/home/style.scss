@@ -177,29 +177,30 @@
 
 }
 
-.protocol {
+.team {
 
-}
+    background: linear-gradient(black, #141414);
 
-.token-holders {
-
-    .items {
+    .header-container {
 
         display: flex;
+        align-items: center;
 
-        @include mobile {
-            flex-direction: column;
+        margin-bottom: 3em;
+
+        .team-image {
+
+            height: 3em;
+
         }
 
     }
 
-    .items > div {
-        width: 33%;
+    .people {
+        
+        display: flex;
+        flex-wrap: wrap;
 
-        @include mobile {
-            width: 100%;
-            margin: 1.5em 0;
-        }
     }
 
 }

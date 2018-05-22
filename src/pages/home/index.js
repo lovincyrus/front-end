@@ -27,13 +27,16 @@ import desk from '../../assets/images/desk.png';
 import platform from '../../assets/images/platform.png';
 import chip from '../../assets/images/chip.png';
 
-import kerman from '../../assets/images/kerman.png';
-import andy from '../../assets/images/andy.png';
-import kevinL from '../../assets/images/kevin-l.png';
-import kevinZ from '../../assets/images/kevin-z.png';
-import daniel from '../../assets/images/daniel.png';
-import kamal from '../../assets/images/kamal.png';
-import rob from '../../assets/images/rob.png';
+import kerman from '../../assets/images/kerman.jpg';
+import gal from '../../assets/images/gal.jpg';
+import kevinZ from '../../assets/images/kevinz.jpg';
+import kevinL from '../../assets/images/kevinl.jpg';
+import daniel from '../../assets/images/daniel.jpg';
+import kamal from '../../assets/images/kamal.jpg';
+import rob from '../../assets/images/rob.jpg';
+import andy from '../../assets/images/andy.jpg';
+
+import teamLogo from '../../assets/images/8x-team.png';
 
 import subscriptionsPreview from '../../assets/images/subscriptions-preview.png';
 
@@ -60,9 +63,7 @@ class Home extends Component {
 
                 </div>
 
-                <hr/>
-
-                <div class="what section">
+                <div class="what section-alt">
 
                     <div class="container">
 
@@ -78,8 +79,6 @@ class Home extends Component {
                     </div>
 
                 </div>
-
-                <hr/>
 
                  <div class="how section">
 
@@ -100,9 +99,7 @@ class Home extends Component {
 
                 </div>
 
-                <hr/>
-
-                <div class="why section">
+                <div class="why section-alt">
 
                     <div class="container">
 
@@ -145,37 +142,6 @@ class Home extends Component {
 
                 </div>
 
-                {/*
-
-                <hr/>
-
-                <div class="who section">
-
-                    <div class="container">
-
-                        <div class="header-container">
-                            <h1 class="center-text">Who's in the team?</h1>
-                        </div>
-
-                        <div class="people">
-
-                            <PersonBox name="Kerman Kohli" description="Role" photo={kerman}/>
-                            <PersonBox name="Kevin Lu" description="Role" photo={kevinL}/>
-                            <PersonBox name="Andy Chen Fang" description="Role" photo={andy}/>
-                            <PersonBox name="Rob Morris" description="Role" photo={rob} advisor={true}/>
-                            <PersonBox name="Daniel Bar" description="Role" photo={daniel} advisor={true}/>
-                            <PersonBox name="Kamal Samra" description="Role" photo={kamal} advisor={true}/>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                */}
-
-                <hr/>
-
                 <div class="ecosystem section">
 
                     <div class="container">
@@ -192,6 +158,33 @@ class Home extends Component {
                             <EcosystemBox header={tokenHoldersIcon} tick={greenCheckmark} title="Token Holders" features={["Earn 8x tokens by processing transactions on the network", "Have a say in what changes are made to the protocol"]}/>
 
                         </div>
+
+                    </div>
+
+                </div>
+
+                <div class="team section">
+
+                    <div class="container">
+
+                        <div class="header-container">
+                        <h1 className="center-text" style={{color: 'white'}}>Who are we?</h1>
+                        </div>
+
+                        <div class="people">
+
+                            <PersonBox name="Kerman" description="Engineering" photo={kerman}/>
+                            <PersonBox name="Kevin L." description="Marketing" photo={kevinL}/>
+                            <PersonBox name="Andy" description="Community" photo={andy}/>
+                            <PersonBox name="Gal" description="Business Dev" photo={gal}/>
+                            <PersonBox name="Kevin Z." description="Business Analyst" photo={kevinZ}/>
+                            {/*<PersonBox name="Renee" description="Community (Mandarin)" photo={kerman}/>*/}
+                            <PersonBox name="Rob" description="Advisor" photo={rob} advisor={true}/>
+                            <PersonBox name="Daniel" description="Advisor" photo={daniel} advisor={true}/>
+                            <PersonBox name="Kamal" description="Advisor" photo={kamal} advisor={true}/>
+
+                        </div>
+                        
 
                     </div>
 
