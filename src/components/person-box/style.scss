@@ -1,9 +1,19 @@
+@mixin mobile {
+    @media (max-device-width: 1200px) {
+        @content;
+    }
+}
+
 .person-container {
 
     width: 10em;
     height: 10em;
     
     margin: 0.5em;
+
+    @include mobile {
+        margin: 0.1em;
+    }
 
     box-sizing: border-box;
 
