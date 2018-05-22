@@ -117,22 +117,21 @@ class Home extends Component {
                                 <img class="icon" src={desk}/>
                                 <p>
                                     8x tokens are required to be staked in order to run service nodes. 
-                                    This in turns allows token holders to earn up to 1% of every transaction executed by them. The larger the transaction, the more 8x tokens are required.
+                                    This in turns allows token holders to earn a fee from every transaction executed by them. The larger the transaction, the more 8x tokens are required.
                                 </p>
                             </div>
 
                             <div class="reason">
                                 <img class="icon" src={platform}/>
                                 <p>
-                                    If service nodes claim the right to execute a transaction 20 days before a monthly payment is due, they earn 1/3 of 1%. 
-                                    The remaining 2/3 of the 1% fee are used to purchase 8x tokens on the market and then burned.
+                                    Token holders can set the strategy they would like to play in order to claim subscriptions. High risk, high reward? Or balanced risk with consistent returns?
                                 </p>
                             </div>
 
                             <div class="reason">
                                 <img class="icon" src={chip}/>
                                 <p>
-                                    Governance rights. Any major changes to the protocol may be voted on based on the number of tokens held.
+                                    Service nodes earn in the stable coin being transacted, not 8x tokens. In addition, gas costs are pre-paid by the user so extra costs do not have to be factored into expected profts.
                                 </p>
                             </div>
 
@@ -153,9 +152,9 @@ class Home extends Component {
 
                         <div class="items">
 
-                            <EcosystemBox header={businessIcon} tick={redCheckmark} title="Businesses" features={["Zero volatility through the use of Dai stable coin", "Cheaper than Stripe & PayPal", "Easy to implement SDKs"]}/>
+                            <EcosystemBox header={businessIcon} tick={redCheckmark} title="Businesses" features={["Zero volatility through the use of Dai stable coin", "Set your own transaction fee based on your business model", "Easy to implement SDKs"]}/>
                             <EcosystemBox header={userIcon} tick={yellowCheckmark} title="Users" features={["Zero volatility through the use of Dai stable coin", "Manage all your subscriptions through one interface", "Your funds always stay with you, in your control"]}/>
-                            <EcosystemBox header={tokenHoldersIcon} tick={greenCheckmark} title="Token Holders" features={["Earn 8x tokens by processing transactions on the network", "Have a say in what changes are made to the protocol"]}/>
+                            <EcosystemBox header={tokenHoldersIcon} tick={greenCheckmark} title="Token Holders" features={["Earn by processing transactions on the network", "Select your service node's strategy"]}/>
 
                         </div>
 
