@@ -28,14 +28,14 @@ class Footer extends Component {
 
                     <div class="footer-section">
                         <h4>Foundation</h4>
-                        <a style={{color: '#95959A'}}>Whitepaper</a>
-                        <a style={{color: '#95959A'}}>Github</a>
+                        <a style={{color: '#95959A'}} href="https://github.com/8x-protocol/whitepaper">Whitepaper</a>
+                        <a style={{color: '#95959A'}} href="https://github.com/8x-protocol/github">Github</a>
                     </div>
 
                 </div>
 
             </div>
-            
+
         )
    }
 }
