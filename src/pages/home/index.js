@@ -28,7 +28,6 @@ import platform from '../../assets/images/platform.png';
 import chip from '../../assets/images/chip.png';
 
 import kerman from '../../assets/images/kerman.jpg';
-import gal from '../../assets/images/gal.jpg';
 import kevinZ from '../../assets/images/kevinz.jpg';
 import kevinL from '../../assets/images/kevinl.jpg';
 import daniel from '../../assets/images/daniel.jpg';
@@ -176,9 +175,8 @@ class Home extends Component {
                             <PersonBox name="Kerman" description="Engineering" photo={kerman} linkedIn="https://www.linkedin.com/in/kermankohli/"/>
                             <PersonBox name="Kevin L." description="Marketing" photo={kevinL} linkedIn="https://www.linkedin.com/in/kevin-lu-a95017147/"/>
                             <PersonBox name="Andy" description="Community" photo={andy} linkedIn="https://www.linkedin.com/in/andy-chen-fang/"/>
-                            <PersonBox name="Gal" description="Business Dev" photo={gal} linkedIn="https://www.linkedin.com/in/gal-stern-90058713a/"/>
                             <PersonBox name="Kevin Z." description="Business Analyst" photo={kevinZ} linkedIn="https://www.linkedin.com/in/kevin-zheng-04470a58/"/>
-                            <PersonBox name="Renee" description="Community (Mandarin)" photo={renee} linkedIn="https://www.linkedin.com/in/reneezsr/"/>
+                            <PersonBox name="Renee" description="Marketing (Mandarin)" photo={renee} linkedIn="https://www.linkedin.com/in/reneezsr/"/>
                             <PersonBox name="Rob" description="Advisor" photo={rob} advisor={true} linkedIn="https://www.linkedin.com/in/robmorris/"/>
                             <PersonBox name="Daniel" description="Advisor" photo={daniel} advisor={true} linkedIn="https://www.linkedin.com/in/dtbar/"/>
                             <PersonBox name="Kamal" description="Advisor" photo={kamal} advisor={true} linkedIn="https://www.linkedin.com/in/kamalsarma/"/>
