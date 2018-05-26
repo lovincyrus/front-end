@@ -1,0 +1,88 @@
+@mixin mobile {
+  @media (max-device-width: 1200px) {
+    @content;
+  }
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/fonts/Avenir-Roman') format('truetype'),
+       url('/assets/fonts/Avenir-Medium') format('truetype'),
+       url('/assets/fonts/Avenir-Heavy') format('truetype');
+}
+
+body {
+  font-family: 'Avenir-Roman', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+
+  @include mobile {
+      font-size: 14px;
+  }
+}
+
+h1 {
+  font-family: 'Avenir-Heavy', sans-serif;
+  font-weight: 800;
+  line-height: 1.5em;
+  font-size: 2.25em;
+}
+
+h2 {
+  font-family: 'Avenir-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+h3 {
+  font-family: 'Avenir-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-family: 'Avenir-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+h5 {
+  font-family: 'Avenir-Roman', 'sans-serif';
+  font-weight: 300;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+hr {
+  width: 25%;
+  border-color: #E7E7E7;
+  border: 1px solid #E7E7E7;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.section {
+  padding: 6em 3em;
+}
+
+.section-alt {
+  @extend .section;
+  background-color: #FAFAFA;
+}

@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 // main app
-import App from './App.js';
+import App from './app.js';
 
 ReactDOM.render((
   <BrowserRouter>
-      <App/>
+    <App/>
   </BrowserRouter>
-), document.getElementById('app'))
+), document.getElementById('app'));

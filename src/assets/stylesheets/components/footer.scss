@@ -1,0 +1,30 @@
+.navigation-footer-container {
+  padding: 3em 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo-container {
+    img {
+      height: 5em;
+      object-fit: contain;
+    }
+  }
+
+  .sections-container {
+    display: flex;
+    flex-direction: row;
+
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+      margin: 0 2em;
+    }
+
+    a {
+      text-align: center;
+      margin: 0.5em 0;
+      text-decoration: none;
+    }
+  }
+}
