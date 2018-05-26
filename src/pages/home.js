@@ -34,6 +34,7 @@ import kamal from '../assets/images/kamal.jpg';
 import rob from '../assets/images/rob.jpg';
 import andy from '../assets/images/andy.jpg';
 import renee from '../assets/images/renee.jpg';
+import travis from '../assets/images/travis.png';
 
 import teamLogo from '../assets/images/8x-team.png';
 
@@ -204,10 +205,22 @@ class Home extends React.Component {
                 linkedIn='https://www.linkedin.com/in/kermankohli/'
               />
               <PersonBox
+                name='Travis'
+                description='Engineering'
+                photo={travis}
+                linkedIn='https://www.linkedin.com/in/travis-mathis-43443b16/'
+              />
+              <PersonBox
                 name='Kevin L.'
                 description='Marketing'
                 photo={kevinL}
                 linkedIn='https://www.linkedin.com/in/kevin-lu-a95017147/'
+              />
+              <PersonBox
+                name='Renee'
+                description='Marketing (Mandarin)'
+                photo={renee}
+                linkedIn='https://www.linkedin.com/in/reneezsr/'
               />
               <PersonBox
                 name='Andy'
@@ -217,15 +230,9 @@ class Home extends React.Component {
               />
               <PersonBox
                 name='Kevin Z.'
-                description='Business Analyst'
+                description='Operations'
                 photo={kevinZ}
                 linkedIn='https://www.linkedin.com/in/kevin-zheng-04470a58/'
-              />
-              <PersonBox
-                name='Renee'
-                description='Marketing (Mandarin)'
-                photo={renee}
-                linkedIn='https://www.linkedin.com/in/reneezsr/'
               />
               <PersonBox
                 name='Rob'
