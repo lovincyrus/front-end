@@ -6,21 +6,20 @@ import Header from './components/header';
 import Footer from './components/footer';
 
 /* Home component */
-import Home from './pages/home/';
-import styles from './styles/global.scss';
+import Home from './pages/home';
+
+import './assets/stylesheets/app.scss';
 
 /* App component */
 class App extends Component {
   render() {
     return (
       <div>
-      
         <Header/>
         <Route path="/" component={Home}/>
         <Footer/>
-
       </div>
-    )
+    );
   }
 };
 

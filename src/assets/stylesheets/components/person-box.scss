@@ -1,0 +1,46 @@
+@mixin mobile {
+  @media (max-device-width: 1200px) {
+    @content;
+  }
+}
+
+.person-container {
+  box-sizing: border-box;
+  width: 10em;
+  height: 10em;
+  margin: 0.5em;
+
+  @include mobile {
+    margin: 0.1em;
+  }
+
+  .heading {
+    margin: 0;
+    text-align: left;
+    color: white;
+    font-family: 'Avenir-Roman';
+    font-size: 1.2em;
+  }
+
+  .description {
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-size: 0.75em;
+    letter-spacing: 0.08em;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
