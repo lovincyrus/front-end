@@ -8,8 +8,6 @@ import {default as Images} from '../middleware/images';
 
 class Home extends React.Component {
   render() {
-    console.log(Images, 'images');
-
     return (
       <div>
         <div className='hero section'>
@@ -34,7 +32,7 @@ class Home extends React.Component {
         <div className='what section-alt'>
           <div className='container'>
             <div className='explainer-video'>
-              <video src={Images.explainerVideo} width='800' controls/>
+              <video src={Images.explainerVideo} width="100%" controls/>
             </div>
 
             <div className='header-container'>
