@@ -1,13 +1,15 @@
 /* Import statements */
 import React from 'react';
-import {Images} from '../middleware/images';
-
 import EcosystemBox from '../components/ecosystemBox';
 import Subscribe from '../components/subscribe';
 import PersonBox from '../components/personBox';
 
+import {default as Images} from '../middleware/images';
+
 class Home extends React.Component {
   render() {
+    console.log(Images, 'images');
+
     return (
       <div>
         <div className='hero section'>
@@ -31,6 +33,10 @@ class Home extends React.Component {
 
         <div className='what section-alt'>
           <div className='container'>
+            <div className='explainer-video'>
+              <video src={Images.explainerVideo} width='800' controls/>
+            </div>
+
             <div className='header-container'>
               <img src={Images.coins}/>
 
