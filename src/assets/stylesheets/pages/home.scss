@@ -42,10 +42,14 @@
 
 .what {
   .explainer-video {
-    margin-top: -20rem;
-    margin-bottom: 35px;
+    margin-top: 3em;
+    margin-bottom: 3em;
     max-width: 80rem;
+    box-shadow: 5px 5px 30px rgba(48, 95, 129, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
   }
+  
   .header-container {
     display: flex;
     align-items: center;

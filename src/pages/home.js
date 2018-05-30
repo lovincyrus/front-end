@@ -31,13 +31,8 @@ class Home extends React.Component {
 
         <div className='what section-alt'>
           <div className='container'>
-            <div className='explainer-video'>
-              <video src={Images.explainerVideo} width="100%" controls/>
-            </div>
-
             <div className='header-container'>
               <img src={Images.coins}/>
-
               <h1>What is 8x?</h1>
             </div>
 
@@ -49,7 +44,9 @@ class Home extends React.Component {
               & services moving to a subscription model.
             </h5>
 
-            <img className='preview-image' src={Images.subscriptionsPreview}/>
+            <div className='explainer-video'>
+              <video src={Images.explainerVideo} width="100%" controls/>
+            </div>
           </div>
         </div>
 
