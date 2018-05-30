@@ -39,6 +39,10 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/,
         loader: "file-loader?name=assets/images/[name].[ext]"
+      },
+      {
+        test: /\.mp4$/,
+        loader: 'url-loader?limit=10000&mimetype=video/mp4'
       }
     ]
   },

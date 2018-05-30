@@ -4,41 +4,7 @@ import EcosystemBox from '../components/ecosystemBox';
 import Subscribe from '../components/subscribe';
 import PersonBox from '../components/personBox';
 
-import diagram from '../assets/images/8x-diagram.png';
-
-import redCheckmark from '../assets/images/red-checkmark.png';
-import yellowCheckmark from '../assets/images/yellow-checkmark.png';
-import greenCheckmark from '../assets/images/green-checkmark.png';
-
-import businessIcon from '../assets/images/business.png';
-import userIcon from '../assets/images/user.png';
-import tokenHoldersIcon from '../assets/images/token-holders.png';
-
-import memphisBackground from '../assets/images/memphis-colorful.png';
-
-import card from '../assets/images/card.png';
-import coins from '../assets/images/coins.png';
-import cash from '../assets/images/cash.png';
-
-import overview from '../assets/images/overview.png';
-
-import desk from '../assets/images/desk.png';
-import platform from '../assets/images/platform.png';
-import chip from '../assets/images/chip.png';
-
-import kerman from '../assets/images/kerman.jpg';
-import kevinZ from '../assets/images/kevinz.jpg';
-import kevinL from '../assets/images/kevinl.jpg';
-import daniel from '../assets/images/daniel.jpg';
-import kamal from '../assets/images/kamal.jpg';
-import rob from '../assets/images/rob.jpg';
-import andy from '../assets/images/andy.jpg';
-import renee from '../assets/images/renee.jpg';
-import travis from '../assets/images/travis.png';
-
-import teamLogo from '../assets/images/8x-team.png';
-
-import subscriptionsPreview from '../assets/images/subscriptions-preview.png';
+import {default as Images} from '../middleware/images';
 
 class Home extends React.Component {
   render() {
@@ -47,7 +13,7 @@ class Home extends React.Component {
         <div className='hero section'>
           <div className='container'>
             <div className='image-side'>
-              <img src={diagram}/>
+              <img src={Images.diagram}/>
             </div>
 
             <div className='content-side'>
@@ -66,8 +32,7 @@ class Home extends React.Component {
         <div className='what section-alt'>
           <div className='container'>
             <div className='header-container'>
-              <img src={coins}/>
-
+              <img src={Images.coins}/>
               <h1>What is 8x?</h1>
             </div>
 
@@ -79,14 +44,16 @@ class Home extends React.Component {
               & services moving to a subscription model.
             </h5>
 
-            <img className='preview-image' src={subscriptionsPreview}/>
+            <div className='explainer-video'>
+              <video src={Images.explainerVideo} width="100%" controls/>
+            </div>
           </div>
         </div>
 
         <div className='how section'>
           <div className='container'>
             <div className='header-container'>
-              <img src={cash}/>
+              <img src={Images.cash}/>
               <h1 className='center-text'>How does it work?</h1>
             </div>
 
@@ -96,7 +63,7 @@ class Home extends React.Component {
               1 stable coin = $1 USD.
             </h5>
 
-            <img className='overview-image' src={overview}/>
+            <img className='overview-image' src={Images.overview}/>
           </div>
         </div>
 
@@ -115,7 +82,7 @@ class Home extends React.Component {
 
             <div className='reasons-container'>
               <div className='reason'>
-                <img className='icon' src={desk}/>
+                <img className='icon' src={Images.desk}/>
                 <p>
                   8x tokens are required to be staked in order to run
                   service nodes. This in turns allows token holders to
@@ -126,7 +93,7 @@ class Home extends React.Component {
               </div>
 
               <div className='reason'>
-                <img className='icon' src={platform}/>
+                <img className='icon' src={Images.platform}/>
                 <p>
                   Token holders can set the strategy they would like to
                   play in order to claim subscriptions. High risk, high
@@ -135,7 +102,7 @@ class Home extends React.Component {
               </div>
 
               <div className='reason'>
-                <img className='icon' src={chip}/>
+                <img className='icon' src={Images.chip}/>
                 <p>
                   Service nodes earn in the stable coin being transacted,
                   not 8x tokens. In addition, gas costs are pre-paid by
@@ -159,8 +126,8 @@ class Home extends React.Component {
 
             <div className='items'>
               <EcosystemBox
-                header={businessIcon}
-                tick={redCheckmark}
+                header={Images.businessIcon}
+                tick={Images.redCheckmark}
                 title='Businesses'
                 features={[
                   'Zero volatility through the use of Dai stable coin',
@@ -169,8 +136,8 @@ class Home extends React.Component {
                 ]}
               />
               <EcosystemBox
-                header={userIcon}
-                tick={yellowCheckmark}
+                header={Images.userIcon}
+                tick={Images.yellowCheckmark}
                 title='Users'
                 features={[
                   'Zero volatility through the use of Dai stable coin',
@@ -179,8 +146,8 @@ class Home extends React.Component {
                 ]}
               />
               <EcosystemBox
-                header={tokenHoldersIcon}
-                tick={greenCheckmark}
+                header={Images.tokenHoldersIcon}
+                tick={Images.greenCheckmark}
                 title='Token Holders'
                 features={[
                   'Earn by processing transactions on the network',
@@ -201,57 +168,57 @@ class Home extends React.Component {
               <PersonBox
                 name='Kerman'
                 description='Engineering'
-                photo={kerman}
+                photo={Images.kerman}
                 linkedIn='https://www.linkedin.com/in/kermankohli/'
               />
               <PersonBox
                 name='Travis'
                 description='Engineering'
-                photo={travis}
+                photo={Images.travis}
                 linkedIn='https://www.linkedin.com/in/travis-mathis-43443b16/'
               />
               <PersonBox
                 name='Kevin L.'
                 description='Marketing'
-                photo={kevinL}
+                photo={Images.kevinL}
                 linkedIn='https://www.linkedin.com/in/kevin-lu-a95017147/'
               />
               <PersonBox
                 name='Renee'
                 description='Marketing (Mandarin)'
-                photo={renee}
+                photo={Images.renee}
                 linkedIn='https://www.linkedin.com/in/reneezsr/'
               />
               <PersonBox
                 name='Andy'
                 description='Community'
-                photo={andy}
+                photo={Images.andy}
                 linkedIn='https://www.linkedin.com/in/andy-chen-fang/'
               />
               <PersonBox
                 name='Kevin Z.'
                 description='Operations'
-                photo={kevinZ}
+                photo={Images.kevinZ}
                 linkedIn='https://www.linkedin.com/in/kevin-zheng-04470a58/'
               />
               <PersonBox
                 name='Rob'
                 description='Advisor'
-                photo={rob}
+                photo={Images.rob}
                 advisor={true}
                 linkedIn='https://www.linkedin.com/in/robmorris/'
               />
               <PersonBox
                 name='Daniel'
                 description='Advisor'
-                photo={daniel}
+                photo={Images.daniel}
                 advisor={true}
                 linkedIn='https://www.linkedin.com/in/dtbar/'
               />
               <PersonBox
                 name='Kamal'
                 description='Advisor'
-                photo={kamal}
+                photo={Images.kamal}
                 advisor={true}
                 linkedIn='https://www.linkedin.com/in/kamalsarma/'
               />
