@@ -24,7 +24,6 @@ import tokenHoldersIcon from '../assets/images/token-holders.png';
 import travis from '../assets/images/travis.png';
 import userIcon from '../assets/images/user.png';
 import yellowCheckmark from '../assets/images/yellow-checkmark.png';
-import explainerVideo from '../assets/videos/8xProtocolExplainer.mp4';
 
 export default {
   andy,
@@ -34,7 +33,6 @@ export default {
   chip,
   coins,
   daniel,
-  explainerVideo,
   desk,
   diagram,
   greenCheckmark,
