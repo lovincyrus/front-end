@@ -45,7 +45,11 @@ class Home extends React.Component {
             </h5>
 
             <div className='explainer-video'>
-              <video src={Images.explainerVideo} width="100%" controls/>
+              <video
+                src="https://8x-protocol.github.io/8x-cdn/video/8xProtocolExplainer.mp4"
+                width="100%"
+                controls
+              />
             </div>
           </div>
         </div>
