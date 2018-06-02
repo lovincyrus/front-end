@@ -27,6 +27,16 @@
       font-family: 'Avenir-Medium';
       text-decoration: none;
     }
+
+    a:visited {
+      color: black;
+    }
+
+    .desktop {
+      @include mobile {
+        display: none;
+      }
+    }
   }
 
   .left-side {
