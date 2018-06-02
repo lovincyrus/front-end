@@ -39,7 +39,7 @@ class Menu extends React.Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://docs.google.com/viewer?url=https://github.com/8x-protocol/whitepaper/raw/master/8x_protocol_whitepaper_v6.pdf'
+              href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'
             >
               Whitepaper
             </a>

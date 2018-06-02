@@ -30,7 +30,7 @@ class Header extends Component {
               <Link to='/'>FAQ</Link>
             </li>
             <li className="desktop">
-              <Link to='/'>Whitepaper</Link>
+              <a href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'>Whitepaper</a>
             </li>
             <li className="desktop">
               <Link to='/token-sale'>Token Sale</Link>
