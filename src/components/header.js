@@ -1,6 +1,6 @@
 /* Import statements */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 
 import Menu from './mobileMenu';
@@ -20,11 +20,21 @@ class Header extends Component {
       <div className='navigation-header-container'>
         <nav className='left-side'>
           <ul className='link-container'>
-            <li><Link to='/'><img src={logo}/></Link></li>
-            <li className="desktop"><Link to='/'>Home</Link></li>
-            <li className="desktop"><Link to='/'>FAQ</Link></li>
-            <li className="desktop"><Link to='/'>Whitepaper</Link></li>
-            <li className="desktop"><Link to='/'>Token Sale</Link></li>
+            <li>
+              <Link to='/'><img src={logo}/></Link>
+            </li>
+            <li className="desktop">
+              <Link to='/'>Home</Link>
+            </li>
+            <li className="desktop">
+              <Link to='/'>FAQ</Link>
+            </li>
+            <li className="desktop">
+              <Link to='/'>Whitepaper</Link>
+            </li>
+            <li className="desktop">
+              <Link to='/token-sale'>Token Sale</Link>
+            </li>
           </ul>
         </nav>
 

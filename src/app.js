@@ -5,8 +5,9 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 
-/* Home component */
+/* Import pages */
 import Home from './pages/home';
+import TokenSale from './pages/token-sale';
 
 import './assets/stylesheets/app.scss';
 
@@ -16,7 +17,10 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Route path="/" component={Home}/>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/token-sale" component={TokenSale}/>
+        </Switch>
         <Footer/>
       </div>
     );
