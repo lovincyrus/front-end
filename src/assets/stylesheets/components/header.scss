@@ -18,6 +18,17 @@
     padding: 0.75em 0;
   }
 
+  .link-container{
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-right: 1.25em;
+      font-family: 'Avenir-Medium';
+      text-decoration: none;
+    }
+  }
+
   .left-side {
     a:link {
       text-decoration: none;
@@ -30,7 +41,7 @@
     }
 
     img {
-      height: 5em;
+      height: 4em;
     }
   }
 
@@ -75,16 +86,13 @@
 
 .burger-menu,
 .burger-menu.open {
-  //display: inline-block;
   cursor: pointer;
-  //position: fixed;
-  //right: 2.5em;
-  //top: 2em;
   z-index: 9999;
   background: #fff;
   padding: 10px;
   border-radius: 25px;
   box-shadow: 5px 5px 30px rgba(48,95,129,0.3);
+  display: none;
 
   @include mobile {
     position: fixed;
