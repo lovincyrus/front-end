@@ -29,7 +29,7 @@ class Menu extends React.Component {
           <li onClick={this.close}>
             <a
               target='_blank'
-              href='https://github.com/8x-protocol/'
+              href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'
               rel='noopener noreferrer'
             >
               FAQ
