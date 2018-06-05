@@ -1,6 +1,6 @@
 /* Import statements */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 
 import Menu from './mobileMenu';
@@ -20,7 +20,21 @@ class Header extends Component {
       <div className='navigation-header-container'>
         <nav className='left-side'>
           <ul className='link-container'>
-            <li><Link to='/'><img src={logo}/></Link></li>
+            <li>
+              <Link to='/'><img src={logo}/></Link>
+            </li>
+            <li className="desktop">
+              <Link to='/'>Home</Link>
+            </li>
+            <li className="desktop">
+              <a href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'>FAQ</a>
+            </li>
+            <li className="desktop">
+              <a href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'>Whitepaper</a>
+            </li>
+            <li className="desktop">
+              <Link to='/token-sale'>Token Sale</Link>
+            </li>
           </ul>
         </nav>
 

@@ -21,7 +21,25 @@ class Menu extends React.Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://docs.google.com/viewer?url=https://github.com/8x-protocol/whitepaper/raw/master/8x_protocol_whitepaper_v6.pdf'
+              href='/'
+            >
+              Home
+            </a>
+          </li>
+          <li onClick={this.close}>
+            <a
+              target='_blank'
+              href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'
+              rel='noopener noreferrer'
+            >
+              FAQ
+            </a>
+          </li>
+          <li onClick={this.close}>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'
             >
               Whitepaper
             </a>
@@ -29,10 +47,10 @@ class Menu extends React.Component {
           <li onClick={this.close}>
             <a
               target='_blank'
-              href='https://github.com/8x-protocol/'
+              href='https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb'
               rel='noopener noreferrer'
             >
-              Github
+              Token Sale
             </a>
           </li>
           <li onClick={this.close}>
@@ -42,15 +60,6 @@ class Menu extends React.Component {
               rel='noopener noreferrer'
             >
               Telegram
-            </a>
-          </li>
-          <li onClick={this.close}>
-            <a
-              target='_blank'
-              href='https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb'
-              rel='noopener noreferrer'
-            >
-              Daily Vlogs
             </a>
           </li>
         </ul>

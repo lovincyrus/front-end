@@ -219,13 +219,6 @@ class Home extends React.Component {
                 advisor={true}
                 linkedIn='https://www.linkedin.com/in/dtbar/'
               />
-              <PersonBox
-                name='Kamal'
-                description='Advisor'
-                photo={Images.kamal}
-                advisor={true}
-                linkedIn='https://www.linkedin.com/in/kamalsarma/'
-              />
             </div>
           </div>
         </div>
