@@ -1,6 +1,10 @@
 /* Import statements */
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 import Header from './components/header';
 import Footer from './components/footer';
@@ -12,17 +16,21 @@ import TokenSale from './pages/token-sale';
 import './assets/stylesheets/app.scss';
 
 /* App component */
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/token-sale" component={TokenSale}/>
-        </Switch>
-        <Footer/>
-      </div>
+      <Router>
+        <div>
+          <Header/>
+
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/token-sale" component={TokenSale}/>
+          </Switch>
+
+          <Footer/>
+        </div>
+      </Router>
     );
   }
 };
