@@ -19,7 +19,6 @@ class Menu extends React.Component {
         <ul>
           <li onClick={this.close}>
             <a
-              target='_blank'
               rel='noopener noreferrer'
               href='/'
             >
@@ -46,8 +45,7 @@ class Menu extends React.Component {
           </li>
           <li onClick={this.close}>
             <a
-              target='_blank'
-              href='https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb'
+              href='/token-sale'
               rel='noopener noreferrer'
             >
               Token Sale
