@@ -5,6 +5,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 
 import Header from './components/header';
 import Footer from './components/footer';
@@ -15,11 +16,13 @@ import TokenSale from './pages/token-sale';
 
 import './assets/stylesheets/app.scss';
 
+const history = createBrowserHistory();
+
 /* App component */
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router history={history}>
         <div>
           <Header/>
 
