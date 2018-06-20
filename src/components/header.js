@@ -30,7 +30,7 @@ class Header extends Component {
               <a href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'>FAQ</a>
             </li>
             <li className="desktop">
-              <a href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'>Whitepaper</a>
+              <a href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>Whitepaper</a>
             </li>
             <li className="desktop">
               <Link to='/token-sale'>Token Sale</Link>

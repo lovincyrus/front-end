@@ -46,7 +46,7 @@ class Home extends React.Component {
 
             <div className='explainer-video'>
               <video
-                src="https://8x-protocol.github.io/8x-cdn/video/8xProtocolExplainer.mp4"
+                src="https://8xprotocol.github.io/8x-cdn/video/8xProtocolExplainer.mp4"
                 width="100%"
                 controls
               />
