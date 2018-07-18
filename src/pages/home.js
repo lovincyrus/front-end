@@ -41,6 +41,9 @@ class Home extends React.Component {
 
           </div>
         </div>
+        <div className='hero-separator'>
+          <img src={Images.waves}/>
+        </div>
       </div>
     );
   }

@@ -7,6 +7,7 @@ import Menu from './mobileMenu';
 import BurgerIcon from './header/burgerIcon';
 
 import logo from '../assets/images/full-logo.png';
+import {default as Images} from '../middleware/images';
 
 const contentStyle = {
   background: 'rgba(255,255,255,0',
@@ -23,18 +24,6 @@ class Header extends Component {
             <li>
               <Link to='/'><img src={logo}/></Link>
             </li>
-            <li className="desktop">
-              <Link to='/'>Home</Link>
-            </li>
-            <li className="desktop">
-              <a href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'>FAQ</a>
-            </li>
-            <li className="desktop">
-              <a href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>Whitepaper</a>
-            </li>
-            <li className="desktop">
-              <Link to='/token-sale'>Token Sale</Link>
-            </li>
           </ul>
         </nav>
 
@@ -50,15 +39,11 @@ class Header extends Component {
           </Popup>
 
           <div className='items'>
-            <a
-              className='join-us float'
-              target='_blank'
-              href='https://t.me/joinchat/AXlpZ1LUmBqu3ySXHVh8qA'
-              rel='noopener noreferrer'
-            >
-              Join us on Telegram
-            </a>
-            {/*<a className='whitepaper float' target='_blank' href='https://docs.google.com/viewer?url=https://github.com/8x-protocol/whitepaper/raw/master/8x_protocol_whitepaper_v4.pdf'>Whitepaper</a>*/}
+            <a><img src={Images.github}/></a>
+            <a><img src={Images.reddit}/></a>
+            <a><img src={Images.twitter}/></a>
+            <a><img src={Images.medium}/></a>
+            <a><img src={Images.telegram}/></a>
           </div>
         </nav>
       </div>
