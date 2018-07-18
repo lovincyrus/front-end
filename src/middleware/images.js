@@ -1,4 +1,5 @@
 import andy from '../assets/images/andy.jpg';
+import bitfwdWhite from '../assets/images/bitfwd-white.png';
 import card from '../assets/images/card.png';
 import cash from '../assets/images/cash.png';
 import chip from '../assets/images/chip.png';
@@ -10,6 +11,7 @@ import github from '../assets/images/github.png';
 import kerman from '../assets/images/kerman.jpg';
 import kevinL from '../assets/images/kevinl.jpg';
 import kevinZ from '../assets/images/kevinz.jpg';
+import makerWhite from '../assets/images/maker-white.png';
 import mastercard from '../assets/images/mastercard.png';
 import medium from '../assets/images/medium.png';
 import paypal from '../assets/images/paypal.png';
@@ -25,6 +27,7 @@ import waves from '../assets/images/waves.png';
 
 export default {
   andy,
+  bitfwdWhite,
   card,
   cash,
   chip,
@@ -36,6 +39,7 @@ export default {
   kerman,
   kevinL,
   kevinZ,
+  makerWhite,
   mastercard,
   medium,
   paypal,

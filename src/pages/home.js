@@ -64,6 +64,14 @@ class Home extends React.Component {
           </div>
         </div>
 
+        <div className='partnership section'>
+          <div className='container'>
+            <h2 className='text'>We’re partnered with</h2>
+            <img src={Images.makerWhite}/>
+            <img src={Images.bitfwdWhite}/>
+          </div>
+        </div>
+
       </div>
     );
   }

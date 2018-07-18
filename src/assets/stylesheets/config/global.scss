@@ -32,9 +32,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Avenir-Medium', sans-serif;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: 500;
   font-size: 1.75em;
+  letter-spacing: 0.06em;
+  margin: 0;
 }
 
 h3 {
