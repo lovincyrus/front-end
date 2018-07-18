@@ -28,9 +28,9 @@ class Home extends React.Component {
               />
               <h1>with crypto.</h1>
 
-              <h6 className='description'>
+              <h5 className='description'>
                 8x is a layer 2 Ethereum protocol that enables decentralised recurring payments.
-              </h6>
+              </h5>
 
               {/*<Subscribe/>*/}
             </div>
@@ -41,9 +41,29 @@ class Home extends React.Component {
 
           </div>
         </div>
+
         <div className='hero-separator'>
           <img src={Images.waves}/>
         </div>
+
+        <div className='payment section'>
+          <div className='container'>
+            <div className='pay-with-side'>
+              <p className='label'>Pay with:</p>
+              <div className='items-container'>
+                <img src={Images.visa}/>
+                <img src={Images.mastercard}/>
+                <img src={Images.paypal}/>
+                <img src={Images.protocolCard}/>
+              </div>
+            </div>
+            <div className='description'>
+              <h1>The future of payments for millenials.</h1>
+              <h6>More than 50% of crypto users are between the ages of 18-33 years old.</h6>
+            </div>
+          </div>
+        </div>
+
       </div>
     );
   }

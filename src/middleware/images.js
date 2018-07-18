@@ -10,13 +10,17 @@ import github from '../assets/images/github.png';
 import kerman from '../assets/images/kerman.jpg';
 import kevinL from '../assets/images/kevinl.jpg';
 import kevinZ from '../assets/images/kevinz.jpg';
+import mastercard from '../assets/images/mastercard.png';
 import medium from '../assets/images/medium.png';
+import paypal from '../assets/images/paypal.png';
 import platform from '../assets/images/platform.png';
+import protocolCard from '../assets/images/protocol-card.png';
 import reddit from '../assets/images/reddit.png';
 import rob from '../assets/images/rob.jpg';
 import subscriptionsiPhone from '../assets/images/subscriptions-iphone.png';
 import telegram from '../assets/images/telegram.png';
 import twitter from '../assets/images/twitter.png';
+import visa from '../assets/images/visa.png';
 import waves from '../assets/images/waves.png';
 
 export default {
@@ -32,11 +36,15 @@ export default {
   kerman,
   kevinL,
   kevinZ,
+  mastercard,
   medium,
+  paypal,
+  protocolCard,
   reddit,
   rob,
   subscriptionsiPhone,
   telegram,
   twitter,
+  visa,
   waves
 };
