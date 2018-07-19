@@ -11,7 +11,7 @@
     justify-content: center;
 
     @include mobile {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
   }
 
@@ -40,10 +40,16 @@
 
     img {
       width: 100%;
+
+      @include mobile {
+        width: 50%;
+      }
     }
 
     @include mobile {
-      display: none;
+      align-items: flex-start;
+      display: flex;
+      width: 100%;
     }
   }
 }
