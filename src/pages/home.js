@@ -78,17 +78,21 @@ class Home extends React.Component {
             <div className='items-container'>
               <FeatureBox
                 title={'Direct Debit'}
-                description={'Tokens are taken directly from a user’s wallet. No escrow account or advanced upfront payments required.'}
+                description={`Tokens are taken directly from a user’s wallet.
+                No escrow account or advanced upfront payments required.`}
                 icon={Images.man}
                 color={'#F5A623'}/>
               <FeatureBox
                 title={'Zero Volatility'}
-                description={'Through the use of stable coins (DAI), volatility can be eliminated for users and businesses. 8x is ERC20 agnostic.'}
+                description={`Through the use of stable coins (DAI),
+                volatility can be eliminated for users and businesses.
+                8x is ERC20 agnostic.`}
                 icon={Images.cash}
                 color={'#94B83D'}/>
               <FeatureBox
                 title={'Execution'}
-                description={'A network of distributed service nodes run by token holders ensure payments are collected on-time.'}
+                description={`A network of distributed service nodes
+                run by token holders ensure payments are collected on-time.`}
                 icon={Images.node}
                 color={'#A2AEBC'}/>
             </div>
