@@ -145,6 +145,19 @@
       color: white;
       margin: 0;
     }
+
+    .bitfwd {
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .maker {
+      @include mobile {
+        width: 40%;
+      }
+    }
+
   }
 }
 

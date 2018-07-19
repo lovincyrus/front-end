@@ -67,8 +67,8 @@ class Home extends React.Component {
         <div className='partnership section'>
           <div className='container'>
             <h2 className='text'>We’re partnered with</h2>
-            <img src={Images.makerWhite}/>
-            <img src={Images.bitfwdWhite}/>
+            <img className='maker' src={Images.makerWhite}/>
+            <img className='bitfwd' src={Images.bitfwdWhite}/>
           </div>
         </div>
 
