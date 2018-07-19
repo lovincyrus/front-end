@@ -59,7 +59,7 @@ class Home extends React.Component {
             </div>
             <div className='description'>
               <h1>The future of payments for millenials.</h1>
-              <h3>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
+              <h3 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
             </div>
           </div>
         </div>
@@ -95,6 +95,19 @@ class Home extends React.Component {
                 run by token holders ensure payments are collected on-time.`}
                 icon={Images.node}
                 color={'#A2AEBC'}/>
+            </div>
+          </div>
+        </div>
+
+        <div className='newsletter section'>
+          <div className='container'>
+            <div className="subscribe side">
+              <h3 className='heading white'>Subscribe to Protocol Weekly.</h3>
+              <p className='label white'>Weekly updates from Ethereum exclusive protocols.</p>
+              <Subscribe/>
+            </div>
+            <div className='logo side'>
+
             </div>
           </div>
         </div>

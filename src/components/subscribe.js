@@ -36,7 +36,7 @@ const CustomForm = ({ status, message, onValidated }) => {
       />
       <br />
       <button className='button submit' onClick={submit}>
-        Submit
+        Subscribe
       </button>
     </div>
   );
@@ -46,7 +46,6 @@ class Subscribe extends React.Component {
   render() {
     return (
       <div className='subscribe-container'>
-        <p className='heading'>Stay up to date with our developments</p>
         <MailchimpSubscribe
           url={url}
           render={({ subscribe, status, message }) => (
