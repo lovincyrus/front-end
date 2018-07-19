@@ -12,8 +12,10 @@ import kerman from '../assets/images/kerman.jpg';
 import kevinL from '../assets/images/kevinl.jpg';
 import kevinZ from '../assets/images/kevinz.jpg';
 import makerWhite from '../assets/images/maker-white.png';
+import man from '../assets/images/man.png';
 import mastercard from '../assets/images/mastercard.png';
 import medium from '../assets/images/medium.png';
+import node from '../assets/images/atm.png';
 import paypal from '../assets/images/paypal.png';
 import platform from '../assets/images/platform.png';
 import protocolCard from '../assets/images/protocol-card.png';
@@ -40,8 +42,10 @@ export default {
   kevinL,
   kevinZ,
   makerWhite,
+  man,
   mastercard,
   medium,
+  node,
   paypal,
   protocolCard,
   reddit,

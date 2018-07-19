@@ -137,3 +137,37 @@
     }
   }
 }
+
+.why {
+  .container {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3em 0;
+  }
+
+  .items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .feature-box-container {
+      width: 30%;
+
+      @include mobile {
+        width: 100%;
+        margin-bottom: 3em;
+      }
+    }
+
+    .feature-box-container:last-child {
+      @include mobile {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
