@@ -8,13 +8,12 @@ class Footer extends Component {
   render() {
     return (
       <div className='navigation-footer-container'>
-        <nav className='logo-container'>
-          <img src={logo}/>
-        </nav>
-
-        <div className='sections-container'>
+        <div className='footer-container container'>
           <div className='footer-section'>
-            <h4>Community</h4>
+            <img src={logo}/>
+          </div>
+          <div className='footer-section'>
+            <h5>Community</h5>
             <a style={{color: '#7D94DF'}} href='https://t.me/joinchat/AXlpZ1LUmBqu3ySXHVh8qA'>Telegram</a>
             <a style={{color: '#000000'}} href='https://medium.com/8xprotocol'>Medium</a>
             <a style={{color: '#1EABF5'}} href='https://twitter.com/8x_protocol'>Twitter</a>
@@ -22,7 +21,7 @@ class Footer extends Component {
           </div>
 
           <div className='footer-section'>
-            <h4>Foundation</h4>
+            <h5>Organisation</h5>
             <a style={{color: '#95959A'}} href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>Whitepaper</a>
             <a style={{color: '#95959A'}} href='https://github.com/8xprotocol/'>Github</a>
           </div>
