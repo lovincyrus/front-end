@@ -5,6 +5,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 import { createBrowserHistory } from 'history';
 
 import Header from './components/header';
@@ -23,18 +24,20 @@ const history = createBrowserHistory();
 class App extends React.Component {
   render() {
     return (
-      <Router history={history}>
-        <div>
-          <Header/>
+      <Router history={history} onUpdate={() => window.scrollTo(0, 0)}>
+        <ScrollToTop>
+          <div>
+            <Header/>
 
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/token-sale" component={TokenSale}/>
-            <Route exact path="/about" component={About}/>
-          </Switch>
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route exact path="/token-sale" component={TokenSale}/>
+              <Route exact path="/about" component={About}/>
+            </Switch>
 
-          <Footer/>
-        </div>
+            <Footer/>
+          </div>
+        </ScrollToTop>
       </Router>
     );
   }
