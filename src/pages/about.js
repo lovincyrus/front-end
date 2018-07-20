@@ -120,7 +120,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Kerman'}
                 title={'Founder/Engineer'}
-                image={''}
+                image={Images.kerman}
                 twitter={''}
                 github={''}
                 linkedin={''}
@@ -128,7 +128,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Andy'}
                 title={'Marketing'}
-                image={''}
+                image={Images.andy}
                 twitter={''}
                 github={''}
                 linkedin={''}
@@ -136,7 +136,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Kevin L'}
                 title={'Community'}
-                image={''}
+                image={Images.kevinL}
                 twitter={''}
                 github={''}
                 linkedin={''}
@@ -144,7 +144,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Kevin Z'}
                 title={'Operations'}
-                image={''}
+                image={Images.kevinZ}
                 twitter={''}
                 github={''}
                 linkedin={''}
@@ -152,7 +152,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Rob'}
                 title={'Advisor'}
-                image={''}
+                image={Images.rob}
                 twitter={''}
                 github={''}
                 linkedin={''}
@@ -160,7 +160,7 @@ class About extends React.Component {
               <PersonBox
                 name={'Daniel'}
                 title={'Advisor'}
-                image={''}
+                image={Images.daniel}
                 twitter={''}
                 github={''}
                 linkedin={''}

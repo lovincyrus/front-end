@@ -13,6 +13,7 @@ import kerman from '../assets/images/kerman.jpg';
 import kevinL from '../assets/images/kevinl.jpg';
 import kevinZ from '../assets/images/kevinz.jpg';
 import lifehacker from '../assets/images/lifehacker.png';
+import linkedIn from '../assets/images/linkedIn.png';
 import makerWhite from '../assets/images/maker-white.png';
 import man from '../assets/images/man.png';
 import mastercard from '../assets/images/mastercard.png';
@@ -32,6 +33,7 @@ import thaScreenshotOne from '../assets/images/tha-screenshot-1.png';
 import thaScreenshotThree from '../assets/images/tha-screenshot-3.png';
 import thaScreenshotTwo from '../assets/images/tha-screenshot-2.png';
 import twitter from '../assets/images/twitter.png';
+import twitterSmall from '../assets/images/twitter-small.png';
 import visa from '../assets/images/visa.png';
 import waves from '../assets/images/waves.png';
 import yahoo from '../assets/images/yahoo.png';
@@ -52,6 +54,7 @@ export default {
   kevinL,
   kevinZ,
   lifehacker,
+  linkedIn,
   makerWhite,
   man,
   mastercard,
@@ -70,6 +73,7 @@ export default {
   thaScreenshotThree,
   thaScreenshotTwo,
   twitter,
+  twitterSmall,
   visa,
   yahoo,
   waves
