@@ -42,17 +42,17 @@ class About extends React.Component {
         <div className='introduction-crypto section'>
           <div className='container'>
             <div className='people side'>
-              <img/>
-              <img/>
-              <img/>
-              <img/>
+              <img src={Images.kevinZ}/>
+              <img src={Images.kevinL}/>
+              <img src={Images.andy}/>
+              <img src={Images.rob}/>
             </div>
             <div className='info side'>
-              <h1>Introduction to crypto</h1>
-              <p>
+              <h1 className='white'>Introduction to crypto</h1>
+              <p className='white'>
                 Late 2017, Kerman met an entrepreneur called Rob Morris.
                 He converted Kerman from being a no-coiner to reading the Bitcoin white paper to developing on Ethereum.
-                During this time he met Andy Chen Fang, Kevin Lu & Kevin Zheng at various crypto meetup.
+                During this time he met Andy Chen Fang, Kevin Lu & Kevin Zheng at various crypto meetups.
               </p>
             </div>
           </div>
@@ -73,42 +73,44 @@ class About extends React.Component {
           </div>
         </div>
 
-        <div className='protocol-born section'>
-          <div className='container'>
-            <div className='image side'>
-              <img src={Images.overview}/>
-            </div>
-            <div className='info side'>
-              <h1>8x is born</h1>
-              <p>
-                To our surprise there wasn’t a solution to enable recurring payments.
-                Hence we spent a few weeks researching ways to solve the three main problems with recurring payments:<br/><br/>
+        <div style={{ background: `#FAFAFA url(${Images.confettiLarge})`, backgroundPosition: 'center' }}>
+          <div className='protocol-born section'>
+            <div className='container'>
+              <div className='image side'>
+                <img src={Images.overview}/>
+              </div>
+              <div className='info side'>
+                <h1>8x is born</h1>
+                <p>
+                  To our surprise there wasn’t a solution to enable recurring payments.
+                  Hence we spent a few weeks researching ways to solve the three main problems with recurring payments:<br/><br/>
 
-                1. <span className='bold'>Volatility</span>. Merchants don’t want to deal with volatility.
-                Using a stable coin for transactions, we solved this problem.<br/><br/>
+                  1. <span className='bold'>Volatility</span>. Merchants don’t want to deal with volatility.
+                  Using a stable coin for transactions, we solved this problem.<br/><br/>
 
-                2. <span className='bold'>Push based</span>. Blockchains require a private key to sign and make a transaction.
-                Using the ERC20 approve function, we can gain pre-authorisation to pull funds from a user’s wallet directly.<br/><br/>
+                  2. <span className='bold'>Push based</span>. Blockchains require a private key to sign and make a transaction.
+                  Using the ERC20 approve function, we can gain pre-authorisation to pull funds from a user’s wallet directly.<br/><br/>
 
-                3. <span className='bold'>Scheduling</span>. You can’t schedule a smart contract to call itself at a later point in time.
-                8x token holders earn a fee for executing transactions billing period on behalf of subscribers.<br/><br/>
-              </p>
+                  3. <span className='bold'>Scheduling</span>. You can’t schedule a smart contract to call itself at a later point in time.
+                  8x token holders earn a fee for executing transactions billing period on behalf of subscribers.<br/><br/>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='community section'>
-          <div className='container'>
-            <div className='info side'>
-              <h1>Community initiative</h1>
-              <p>
-                We wanted to unite all the layer 2 protocols built on Ethereum.
-                So we decided to start a grass-roots effort to reach out to all the protocols and unite them via a newsletter.
-                The result was Protocol Weekly which contains updates from each project and one thing they need help with.
-              </p>
-            </div>
-            <div className='image side'>
-              <img src={Images.newsletter}/>
+          <div className='community section'>
+            <div className='container'>
+              <div className='info side'>
+                <h1>Community initiative</h1>
+                <p>
+                  We wanted to unite all the layer 2 protocols built on Ethereum.
+                  So we decided to start a grass-roots effort to reach out to all the protocols and unite them via a newsletter.
+                  The result was Protocol Weekly which contains updates from each project and one thing they need help with.
+                </p>
+              </div>
+              <div className='image side'>
+                <img src={Images.newsletter}/>
+              </div>
             </div>
           </div>
         </div>
@@ -167,6 +169,10 @@ class About extends React.Component {
                 medium={''}/>
             </div>
           </div>
+        </div>
+
+        <div className='hero-separator'>
+          <img src={Images.blueWaves}/>
         </div>
 
       </div>

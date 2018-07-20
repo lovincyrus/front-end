@@ -1,8 +1,10 @@
 import andy from '../assets/images/andy.jpg';
 import bitfwdWhite from '../assets/images/bitfwd-white.png';
+import blueWaves from '../assets/images/blue-waves.png';
 import card from '../assets/images/card.png';
 import cash from '../assets/images/cash.png';
 import chip from '../assets/images/chip.png';
+import confettiLarge from '../assets/images/confetti-large.png';
 import coins from '../assets/images/coins.png';
 import daniel from '../assets/images/daniel.jpg';
 import desk from '../assets/images/desk.png';
@@ -41,9 +43,11 @@ import yahoo from '../assets/images/yahoo.png';
 export default {
   andy,
   bitfwdWhite,
+  blueWaves,
   card,
   cash,
   chip,
+  confettiLarge,
   coins,
   daniel,
   desk,
