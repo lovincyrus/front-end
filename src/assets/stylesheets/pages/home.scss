@@ -226,3 +226,22 @@
     }
   }
 }
+
+.team {
+  .container {
+    padding: 3em 0;
+
+    a {
+      text-decoration: none;
+      text-align: center;
+    }
+
+    a:visited {
+      color: black;
+    }
+  }
+
+  .description {
+    margin-top: 1.5em;
+  }
+}

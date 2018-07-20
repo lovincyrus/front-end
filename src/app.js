@@ -13,6 +13,7 @@ import Footer from './components/footer';
 /* Import pages */
 import Home from './pages/home';
 import TokenSale from './pages/token-sale';
+import About from './pages/about';
 
 import './assets/stylesheets/app.scss';
 
@@ -29,6 +30,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/token-sale" component={TokenSale}/>
+            <Route exact path="/about" component={About}/>
           </Switch>
 
           <Footer/>

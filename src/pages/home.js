@@ -1,5 +1,7 @@
 /* Import statements */
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
+
 import Subscribe from '../components/subscribe';
 import PersonBox from '../components/personBox';
 import TypistCycle from '../components/typist-cycle';
@@ -112,6 +114,23 @@ class Home extends React.Component {
 
             </div>
           </div>
+        </div>
+
+        <div className='team section'>
+          <div className='container'>
+            <Link to='/about'>
+              <h1>We&apos;re real people.</h1>
+              <h1>Learn about our journey.</h1>
+              <h3 className='description center-text'>
+                We&apos;ve been asked &apos;is recurring crypto payments even a problem?&apos;<br/>
+                Here&apos;s our answer.
+              </h3>
+            </Link>
+          </div>
+        </div>
+
+        <div className='hero-separator'>
+          <img src={Images.waves}/>
         </div>
 
       </div>

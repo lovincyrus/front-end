@@ -13,7 +13,7 @@ class About extends React.Component {
       <div>
 
         <div className='how-it-started section'>
-          <div className='section'>
+          <div className='container'>
             <h1>How it all started</h1>
             <p>
               At the age of 12, Kerman started coding iOS apps.
@@ -24,15 +24,17 @@ class About extends React.Component {
               has 50,000 monthly users and featured on prominent
               news outlets.
             </p>
-            <div className='screenshots-container'>
-              <img/>
-              <img/>
-              <img/>
-            </div>
-            <div className='media-container'>
-              <img/>
-              <img/>
-              <img/>
+            <div className='showcase'>
+              <div className='screenshots-container'>
+                <img src={Images.thaScreenshotOne}/>
+                <img src={Images.thaScreenshotTwo}/>
+                <img src={Images.thaScreenshotThree}/>
+              </div>
+              <div className='media-container'>
+                <img src={Images.forbes}/>
+                <img src={Images.yahoo}/>
+                <img src={Images.lifehacker}/>
+              </div>
             </div>
           </div>
         </div>
@@ -66,30 +68,30 @@ class About extends React.Component {
               </p>
             </div>
             <div className='image side'>
-              <img/>
+              <img src={Images.masternodeHosting}/>
             </div>
           </div>
         </div>
 
-        <div className='8x-born section'>
+        <div className='protocol-born section'>
           <div className='container'>
             <div className='image side'>
-              <img/>
+              <img src={Images.overview}/>
             </div>
             <div className='info side'>
               <h1>8x is born</h1>
               <p>
                 To our surprise there wasn’t a solution to enable recurring payments.
-                Hence we spent a few weeks researching ways to solve the three main problems with recurring payments:
+                Hence we spent a few weeks researching ways to solve the three main problems with recurring payments:<br/><br/>
 
                 1. <span className='bold'>Volatility</span>. Merchants don’t want to deal with volatility.
-                Using a stable coin for transactions, we solved this problem.
+                Using a stable coin for transactions, we solved this problem.<br/><br/>
 
                 2. <span className='bold'>Push based</span>. Blockchains require a private key to sign and make a transaction.
-                Using the ERC20 approve function, we can gain pre-authorisation to pull funds from a user’s wallet directly.
+                Using the ERC20 approve function, we can gain pre-authorisation to pull funds from a user’s wallet directly.<br/><br/>
 
                 3. <span className='bold'>Scheduling</span>. You can’t schedule a smart contract to call itself at a later point in time.
-                8x token holders earn a fee for executing transactions billing period on behalf of subscribers.
+                8x token holders earn a fee for executing transactions billing period on behalf of subscribers.<br/><br/>
               </p>
             </div>
           </div>
@@ -106,7 +108,7 @@ class About extends React.Component {
               </p>
             </div>
             <div className='image side'>
-              <img/>
+              <img src={Images.newsletter}/>
             </div>
           </div>
         </div>
@@ -168,7 +170,7 @@ class About extends React.Component {
         </div>
 
       </div>
-    )
+    );
   }
 }
 
