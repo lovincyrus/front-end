@@ -18,10 +18,12 @@ class Home extends React.Component {
               <h1>Pay for your</h1>
               <TypistCycle
                 content={[
-                  'subscriptions',
+                  'Subscriptions',
                   'Netflix',
                   'Spotify',
                   'Rent',
+                  'Insurance',
+                  'Loans'
                 ]}
                 numberOfCycles={-1} // loop indefinitely
                 segmentDelay={1.2} // stop for 0.8s at end line
@@ -58,7 +60,7 @@ class Home extends React.Component {
               </div>
             </div>
             <div className='description'>
-              <h1>The future of payments for millenials.</h1>
+              <h1>The future of recurring payments.</h1>
               <h3 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
             </div>
           </div>
