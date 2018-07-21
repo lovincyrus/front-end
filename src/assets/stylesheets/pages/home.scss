@@ -17,7 +17,7 @@
 
   .description {
     margin-top: 1.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
   }
 
   .content-side {
@@ -26,13 +26,32 @@
     justify-content: center;
     width: 50%;
 
-    .button {
-      background: #8A8A8F;
-      align-self: flex-start;
-    }
-
     @include mobile {
       width: 100%;
+    }
+
+    .buttons {
+      display: flex;
+
+      .cta {
+        padding: 0.75em 2em;
+        border-radius: 0.75em;
+
+        p {
+          font-weight: 550;
+          margin: 0;
+          letter-spacing: 0.03em;
+        }
+      }
+
+      .whitepaper {
+        margin-right: 2em;
+        background-color: black;
+      }
+
+      .video {
+        background: lightgray;
+      }
     }
   }
 

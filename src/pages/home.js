@@ -36,7 +36,14 @@ class Home extends React.Component {
                 8x is a layer 2 Ethereum protocol that enables decentralised recurring payments.
               </h3>
 
-              {/*<Subscribe/>*/}
+              <div className='buttons'>
+                <div className='whitepaper cta white'>
+                  <p>Whitepaper</p>
+                </div>
+                <div className='video cta'>
+                  <p>Watch Video</p>
+                </div>
+              </div>
             </div>
 
             <div className='image-side'>
