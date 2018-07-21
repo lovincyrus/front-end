@@ -28,7 +28,7 @@ class About extends React.Component {
               <div className='screenshots-container'>
                 <img src={Images.thaScreenshotOne}/>
                 <img src={Images.thaScreenshotTwo}/>
-                <img src={Images.thaScreenshotThree}/>
+                <img className='hide-mobile' src={Images.thaScreenshotThree}/>
               </div>
               <div className='media-container'>
                 <img src={Images.forbes}/>
