@@ -21,8 +21,11 @@ class Header extends Component {
       <div className='navigation-header-container'>
         <nav className='left-side'>
           <ul className='link-container'>
-            <li>
+            <li className='links'>
               <Link to='/'><img src={logo}/></Link>
+              <Link to='/'>Home</Link>
+              <Link to='/about'>About</Link>
+              <Link to='/token-sale'>Token Sale</Link>
             </li>
           </ul>
         </nav>

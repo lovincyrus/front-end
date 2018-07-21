@@ -18,7 +18,7 @@
     padding: 0.75em 0;
   }
 
-  .link-container{
+  .link-container {
     display: flex;
     align-items: center;
 
@@ -26,6 +26,9 @@
       margin-right: 1.25em;
       font-family: 'Avenir-Medium';
       text-decoration: none;
+      color: black;
+      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      font-weight: 600;
     }
 
     a:visited {
@@ -36,6 +39,11 @@
       @include mobile {
         display: none;
       }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
     }
   }
 
