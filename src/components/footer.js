@@ -22,8 +22,9 @@ class Footer extends Component {
 
           <div className='footer-section'>
             <h5>Organisation</h5>
-            <a style={{color: '#95959A'}} href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>Whitepaper</a>
-            <a style={{color: '#95959A'}} href='https://github.com/8xprotocol/'>Github</a>
+            <a style={{color: '#95959A'}} href='/home'>Home</a>
+            <a style={{color: '#95959A'}} href='/about'>About</a>
+            <a style={{color: '#95959A'}} href='/token-sale'>Token Sale</a>
           </div>
         </div>
       </div>

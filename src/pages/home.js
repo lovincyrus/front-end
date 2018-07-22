@@ -38,10 +38,10 @@ class Home extends React.Component {
 
               <div className='buttons'>
                 <div className='whitepaper cta white'>
-                  <p>Whitepaper</p>
+                  <a target='_blank' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
                 </div>
                 <div className='video cta'>
-                  <p>Watch Video</p>
+                  <a target='_blank' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'><p>Watch Video</p></a>
                 </div>
               </div>
             </div>
