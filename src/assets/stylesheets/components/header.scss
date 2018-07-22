@@ -45,6 +45,12 @@
       display: flex;
       align-items: center;
     }
+
+    .hide-mobile {
+      @include mobile {
+        display: none;
+      }
+    }
   }
 
   .left-side {
@@ -118,8 +124,8 @@
 
   @include mobile {
     position: fixed;
-    right: 2.5em;
-    top: 2em;
+    right: 1.5em;
+    top: 1em;
     display: inline-block;
   }
 }

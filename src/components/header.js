@@ -23,9 +23,9 @@ class Header extends Component {
           <ul className='link-container'>
             <li className='links'>
               <Link to='/'><img src={logo}/></Link>
-              <Link to='/'>Home</Link>
-              <Link to='/about'>About</Link>
-              <Link to='/token-sale'>Token Sale</Link>
+              <Link className='hide-mobile' to='/'>Home</Link>
+              <Link className='hide-mobile' to='/about'>About</Link>
+              <Link className='hide-mobile' to='/token-sale'>Token Sale</Link>
             </li>
           </ul>
         </nav>

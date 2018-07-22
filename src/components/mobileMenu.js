@@ -27,18 +27,17 @@ class Menu extends React.Component {
           </li>
           <li onClick={this.close}>
             <a
-              target='_blank'
-              href='https://medium.com/8xprotocol/8x-protocol-frequently-asked-questions-faq-76874d6273d7'
+              href='/about'
               rel='noopener noreferrer'
             >
-              FAQ
+              About
             </a>
           </li>
           <li onClick={this.close}>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://rawcdn.githack.com/8x-protocol/whitepaper/master/latest.pdf'
+              href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'
             >
               Whitepaper
             </a>
@@ -54,7 +53,7 @@ class Menu extends React.Component {
           <li onClick={this.close}>
             <a
               target='_blank'
-              href='https://t.me/joinchat/AXlpZ1LUmBqu3ySXHVh8qA'
+              href='https://t.me/eightexprotocol'
               rel='noopener noreferrer'
             >
               Telegram
