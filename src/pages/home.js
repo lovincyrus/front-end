@@ -38,10 +38,10 @@ class Home extends React.Component {
 
               <div className='buttons'>
                 <div className='whitepaper cta white'>
-                  <a target='_blank' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
+                  <a target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
                 </div>
                 <div className='video cta'>
-                  <a target='_blank' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'><p>Watch Video</p></a>
+                  <a target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'><p>Watch Video</p></a>
                 </div>
               </div>
             </div>
@@ -57,20 +57,14 @@ class Home extends React.Component {
           <img src={Images.waves}/>
         </div>
 
-        <div className='payment section'>
+        <div className='preauth section'>
           <div className='container'>
-            <div className='pay-with-side'>
-              <p className='label'>Pay with:</p>
-              <div className='items-container'>
-                <img src={Images.visa}/>
-                <img src={Images.mastercard}/>
-                <img src={Images.paypal}/>
-                <img src={Images.protocolCard}/>
-              </div>
+            <div className='image'>
+              <img src={Images.preauth}/>
             </div>
             <div className='description'>
-              <h1>The future of recurring payments.</h1>
-              <h3 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
+              <h1>Repeating Payments</h1>
+              <h3 className='subheading'>Commerce is about on-going relationships. With 8x, you can pre-authorise a business to take up to an approved amount from your wallet per agreed interval so you don’t have to manually pay every time.</h3>
             </div>
           </div>
         </div>
@@ -128,11 +122,29 @@ class Home extends React.Component {
           </div>
         </div>
 
+        <div className='payment section'>
+          <div className='container'>
+            <div className='pay-with-side'>
+              <p className='label'>Pay with:</p>
+              <div className='items-container'>
+                <img src={Images.visa}/>
+                <img src={Images.mastercard}/>
+                <img src={Images.paypal}/>
+                <img src={Images.protocolCard}/>
+              </div>
+            </div>
+            <div className='description'>
+              <h1>The future of payments.</h1>
+              <h3 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
+            </div>
+          </div>
+        </div>
+
         <div className='team section'>
           <div className='container'>
             <Link to='/about'>
               <h1>We&apos;re real people.</h1>
-              <h1>Learn about our journey.</h1>
+              <h1>Learn about our journey {'>'}</h1>
               <h3 className='description center-text'>
                 We&apos;ve been asked &apos;is recurring crypto payments even a problem?&apos;<br/>
                 Here&apos;s our answer.

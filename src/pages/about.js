@@ -106,6 +106,7 @@ class About extends React.Component {
                   We wanted to unite all the layer 2 protocols built on Ethereum.
                   So we decided to start a grass-roots effort to reach out to all the protocols and unite them via a newsletter.
                   The result was Protocol Weekly which contains updates from each project and one thing they need help with.
+                  <br/><br/>We&apos;re also part of the Consensys ERC948 working group which aims to define a standard for recurring payments.
                 </p>
               </div>
               <div className='image side'>

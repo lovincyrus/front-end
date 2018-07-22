@@ -106,7 +106,49 @@
   }
 }
 
+.preauth {
+  .container {
+    padding: 3em 0;
+    flex-direction: row;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .image {
+    margin: 0 3em 0 0;
+    width: 60%;
+
+    @include mobile {
+      margin: 3em 0 0 0;
+      width: 100%;
+    }
+
+    img {
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+
+  .description {
+    width: 40%;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    .subheading {
+      margin-top: 1em;
+      font-weight: 500;
+      font-size: 1.25em;
+    }
+  }
+}
+
 .payment {
+  background: #FAFAFA;
+
   .container {
     display: flex;
     flex-direction: row;

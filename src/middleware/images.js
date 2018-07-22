@@ -1,5 +1,6 @@
 import abacusGreyLogo from '../assets/images/abacus-grey-logo.png';
 import andy from '../assets/images/andy.jpg';
+import bigArrow from '../assets/images/big-arrow.png';
 import bitfwdWhite from '../assets/images/bitfwd-white.png';
 import bloomGreyLogo from '../assets/images/bloom-grey-logo.png';
 import blueWaves from '../assets/images/blue-waves.png';
@@ -32,6 +33,7 @@ import node from '../assets/images/atm.png';
 import overview from '../assets/images/overview.png';
 import paypal from '../assets/images/paypal.png';
 import platform from '../assets/images/platform.png';
+import preauth from '../assets/images/preauth.png';
 import protocolCard from '../assets/images/protocol-card.png';
 import protocolGreyLogo from '../assets/images/8x-grey-logo.png';
 import reddit from '../assets/images/reddit.png';
@@ -50,6 +52,7 @@ import yahoo from '../assets/images/yahoo.png';
 export default {
   abacusGreyLogo,
   andy,
+  bigArrow,
   bitfwdWhite,
   bloomGreyLogo,
   blueWaves,
@@ -81,6 +84,7 @@ export default {
   node,
   overview,
   paypal,
+  preauth,
   protocolCard,
   protocolGreyLogo,
   reddit,
