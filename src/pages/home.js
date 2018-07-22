@@ -118,7 +118,12 @@ class Home extends React.Component {
               <Subscribe/>
             </div>
             <div className='logo side'>
-
+              <img src={Images.protocolGreyLogo}/>
+              <img src={Images.civicGreyLogo}/>
+              <img src={Images.dharmaGreyLogo}/>
+              <img src={Images.bloomGreyLogo}/>
+              <img src={Images.abacusGreyLogo}/>
+              <img src={Images.liquidityGreyLogo}/>
             </div>
           </div>
         </div>

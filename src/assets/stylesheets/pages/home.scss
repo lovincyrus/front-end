@@ -58,18 +58,19 @@
   .image-side {
     width: 30%;
 
+    @include mobile {
+      align-items: flex-start;
+      display: flex;
+      width: 100%;
+      margin-top: 3em;
+    }
+
     img {
       width: 100%;
 
       @include mobile {
         width: 50%;
       }
-    }
-
-    @include mobile {
-      align-items: flex-start;
-      display: flex;
-      width: 100%;
     }
   }
 }
@@ -236,12 +237,35 @@
   }
 
   .subscribe {
+    width: 40%;
+
+    @include mobile {
+      width: 100%;
+    }
+
     .heading {
       letter-spacing: 0.06em;
     }
 
     .label {
       margin-bottom: 1.5em;
+    }
+  }
+
+  .logo {
+    width: 60%;
+
+    @include mobile {
+      width: 100%;
+      margin-top: 3em;
+    }
+
+    img {
+      margin: 0.5em 1em;
+
+      @include mobile {
+        margin: 0.5em 2em;
+      }
     }
   }
 }
