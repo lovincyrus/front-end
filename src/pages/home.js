@@ -64,7 +64,7 @@ class Home extends React.Component {
             </div>
             <div className='description'>
               <h1>Repeating Payments</h1>
-              <h3 className='subheading'>Commerce is about on-going relationships. With 8x, you can pre-authorise a business to take up to an approved amount from your wallet per agreed interval so you don’t have to manually pay every time.</h3>
+              <h4 className='subheading'>Commerce is about on-going relationships. With 8x, you can pre-authorise a business to take up to an approved amount from your wallet per agreed interval so you don’t have to manually pay every time.</h4>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ class Home extends React.Component {
             </div>
             <div className='description'>
               <h1>The future of payments.</h1>
-              <h3 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h3>
+              <h4 className='subheading'>More than 50% of crypto users are between the ages of 18-33 years old.</h4>
             </div>
           </div>
         </div>
@@ -145,10 +145,10 @@ class Home extends React.Component {
             <Link to='/about'>
               <h1>We&apos;re real people.</h1>
               <h1>Learn about our journey {'>'}</h1>
-              <h3 className='description center-text'>
+              <h4 className='description center-text'>
                 We&apos;ve been asked &apos;is recurring crypto payments even a problem?&apos;<br/>
                 Here&apos;s our answer.
-              </h3>
+              </h4>
             </Link>
           </div>
         </div>
