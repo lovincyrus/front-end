@@ -124,50 +124,50 @@ class About extends React.Component {
                 name={'Kerman'}
                 title={'Founder/Engineer'}
                 image={Images.kerman}
-                twitter={''}
-                github={''}
-                linkedin={''}
-                medium={''}/>
+                twitter={'https://twitter.com/kermankohli'}
+                github={'https://github.com/kermankohli'}
+                linkedin={'https://www.linkedin.com/in/kermankohli/'}
+                medium={'https://medium.com/@kermankohli/introducing-the-8x-protocol-4051e8df3000'}/>
               <PersonBox
                 name={'Andy'}
                 title={'Marketing'}
                 image={Images.andy}
-                twitter={''}
+                twitter={'https://www.linkedin.com/in/dtbar/'}
                 github={''}
-                linkedin={''}
-                medium={''}/>
+                linkedin={'https://www.linkedin.com/in/andy-chen-fang/'}
+                medium={'https://medium.com/@andy8xprotocol'}/>
               <PersonBox
                 name={'Kevin L'}
                 title={'Community'}
                 image={Images.kevinL}
-                twitter={''}
+                twitter={'https://twitter.com/sydneykevinlu'}
                 github={''}
-                linkedin={''}
-                medium={''}/>
+                linkedin={'https://www.linkedin.com/in/kevin-lu-a95017147/'}
+                medium={'https://medium.com/@kevinjaylu'}/>
               <PersonBox
                 name={'Kevin Z'}
                 title={'Operations'}
                 image={Images.kevinZ}
-                twitter={''}
+                twitter={'https://twitter.com/Kadesda'}
                 github={''}
-                linkedin={''}
-                medium={''}/>
+                linkedin={'https://www.linkedin.com/in/kevin-zheng-04470a58/'}
+                medium={'https://medium.com/@kevin.zheng/'}/>
               <PersonBox
                 name={'Rob'}
                 title={'Advisor'}
                 image={Images.rob}
-                twitter={''}
+                twitter={'https://twitter.com/rob_prismatik'}
                 github={''}
-                linkedin={''}
-                medium={''}/>
+                linkedin={'https://www.linkedin.com/in/robmorris/'}
+                medium={'https://blog.prismatik.com.au/@rob_prismatik'}/>
               <PersonBox
                 name={'Daniel'}
                 title={'Advisor'}
                 image={Images.daniel}
-                twitter={''}
+                twitter={'https://twitter.com/danieltbar'}
                 github={''}
-                linkedin={''}
-                medium={''}/>
+                linkedin={'https://www.linkedin.com/in/dtbar/'}
+                medium={'https://medium.com/@damndaniel'}/>
             </div>
           </div>
         </div>

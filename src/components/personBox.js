@@ -14,10 +14,10 @@ class PersonBox extends Component {
           <h3>{this.props.name}</h3>
           <p>{this.props.title}</p>
           <div className='social-container'>
-            <a><img src={Images.linkedIn}/></a>
-            <a><img src={Images.github} className='github'/></a>
-            <a><img src={Images.twitterSmall}/></a>
-            <a><img src={Images.medium}/></a>
+            <a href={this.props.linkedin}><img src={Images.linkedIn}/></a>
+            {this.props.github ? <a href={this.props.github}><img src={Images.github} className='github'/></a> : null}
+            <a href={this.props.twitter}><img src={Images.twitterSmall}/></a>
+            <a href={this.props.medium}><img src={Images.medium}/></a>
           </div>
         </div>
       </div>
@@ -26,12 +26,3 @@ class PersonBox extends Component {
 }
 
 export default PersonBox;
-
-/*<div className="person-container" style={{ backgroundImage: `url(${this.props.photo})`, backgroundPosition: 'center' }}>
-        <a className="overlay" href={this.props.linkedIn} target="_blank">
-          <div className="content-container">
-            <p className="description">{this.props.description}</p>
-            <p className="heading">{this.props.name}</p>
-          </div>
-        </a>
-    </div>*/
