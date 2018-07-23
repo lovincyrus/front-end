@@ -2,6 +2,8 @@
 import React from 'react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
+const url = 'https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=7a717337e6';
+
 const CustomForm = ({ status, message, onValidated }) => {
   let email;
   const submit = () =>
@@ -45,7 +47,7 @@ class Subscribe extends React.Component {
     return (
       <div className='subscribe-container'>
         <MailchimpSubscribe
-          url={this.props.url}
+          url={url}
           render={({ subscribe, status, message }) => (
             <CustomForm
               status={status}

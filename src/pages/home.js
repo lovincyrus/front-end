@@ -108,8 +108,8 @@ class Home extends React.Component {
           <div className='container'>
             <div className="subscribe side">
               <h3 className='heading white'>Subscribe to Protocol Weekly.</h3>
-              <p className='label white'>Weekly updates from Ethereum exclusive protocols.</p>
-              <Subscribe url={'https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=d692742510'}/>
+              <p className='label white'>Weekly updates from 8x and other Ethereum exclusive protocols.</p>
+              <Subscribe/>
             </div>
             <div className='logo side'>
               <img src={Images.protocolGreyLogo}/>
