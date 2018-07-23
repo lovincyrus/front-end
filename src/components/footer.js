@@ -18,11 +18,12 @@ class Footer extends Component {
             <a style={{color: '#000000'}} href='https://medium.com/8xprotocol'>Medium</a>
             <a style={{color: '#1EABF5'}} href='https://twitter.com/8x_protocol'>Twitter</a>
             <a style={{color: '#FD4E02'}} href='https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb'>Youtube</a>
+            <a style={{color: '#000000'}} href='https://github.com/8xprotocol'>Github</a>
           </div>
 
           <div className='footer-section'>
             <h5>Organisation</h5>
-            <a style={{color: '#95959A'}} href='/home'>Home</a>
+            <a style={{color: '#95959A'}} href='/'>Home</a>
             <a style={{color: '#95959A'}} href='/about'>About</a>
             <a style={{color: '#95959A'}} href='/token-sale'>Token Sale</a>
           </div>

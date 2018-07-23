@@ -33,7 +33,7 @@ class Home extends React.Component {
               <h1>with crypto.</h1>
 
               <h3 className='description'>
-                8x is a layer 2 Ethereum protocol that enables decentralised recurring payments.
+                8x is a protocol built on Ethereum that enables decentralised repeating payments.
               </h3>
 
               <div className='buttons'>
@@ -64,7 +64,7 @@ class Home extends React.Component {
             </div>
             <div className='description'>
               <h1>Repeating Payments</h1>
-              <h4 className='subheading'>Commerce is about on-going relationships. With 8x, you can pre-authorise a business to take up to an approved amount from your wallet per agreed interval so you don’t have to manually pay every time.</h4>
+              <h4 className='subheading'>Commerce is about ongoing relationships. With 8x you can authorise a business to automatically take an approved amount each period so you don&apos;t have to manually pay.</h4>
             </div>
           </div>
         </div>
