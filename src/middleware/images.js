@@ -33,6 +33,13 @@ import tenzLogo from '../assets/images/tenzlogo.png';
 import thegraphLogo from '../assets/images/thegraphlogo.png';
 import twitterLogo from '../assets/images/twitterlogo.png';
 import whiteLogo from '../assets/images/white8x.png';
+import aboutpath from '../assets/images/aboutpath.png';
+import homeworkapp from '../assets/images/homeworkapp.png';
+import team from '../assets/images/team.png';
+import project from '../assets/images/project.png';
+import born from '../assets/images/8xborn.png';
+import community from '../assets/images/community.png';
+import party from '../assets/images/partybackground.png';
 
 export default {
   abacusLogo,
@@ -69,4 +76,11 @@ export default {
   thegraphLogo,
   twitterLogo,
   whiteLogo,
+  aboutpath,
+  homeworkapp,
+  team,
+  project,
+  born,
+  community,
+  party,
 };
