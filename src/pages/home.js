@@ -33,7 +33,7 @@ class Home extends React.Component {
               <h1>with crypto.</h1>
 
               <h3 className='description'>
-                8x is a protocol built on Ethereum that enables decentralised repeating payments.
+                8x is a protocol that enables decentralised repeating payments.
               </h3>
 
               <div className='buttons'>
@@ -108,7 +108,7 @@ class Home extends React.Component {
           <div className='container'>
             <div className="subscribe side">
               <h3 className='heading white'>Subscribe to Protocol Weekly.</h3>
-              <p className='label white'>Weekly updates from 8x and other Ethereum exclusive protocols.</p>
+              <p className='label white'>Weekly updates from 8x and other protocols in the crypto space.</p>
               <Subscribe/>
             </div>
             <div className='logo side'>
