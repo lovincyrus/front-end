@@ -16,6 +16,9 @@ import Home from './pages/home';
 import TokenSale from './pages/token-sale';
 import About from './pages/about';
 
+/*Test for kevin*/
+import HomeRevised from './pages/home2';
+
 import './assets/stylesheets/app.scss';
 
 const history = createBrowserHistory();
@@ -30,7 +33,7 @@ class App extends React.Component {
             <Header/>
 
             <Switch>
-              <Route exact path="/" component={Home}/>
+              <Route exact path="/" component={HomeRevised}/>
               <Route exact path="/token-sale" component={TokenSale}/>
               <Route exact path="/about" component={About}/>
             </Switch>
