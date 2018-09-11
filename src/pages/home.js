@@ -15,7 +15,6 @@ class Home extends React.Component {
       <div>
         <div className='hero section'>
           <div className='container'>
-
             <div className='content-side'>
               <h1>Pay for your</h1>
               <TypistCycle
