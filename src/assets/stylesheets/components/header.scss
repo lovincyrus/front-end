@@ -26,13 +26,13 @@
       margin-right: 1.25em;
       font-family: 'Avenir-Medium';
       text-decoration: none;
-      color: black;
+      color: #958DB7;
       font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       font-weight: 600;
     }
 
     a:visited {
-      color: black;
+      color: #958DB7;
     }
 
     .desktop {
@@ -53,15 +53,9 @@
     }
   }
 
-  .left-side {
+  .logo {
     a:link {
       text-decoration: none;
-    }
-
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
     }
 
     img {
@@ -69,11 +63,31 @@
     }
   }
 
-  .right-side {
+  .menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #958DB7;
+
+    a:link {
+      margin-right: 1.25em;
+      text-decoration: none;
+    }
+
+    a:visited {
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #958DB7;
+    text-decoration: none;
+    }
+  
+  }
+
+  .social {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    flex: 1;
 
     .items {
       display: flex;
@@ -81,7 +95,9 @@
       margin-right: 1em;
 
       img {
-        width: 50%;
+        width: 2em;
+        height: 1.666em;
+        padding: 0em 0.75em;
       }
 
       @include mobile {
@@ -89,7 +105,8 @@
       }
     }
 
-    .join-us {
+    // Old unecessary code below?
+    /*.join-us {
       background: #4A90E2;
       margin-right: 1em;
     }
@@ -109,6 +126,7 @@
       box-shadow: 5px 5px 30px rgba(48,95,129,0.3);
       letter-spacing: 0.02em;
     }
+    */
   }
 }
 
