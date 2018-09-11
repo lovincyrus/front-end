@@ -18,6 +18,8 @@
   .description {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    color: #958DB7;
+    font-weight: 400;
   }
 
   .content-side {
@@ -25,6 +27,8 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    padding-right: 10em;
+    margin-right: 5em;
 
     @include mobile {
       width: 100%;
@@ -37,31 +41,38 @@
         padding: 0.75em 2em;
         border-radius: 0.75em;
         height: 1.5em;
+        white-space: nowrap;
+        font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 
         @include mobile {
           padding: 0.75em 1em;
         }
 
         p {
-          font-weight: 550;
+          font-weight: 500;
           margin: 0;
           letter-spacing: 0.03em;
+          color: white;
+        }
+    
+        a {
+          text-decoration: none;
+          color: white;
+          font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
         }
 
-         a {
-           text-decoration: none;
-           color: black;
-         }
-
-         a:visited {
-           text-decoration: none;
-           color: black;
-         }
+        a:visited {
+          text-decoration: none;
+          color: white;
+          font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       }
+    }
 
       .whitepaper {
         margin-right: 2em;
-        background-color: black;
+        background-color:#100832;
+        display: flex;
+        align-items: center;
 
         @include mobile {
           margin-right: 1em;
@@ -69,21 +80,32 @@
 
         a {
           color: white;
+          font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
         }
 
         a:visited {
           color: white;
+          font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
         }
       }
 
       .video {
-        background: lightgray;
+        background: #5944EE;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          padding-right: 1em;
+        }
+
       }
     }
   }
 
   .image-side {
-    width: 30%;
+    width: 80%;
 
     @include mobile {
       align-items: flex-start;
@@ -115,6 +137,112 @@
   }
 }
 
+.description {
+
+  @include mobile {
+    .subheading {
+    color: #100832;
+    font-size: 2.875em;
+    font-weight: 500;
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    width: 100%;
+   }
+ }
+}
+
+  .subheading {
+    margin-top: 1em;
+  }
+
+.finally-heading {
+  margin-top: 10em;
+  margin-bottom: 3em;
+
+  .subheading {
+    color: #100832;
+    font-size: 2.875em;
+    font-weight: 500;
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+ }
+}
+
+.whysection {
+  padding: 3em 0;
+  .container {
+
+    img {
+      flex-direction: row;
+      width: 630;
+      height: 532;
+    }
+
+    .rightside {
+      display: flex;
+      flex-direction: column;
+
+      .subheadings {
+        flex-direction: column;
+        flex: 1;
+        margin-top: 1em;
+        margin-bottom: 1em;  
+      }
+    }
+  }
+}
+
+.partner-heading {
+  .container {
+    display:flex;
+    flex-direction: row;
+
+    .heading {
+    color: #100832;
+    font-size: 2.875em;
+    font-weight: 500;
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    margin-bottom: 0.5em;
+    }
+  }
+ }
+
+.partner-section {
+  padding: 3em 0;
+  .container {
+    display:flex;
+    flex-direction: row;
+
+    .heading {
+    color: #100832;
+    font-size: 2.875em;
+    font-weight: 500;
+    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    }
+
+    .images {
+      .MKR {
+        width: 14em;
+        height: 3.438em;
+        padding: 0em 3.125em;
+      }
+  
+      .tenz {
+        width: 18.351em;
+        height: 4.313em;
+      }
+  
+      .bitfwd {
+        width: 14.563em;
+        height: 4.313em;
+      }
+    }
+  }
+}
+
+
 .preauth {
   .container {
     padding: 3em 0;
@@ -124,10 +252,11 @@
       flex-direction: column-reverse;
     }
   }
+}
 
   .image {
     margin: 0 3em 0 0;
-    width: 60%;
+    width: 100%;
 
     @include mobile {
       margin: 3em 0 0 0;
@@ -140,19 +269,7 @@
     }
   }
 
-  .description {
-    width: 40%;
-
-    @include mobile {
-      width: 100%;
-    }
-
-    .subheading {
-      margin-top: 1em;
-    }
-  }
-}
-
+/*
 .payment {
   background: #FAFAFA;
 
@@ -360,3 +477,4 @@
     margin-top: 1.5em;
   }
 }
+*/
