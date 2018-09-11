@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Marketing-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-355.000000, -774.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="button-play" transform="translate(355.000000, 773.968750)">
+                <path d="M12.2386322,7.40726249 L1.55216625,0.282951826 C1.33344991,0.137615889 1.05203964,0.123367267 0.821211972,0.247330273 C0.588959444,0.371293278 0.444335938,0.61280741 0.444335938,0.875694473 L0.444335938,15.1243158 C0.444335938,15.3872029 0.588959444,15.628717 0.82049954,15.75268 C0.925939338,15.8089621 1.04135317,15.8367469 1.156767,15.8367469 C1.29497863,15.8367469 1.43319026,15.7961383 1.55216625,15.7170584 L12.2386322,8.59274778 C12.4366881,8.4602356 12.5556641,8.23795711 12.5556641,8.00000513 C12.5556641,7.76205316 12.4366881,7.53977467 12.2386322,7.40726249 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
