@@ -27,12 +27,14 @@
       font-family: 'Avenir-Medium';
       text-decoration: none;
       color: #958DB7;
-      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-      font-weight: 600;
+      font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      font-weight: 500;
     }
 
     a:visited {
       color: #958DB7;
+      font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      font-weight: 500;
     }
 
     .desktop {
@@ -68,8 +70,9 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: #958DB7;
+    font-size: 0.875em;
 
     a:link {
       margin-right: 1.25em;
@@ -77,7 +80,7 @@
     }
 
     a:visited {
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: #958DB7;
     text-decoration: none;
     }
