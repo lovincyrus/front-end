@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    //margin-left: 0em;
+    padding-left: 4.25em;
 
     @include mobile {
       flex-direction: column;
@@ -26,8 +28,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    padding-right: 10em;
+    //width: 50%;
+    margin-left: 0em;
+    //margin-right: 10em;
 
     @include mobile {
       width: 100%;
@@ -104,7 +107,9 @@
   }
 
   .image-side {
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 
     @include mobile {
       align-items: flex-start;
@@ -114,8 +119,8 @@
     }
 
     img {
-      width: 100%;
-      //height: 6.7%;
+      width: 19.125em;
+      height: 32.418em;
 
       @include mobile {
         width: 50%;
