@@ -1,15 +1,15 @@
 @mixin mobile {
-  @media (max-device-width: 1200px) {
+  @media (max-device-width: 450px) {
     @content;
   }
 }
 
 .hero {
+
   .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    //margin-left: 0em;
     padding-left: 4.25em;
 
     @include mobile {
@@ -17,23 +17,21 @@
     }
   }
 
-  .description {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    color: #958DB7;
-    font-weight: 400;
-  }
-
   .content-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //width: 50%;
     margin-left: 0em;
-    //margin-right: 10em;
 
     @include mobile {
       width: 100%;
+    }
+
+    .description {
+      margin-top: 4.5em;
+      margin-bottom: 2.75em;
+      color: #958DB7;
+      font-weight: 400;
     }
 
     .buttons {
@@ -41,69 +39,46 @@
 
       .cta {
         padding: 0.75em 2em;
-        border-radius: 0.75em;
-        height: 1.5em;
+        border-radius: 0.85em;
         white-space: nowrap;
         font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        color: white;
 
         @include mobile {
           padding: 0.75em 1em;
-        }
 
-        p {
-          font-weight: 500;
-          margin: 0;
-          letter-spacing: 0.03em;
-          color: white;
         }
-    
-        a {
-          text-decoration: none;
-          color: white;
-          font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-        }
-
-        a:visited {
-          text-decoration: none;
-          color: white;
-          font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       }
-    }
 
       .whitepaper {
         margin-right: 2em;
         background-color:#100832;
         display: flex;
         align-items: center;
-
+        box-shadow: 0em 0.125em 0.25em 0em rgba(0, 0, 0, 50);
+  
         @include mobile {
           margin-right: 1em;
         }
-
-        a {
-          color: white;
-          font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-        }
-
-        a:visited {
-          color: white;
-          font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-        }
+  
       }
-
+  
       .video {
         background: #5944EE;
         display: flex;
         flex: 1;
         align-items: center;
         justify-content: center;
-
+        box-shadow: 0em 0.125em 0.25em 0em rgba(0, 0, 0, 50);
+        color: white;
+  
         img {
           padding-right: 1em;
         }
-
+  
       }
     }
+
   }
 
   .image-side {
@@ -119,8 +94,8 @@
     }
 
     img {
-      width: 19.125em;
-      height: 32.418em;
+      width: 65.5%;
+      height: 100%;
 
       @include mobile {
         width: 50%;
@@ -128,375 +103,3 @@
     }
   }
 }
-
-.hero-separator {
-  height: 10em;
-
-  @include mobile {
-    height: 5em;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.description {
-
-  @include mobile {
-    .subheading {
-    color: #100832;
-    font-size: 2.875em;
-    font-weight: 500;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    text-align: center;
-    width: 100%;
-   }
- }
-}
-
-  .subheading {
-    margin-top: 1em;
-  }
-
-.finally-heading {
-  margin-top: 10em;
-  margin-bottom: 3em;
-
-  .subheading {
-    color: #100832;
-    font-size: 2.875em;
-    font-weight: 500;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    text-align: center;
- }
-}
-
-.whysection {
-  padding: 3em 0;
-  .container {
-
-    img {
-      flex-direction: row;
-      width: 630;
-      height: 532;
-    }
-
-    .rightside {
-      display: flex;
-      flex-direction: column;
-
-      .subheadings {
-        flex-direction: column;
-        flex: 1;
-        margin-top: 1em;
-        margin-bottom: 1em;  
-      }
-    }
-  }
-}
-
-.partner-heading {
-  .container {
-    display:flex;
-    flex-direction: row;
-
-    .heading {
-    color: #100832;
-    font-size: 2.875em;
-    font-weight: 500;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    text-align: center;
-    margin-bottom: 0.5em;
-    }
-  }
- }
-
-.partner-section {
-  padding: 3em 0;
-  .container {
-    display:flex;
-    flex-direction: row;
-
-    .heading {
-    color: #100832;
-    font-size: 2.875em;
-    font-weight: 500;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    text-align: center;
-    }
-
-    .images {
-      .MKR {
-        width: 14em;
-        height: 3.438em;
-        padding: 0em 3.125em;
-      }
-  
-      .tenz {
-        width: 18.351em;
-        height: 4.313em;
-      }
-  
-      .bitfwd {
-        width: 14.563em;
-        height: 4.313em;
-      }
-    }
-  }
-}
-
-.buidl-section {
-  padding: 3em 0;
-  .container {
-    display: flex;
-    flex-direction: column;
-
-    .content {
-    color: #100832;
-    font-size: 2.875em;
-    font-weight: 500;
-    font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    text-align: center;
-    }
-
-  }
-}
-
-
-.preauth {
-  .container {
-    padding: 3em 0;
-    flex-direction: row;
-
-    @include mobile {
-      flex-direction: column-reverse;
-    }
-  }
-}
-
-  .image {
-    margin: 0 3em 0 0;
-    width: 100%;
-
-    @include mobile {
-      margin: 3em 0 0 0;
-      width: 100%;
-    }
-
-    img {
-      object-fit: contain;
-      width: 100%;
-    }
-  }
-
-/*
-.payment {
-  background: #FAFAFA;
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    padding: 3em 0;
-
-    @include mobile {
-      flex-direction: column-reverse;
-    }
-  }
-
-  .pay-with-side {
-    width: 60%;
-
-    @include mobile {
-      width: 100%;
-      margin-top: 3em;
-    }
-
-    .label {
-      padding-left: 0.4em;
-      font-size: 1.75em;
-      font-weight: 600;
-      color: #8A8A8F;
-    }
-
-    .items-container {
-      display: flex;
-      margin-right: 5em;
-
-      @include mobile {
-        margin-right: 0;
-      }
-
-      img {
-        width: 25%;
-        height: 75%;
-      }
-    }
-  }
-
-  .description {
-    width: 40%;
-
-    @include mobile {
-      width: 100%;
-    }
-
-    .subheading {
-      margin-top: 1.5em;
-    }
-  }
-}
-
-.partnership {
-  background-color: black;
-
-  .container {
-    display: flex;
-    flex-direction: row;
-
-    @include mobile {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    * {
-      margin-left: 4em;
-
-      @include mobile {
-        margin-left: 0;
-        margin-top: 2em;
-      }
-    }
-
-    .text {
-      color: white;
-      margin: 0;
-    }
-
-    .bitfwd {
-      @include mobile {
-        display: none;
-      }
-    }
-
-    .maker {
-      @include mobile {
-        width: 40%;
-      }
-    }
-
-  }
-}
-
-.why {
-  .container {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 3em 0;
-  }
-
-  .items-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 3em;
-
-    @include mobile {
-      flex-direction: column;
-    }
-
-    .feature-box-container {
-      width: 30%;
-
-      @include mobile {
-        width: 100%;
-        margin-bottom: 3em;
-      }
-    }
-
-    .feature-box-container:last-child {
-      @include mobile {
-        margin-bottom: 0;
-      }
-    }
-  }
-}
-
-.newsletter {
-  background: #757580;
-
-  .container {
-    flex-direction: row;
-
-    @include mobile {
-      flex-direction: column;
-    }
-  }
-
-  .side {
-    width: 50%;
-
-    @include mobile {
-      width: 100%;
-    }
-  }
-
-  .subscribe {
-    width: 40%;
-
-    @include mobile {
-      width: 100%;
-    }
-
-    .heading {
-      letter-spacing: 0.06em;
-    }
-
-    .label {
-      margin-bottom: 1.5em;
-    }
-
-    .email {
-      box-shadow: none;
-    }
-  }
-
-  .logo {
-    width: 60%;
-
-    @include mobile {
-      width: 100%;
-      margin-top: 3em;
-    }
-
-    img {
-      margin: 0.5em 1em;
-
-      @include mobile {
-        margin: 0.5em 2em;
-      }
-    }
-  }
-}
-
-.team {
-  .container {
-    padding: 3em 0;
-
-    a {
-      text-decoration: none;
-      text-align: center;
-      color: black;
-    }
-
-    a:visited {
-      color: black;
-    }
-  }
-
-  .description {
-    margin-top: 1.5em;
-  }
-}
-*/

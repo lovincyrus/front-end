@@ -36,11 +36,11 @@ class Home extends React.Component {
               </h3>
 
               <div className='buttons'>
-                <div className='whitepaper cta white'>
-                  <a target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
+                <div className='whitepaper cta'>
+                  <a target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p className="whitepaper-text">Whitepaper</p></a>
                 </div>
                 <div className='video cta'>
-                  <a target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'><p>Watch Video</p></a>
+                  <a target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'><p className="video-text">Watch Video</p></a>
                 </div>
               </div>
             </div>
