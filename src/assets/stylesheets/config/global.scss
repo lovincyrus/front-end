@@ -14,7 +14,7 @@
 body {
   font-family: 'Avenir-Roman', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 
   @include mobile {
@@ -27,7 +27,7 @@ h1 {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.2em;
-  font-size: 3em;
+  font-size: 3.5em;
   margin: 0;
 }
 
@@ -40,16 +40,11 @@ h2 {
 }
 
 h3 {
-  margin-top: 0.3125em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.7857em;
+  margin-bottom: 0.7857em;
   color: #958DB7;
   font-weight: 400;
   font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  /*font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
-  text-align: left;
-  margin: */
 }
 
 h4 {
