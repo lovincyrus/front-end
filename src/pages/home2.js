@@ -94,6 +94,26 @@ class HomeRevised extends React.Component {
             </div>
           </div>
         </div>
+        
+        <div className='buidl section'>
+          <div className='container'>
+
+            <div className='text-container'>
+              <h7>We&apos;re #buidling the</h7>
+              <h7>future of payments.</h7>
+              <p>Sign up as a Beta Tester today.</p>
+            </div>
+
+            <div className='email-cta'>
+              <p> Enter your Email Address</p>
+              <div className='subscribe-button'>
+                <p>Subscribe</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
 
       </div>
     );
