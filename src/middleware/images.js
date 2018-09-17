@@ -11,6 +11,8 @@ import netflixsubscription from '../assets/images/Subscription.png';
 import MKRLogo from '../assets/images/MKRlogo.png';
 import bitfwdLogo from '../assets/images/bitfwdlogo.png';
 import tenzLogo from '../assets/images/tenzlogo.png';
+import path1 from '../assets/images/path1.png';
+import path2 from '../assets/images/path2.png';
 
 export default {
   //abacusGreyLogo, 
@@ -25,7 +27,8 @@ export default {
   netflixsubscription,
   MKRLogo,
   bitfwdLogo,
-  tenzLogo
-
+  tenzLogo,
+  path1,
+  path2
 
 };
