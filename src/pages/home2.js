@@ -38,7 +38,7 @@ class HomeRevised extends React.Component {
                   <p>Read our Whitepaper</p>
                 </div>
                 <div className='video cta'target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'>
-                  <img src={Images.buttonplay} width="13" height="16"/>
+                  <img src={Images.buttonplay}/>
                   <p>Watch Video</p>
                 </div>
               </div>
@@ -113,8 +113,6 @@ class HomeRevised extends React.Component {
 
           </div>
         </div>
-
-
       </div>
     );
   };
