@@ -128,3 +128,23 @@ hr {
   font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   text-align: center;
 }
+
+.footer-menu {
+  font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color: #958DB7;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 0em 1.25em;
+
+  a:link {
+    margin: 0em 1.25em;
+    text-decoration: none;
+    color: #958DB7;
+  }
+
+  a:visited {
+    font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #958DB7;
+    text-decoration: none;
+ }
+}
