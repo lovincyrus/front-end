@@ -130,9 +130,10 @@
   .list-container {
     display: flex;
     margin: 0em 8em;
+    align-items: center;
   
     .left-side {
-      padding-right: 4em;
+      margin-right: 4em;
       width: 70%;
 
       img {
@@ -212,7 +213,7 @@
         padding: 0.75em 2em;
         border-radius: 0.85em;
         white-space: nowrap;
-        box-shadow: 2px 0 16px rgba(110, 91, 185, 1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
         .subscribe-button {
           background: #5944EE;
