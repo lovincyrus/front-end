@@ -150,6 +150,11 @@
  }
 
 .partner {
+  background-image: url('../../assets/images/path2.png');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+
   .container {
     display: flex;
     flex-direction: column;
