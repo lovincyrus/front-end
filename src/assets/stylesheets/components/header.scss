@@ -23,7 +23,7 @@
     align-items: center;
 
     a {
-      margin-right: 1.25em;
+      margin: 0em 1.25em;
       font-family: 'Avenir-Medium';
       text-decoration: none;
       color: #958DB7;
@@ -35,6 +35,7 @@
       color: #958DB7;
       font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       font-weight: 500;
+      margin: 0em 1.25em;
     }
 
     .desktop {
@@ -81,7 +82,7 @@
     width: 33%;
 
     a:link {
-      margin-right: 1.25em;
+      margin: 0em 1.25em;
       text-decoration: none;
     }
 
