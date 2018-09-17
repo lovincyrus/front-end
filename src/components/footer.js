@@ -3,30 +3,30 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../assets/images/full-logo.png';
+import {default as Images} from '../middleware/images';
 
 class Footer extends Component {
   render() {
     return (
       <div className='navigation-footer-container'>
         <div className='footer-container container'>
-          <div className='footer-section'>
-            <img src={logo}/>
-          </div>
-          <div className='footer-section'>
-            <h5>Community</h5>
-            <a style={{color: '#7D94DF'}} href='https://t.me/joinchat/AXlpZ1LUmBqu3ySXHVh8qA'>Telegram</a>
-            <a style={{color: '#000000'}} href='https://medium.com/8xprotocol'>Medium</a>
-            <a style={{color: '#1EABF5'}} href='https://twitter.com/8x_protocol'>Twitter</a>
-            <a style={{color: '#FD4E02'}} href='https://www.youtube.com/playlist?list=PLdm5dK5Ob2TnSUKlcYj3XfCO-iS8SeEfb'>Youtube</a>
-            <a style={{color: '#000000'}} href='https://github.com/8xprotocol'>Github</a>
+
+          <div className='footer-menu'>
+            <Link className='hide-mobile' to='/about'>About</Link>
+            <Link className='hide-mobile' to='/token-sale'>Token Sale</Link>
+            <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
           </div>
 
-          <div className='footer-section'>
-            <h5>Organisation</h5>
-            <a style={{color: '#95959A'}} href='/'>Home</a>
-            <a style={{color: '#95959A'}} href='/about'>About</a>
-            <a style={{color: '#95959A'}} href='/token-sale'>Token Sale</a>
+          <div className='footer-social'>
+            <div className='items'>
+              <a href='https://t.me/eightexprotocol'><img src={Images.telegramLogo}/></a>
+              <a href='https://github.com/8xprotocol'><img src={Images.githubLogo}/></a>
+              <a href='https://twitter.com/8x_Protocol'><img src={Images.twitterLogo}/></a>
+              <a href='https://medium.com/8xprotocol'><img src={Images.mediumLogo}/></a>
+              <a href='https://www.reddit.com/r/8xProtocol/'><img src={Images.redditLogo}/></a>
+            </div>
           </div>
+
         </div>
       </div>
     );

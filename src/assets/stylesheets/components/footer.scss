@@ -2,8 +2,45 @@
   padding: 3em 3em;
   display: flex;
   flex-direction: row;
-
+  flex: 1;
+  
   .footer-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    margin: 0em auto;
+    justify-content: space-between;
+
+
+   .footer-social {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    .items {
+      display: flex;
+     flex-direction: row;
+     margin-right: 1em;
+    }
+
+     img {
+      width: 2em;
+      height: 1.666em;
+      padding: 0em 0.75em;
+     }
+
+     @include mobile {
+      width: 33%;
+    }
+   }
+  }
+}
+
+
+
+
+  /*.footer-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -42,5 +79,4 @@
       margin: 0.5em 0;
       text-decoration: none;
     }
-  }
-}
+  }*/
