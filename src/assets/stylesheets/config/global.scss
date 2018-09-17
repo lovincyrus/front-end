@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-weight: 500;
+  font-weight: 550;
   letter-spacing: 0.04em;
   line-height: 1.2em;
   font-size: 3.5em;
@@ -71,14 +71,23 @@ h6 {
   font-weight: 400;
   font-size: 1em;
   letter-spacing: 0.06em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1em; //is this ok?
+  margin-bottom: 4em; //is this ok?
   color: #958DB7;
+}
+
+h7 { //headings
+  font-size: 3em;
+  font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  padding-bottom: 0.25em; //is this ok?
+
 }
 
 p {
   margin: 0.5em 0;
 }
+
 
 hr {
   width: 25%;
@@ -114,7 +123,7 @@ hr {
 
 .heading {
   color: #100832;
-  font-size: 2.875em;
+  font-size: 3.286em;
   font-weight: 500;
   font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   text-align: center;

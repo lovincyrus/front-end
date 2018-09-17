@@ -64,6 +64,10 @@
     img {
       height: 4em;
     }
+
+    @include mobile {
+      width: 33%;
+    }
   }
 
   .menu {
@@ -86,6 +90,10 @@
     color: #958DB7;
     text-decoration: none;
     }
+
+    @include mobile {
+      width: 33%;
+    }
   
   }
 
@@ -107,7 +115,7 @@
       }
 
       @include mobile {
-          display: none;
+        width: 33%;
       }
     }
 

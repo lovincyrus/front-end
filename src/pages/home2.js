@@ -52,30 +52,32 @@ class HomeRevised extends React.Component {
         </div>
 
         <div className='features section'>
-          <div className='container'>
-            <div className='sub-heading'>
-              <a>Subscription payments are finally coming to Ethereum</a>
+
+          <div className='sub-heading-container'>
+            <h7>Subscription payments</h7> 
+            <h7>are finally coming to Ethereum</h7>
+          </div>
+
+          <div className='list-container'>    
+            <div className='left-side'>
+              <img src={Images.netflixsubscription}/>
             </div>
-            
-            <div className='list-container'>    
-              <div className='leftside'>
-                <img src={Images.netflixsubscription} width="630" height="532"/>
+
+            <div className='right-side'>
+              <div className='content'>
+                <h5> Direct Debit </h5>
+                <h6>Tokens are taken directly from a user’s wallet. No escrow account or advanced upfront payments required.</h6>
               </div>
-              <div className='right-side'>
-                <div className='sub-headings'>
-                  <h5> Direct Debit </h5>
-                  <h6>Tokens are taken directly from a user’s wallet. No escrow account or advanced upfront payments required.</h6>
-                </div>
-                <div className='sub-headings'>
-                  <h5> Zero Volatility </h5>
-                  <h6>Through the use of stable coins (DAI), volatility can be eliminated for users and businesses. 8x is ERC20 agnostic.</h6>
-                </div>
-                <div className='sub-headings'>
-                  <h5> Execution </h5>
-                  <h6>A network of distributed service nodes run by token holders ensure payments are collected on-time.</h6>
-                </div>
+              <div className='content'>
+                <h5> Zero Volatility </h5>
+                <h6>Through the use of stable coins (DAI), volatility can be eliminated for users and businesses. 8x is ERC20 agnostic.</h6>
+              </div>
+              <div className='content'>
+                <h5> Execution </h5>
+                <h6>A network of distributed service nodes run by token holders ensure payments are collected on-time.</h6>
               </div>
             </div>
+
           </div>
         </div>
 

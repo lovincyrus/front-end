@@ -81,10 +81,14 @@
         img {
           padding-right: 1em;
         }
-  
+
+        //Will cleanup later, damn play button
+        p {
+          margin-top: 0.7em;
+
+        }
       }
     }
-
   }
 
   .image-side {
@@ -99,7 +103,7 @@
       margin-top: 3em;
     }
 
-    //may need to be fixed
+    //does this need to be fixed
     img {
       width: 65.5%;
       height: 100%;
@@ -112,11 +116,38 @@
 }
 
 .features {
+  padding: 6em 6em;
   background-image: linear-gradient(-180deg, #F4F5F9, #FDFDFD, #FFFFFF);
-  .container {
-    
+
+  .sub-heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
   }
-}
+
+  .list-container {
+    display: flex;
+    margin: 0em 8em;
+  
+    .left-side {
+      padding-right: 4em;
+      width: 70%;
+
+      img {
+        width: 100%
+      }
+    }
+
+    .right-side {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 2em;
+    }
+  }
+ }
 
 .partner {
   .container {
@@ -133,6 +164,7 @@
     }
 
     .logos-container {
+      //Will cleanup later, em's for visibility purposes
         .MKR {
           width: 14em;
           height: 3.438em;
@@ -148,5 +180,5 @@
           width: 14.563em;
           height: 4.313em;
       }
+    } 
   }
-}
