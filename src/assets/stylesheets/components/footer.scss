@@ -12,27 +12,27 @@
     margin: 0em auto;
     justify-content: space-between;
 
-
    .footer-social {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     
     .items {
-      display: flex;
+     display: flex;
      flex-direction: row;
      margin-right: 1em;
+     height: 2em;
     }
 
      img {
-      width: 2em;
-      height: 1.666em;
+      //width: 2em;
+      height: 100%;
       padding: 0em 0.75em;
      }
 
      @include mobile {
       width: 33%;
-    }
+     }
    }
   }
 }
