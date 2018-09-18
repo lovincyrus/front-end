@@ -54,8 +54,8 @@ class HomeRevised extends React.Component {
         <div className='features section'>
 
           <div className='sub-heading-container'>
-            <h7>Subscription payments</h7> 
-            <h7>are finally coming to Ethereum</h7>
+            <h2>Subscription payments</h2> 
+            <h2>are finally coming to Ethereum</h2>
           </div>
 
           <div className='list-container'>    
@@ -65,16 +65,16 @@ class HomeRevised extends React.Component {
 
             <div className='right-side'>
               <div className='content'>
-                <h5> Direct Debit </h5>
-                <h6>Tokens are taken directly from a user’s wallet. No escrow account or advanced upfront payments required.</h6>
+                <h4> Direct Debit </h4>
+                <h5>Tokens are taken directly from a user’s wallet. No escrow account or advanced upfront payments required.</h5>
               </div>
               <div className='content'>
-                <h5> Zero Volatility </h5>
-                <h6>Through the use of stable coins (DAI), volatility can be eliminated for users and businesses. 8x is ERC20 agnostic.</h6>
+                <h4> Zero Volatility </h4>
+                <h5>Through the use of stable coins (DAI), volatility can be eliminated for users and businesses. 8x is ERC20 agnostic.</h5>
               </div>
               <div className='content'>
-                <h5> Execution </h5>
-                <h6>A network of distributed service nodes run by token holders ensure payments are collected on-time.</h6>
+                <h4> Execution </h4>
+                <h5>A network of distributed service nodes run by token holders ensure payments are collected on-time.</h5>
               </div>
             </div>
 
@@ -99,8 +99,8 @@ class HomeRevised extends React.Component {
           <div className='container'>
 
             <div className='text-container'>
-              <h7>We&apos;re #buidling the</h7>
-              <h7>future of payments.</h7>
+              <h2>We&apos;re #buidling the</h2>
+              <h2>future of payments.</h2>
               <p>Sign up as a Beta Tester today.</p>
             </div>
 
