@@ -28,7 +28,7 @@ class Header extends Component {
         <div className='menu'>
           <Link className='hide-mobile' to='/about'>About</Link>
           <Link className='hide-mobile' to='/token-sale'>Token Sale</Link>
-          <Link className='hide-mobile' to='/'>Protocol Weekly</Link>
+          <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
         </div>
 
         <div className='social'>
