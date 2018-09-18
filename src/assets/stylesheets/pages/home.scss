@@ -104,10 +104,19 @@
     display: flex;
     margin: 0em 8em;
     align-items: center;
+
+    @include mobile {
+      flex-direction: column;
+      margin: 0;
+    }
   
     .left-side {
       margin-right: 4em;
       width: 70%;
+      
+      @include mobile {
+        width: 100%;
+      }
 
       img {
         width: 100%
@@ -120,6 +129,10 @@
       flex-direction: column;
       justify-content: center;
       line-height: 2em;
+
+      @include mobile {
+        width: 100%;
+      }
     }
   }
  }
