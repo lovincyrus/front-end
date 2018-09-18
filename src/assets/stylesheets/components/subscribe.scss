@@ -7,25 +7,15 @@
 .subscribe-container {
 
     .email-form {
-
         display: flex;
-
-        @include mobile {
-            flex-direction: row;
-        }
 
         .email {
             width: 50%;
             margin-right: 1em;
             font-size: 0.85em;
             letter-spacing: 0.04em;
-            //box-shadow: none;
             padding: 1em;
             border: none;
-
-            @include mobile {
-                width: 100%;
-            }
         }
 
         .submit {
