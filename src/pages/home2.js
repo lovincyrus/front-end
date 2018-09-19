@@ -31,7 +31,7 @@ class HomeRevised extends React.Component {
                 <h3>8x is a protocol built on Ethereum </h3>
                 <h3>that enables decentralised </h3>
                 <h3>repeating payments.</h3>
-              </div>
+              </div> 
 
               <div className='buttons'>
                 <div className='whitepaper cta' target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>
@@ -46,10 +46,10 @@ class HomeRevised extends React.Component {
 
             <div className='image-side'>
               <img src={Images.iPhoneX}/>
-            </div>
+            </div> 
 
           </div>
-        </div>
+        </div> 
 
         <div className='features section'>
 
@@ -81,7 +81,7 @@ class HomeRevised extends React.Component {
           </div>
         </div>
 
-        <div className='partner section'>
+        <div className='partner'>
           <div className='container'>
             <div className='heading'>
               <a> We&apos;ve partnered with</a>
