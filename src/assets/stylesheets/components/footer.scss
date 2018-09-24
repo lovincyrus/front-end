@@ -1,9 +1,21 @@
+@mixin mobile {
+  @media (max-device-width: 1200px) {
+    @content;
+  }
+}
+
 .navigation-footer-container {
   padding: 3em 3em;
   display: flex;
   flex-direction: row;
   flex: 1;
   
+  .footer-menu {
+    @include mobile {
+      display: none;
+    }
+  }
+
   .footer-container {
     display: flex;
     flex: 1;
@@ -12,10 +24,19 @@
     margin: 0em auto;
     justify-content: space-between;
 
+    @include mobile {
+      justify-content: center;
+    }
+
    .footer-social {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
+
+    @include mobile {
+      width: 100%;
+    }
     
     .items {
      display: flex;
