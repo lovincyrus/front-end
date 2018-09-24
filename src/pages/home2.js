@@ -83,19 +83,17 @@ class HomeRevised extends React.Component {
 
         <div className='partner'>
           <div className='container'>
-            <div className='heading'>
-              <a> We&apos;ve partnered with</a>
-            </div>
+            <h2> We&apos;ve partnered with</h2>
 
             <div className='logos-container'>
-              <img className='tenz' src={Images.tenzLogo}/>
-              <img className='MKR' src={Images.MKRLogo}/>
-              <img className='bitfwd' src={Images.bitfwdLogo}/>
+              <img className='logos' src={Images.tenzLogo}/>
+              <img className='logos' src={Images.MKRLogo}/>
+              <img className='logos' src={Images.bitfwdLogo}/>
             </div>
           </div>
         </div>
         
-        <div className='buidl section'>
+        <div className='buidl'>
           <div className='container'>
 
             <div className='text-container'>
@@ -107,7 +105,7 @@ class HomeRevised extends React.Component {
             <div className='email-cta'>
               <p> Enter your Email Address</p>
               <div className='subscribe-button'>
-                <p>Subscribe</p>
+                <p1>Subscribe</p1>
               </div>
             </div>
 
