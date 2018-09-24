@@ -28,6 +28,8 @@ import codexLogo from '../assets/images/codexlogo.png';
 import connextLogo from '../assets/images/connextlogo.png';
 import thegraphLogo from '../assets/images/thegraphlogo.png';
 import abacusLogo from '../assets/images/abacuslogo.png';
+import whiteLogo from '../assets/images/white8x.png';
+
 
 
 export default {
@@ -61,5 +63,6 @@ export default {
   connextLogo,
   thegraphLogo,
   abacusLogo,
+  whiteLogo,
 
 };
