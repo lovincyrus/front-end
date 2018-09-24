@@ -108,6 +108,10 @@
         p {
           margin-top: 0.7em;
 
+          @include mobile {
+            margin: 0.5em 0em;
+          }
+
         }
       }
     }
@@ -193,11 +197,9 @@
       justify-content: center;
 
       .content {
-
         @include mobile {
           text-align: center
         }
-
       }
 
       @include mobile {
@@ -209,8 +211,8 @@
 
 .partner {
   background-image: url('../../assets/images/path2.png');
-  background-position: top;
-  background-size: contain;
+  background-position: bottom;
+  //background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 22em;
 
@@ -249,28 +251,6 @@
           }
         }
     
-        /*.tenz {
-          width: 27%;
-
-          @include mobile {
-            width: 33%;
-          }
-        }
-    
-        .bitfwd {
-          width: 27%;
-
-          @include mobile {
-            width: 33%;
-          }
-
-        .img {
-          @include mobile {
-            margin: 0em 2em;
-          }
-        }
-      }*/
-
       @include mobile {
         display: flex;
         flex-direction: row;
@@ -286,6 +266,7 @@
     margin: 2em 0em;
     
     .container {
+      
       .text-container {
         display: flex;
         flex-direction: column;
