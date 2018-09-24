@@ -20,6 +20,7 @@ import About from './pages/about';
 import HomeRevised from './pages/home2';
 
 import './assets/stylesheets/app.scss';
+import ProtocolWeekly from './pages/protocol-weekly';
 
 const history = createBrowserHistory();
 
@@ -36,6 +37,7 @@ class App extends React.Component {
               <Route exact path="/" component={HomeRevised}/>
               <Route exact path="/token-sale" component={TokenSale}/>
               <Route exact path="/about" component={About}/>
+              <Route exact path="/protocol-weekly" component={ProtocolWeekly}/>
             </Switch>
 
             <Footer/>
