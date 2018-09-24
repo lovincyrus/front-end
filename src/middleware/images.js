@@ -13,6 +13,7 @@ import bitfwdLogo from '../assets/images/bitfwdlogo.png';
 import tenzLogo from '../assets/images/tenzlogo.png';
 import path1 from '../assets/images/path1.png';
 import path2 from '../assets/images/path2.png';
+import path3 from '../assets/images/path3.png';
 
 export default {
   //abacusGreyLogo, 
@@ -29,6 +30,7 @@ export default {
   bitfwdLogo,
   tenzLogo,
   path1,
-  path2
+  path2,
+  path3
 
 };
