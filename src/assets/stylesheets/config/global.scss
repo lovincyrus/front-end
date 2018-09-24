@@ -28,14 +28,26 @@ h1 {
   line-height: 1.2em;
   font-size: 4em;
   margin: 0;
+
+  @include mobile {
+    font-size: 3em;
+  }
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: 500;
   padding-bottom: 0.25em;
   margin: 0;
+  line-height: 1.25em;
+
+  @include mobile {
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1.25em;
+    padding-bottom: 0.3em;
+  }
 }
 
 h3 {
@@ -60,13 +72,19 @@ h5 {
   font-weight: 400;
   font-size: 1em;
   letter-spacing: 0.06em;
-  margin-top: 1em; //is this ok?
-  margin-bottom: 4em; //is this ok?
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 4em; 
   color: #958DB7;
 }
 
+
 p {
   margin: 0.5em 0;
+
+  @include mobile {
+    padding: 0.1em 0em;
+  }
 }
 
 
