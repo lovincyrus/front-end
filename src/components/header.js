@@ -20,9 +20,7 @@ class Header extends Component {
     return (
       <div className='navigation-header-container'>
         <div className='logo'>
-          <div className='left-side'>
-            <Link to='/'><img src={logo}/></Link>     
-          </div>
+          <Link to='/'><img src={this.props.theme == 'light' ? Images.fullLogo : Images.whiteLogo }/></Link>
         </div>
       
         <div className='menu'>
@@ -43,11 +41,21 @@ class Header extends Component {
           </Popup>
 
           <div className='items'>
-            <a href='https://t.me/eightexprotocol'><img src={Images.telegramLogo}/></a>
-            <a href='https://github.com/8xprotocol'><img src={Images.githubLogo}/></a>
-            <a href='https://twitter.com/8x_Protocol'><img src={Images.twitterLogo}/></a>
-            <a href='https://medium.com/8xprotocol'><img src={Images.mediumLogo}/></a>
-            <a href='https://www.reddit.com/r/8xProtocol/'><img src={Images.redditLogo}/></a>
+            <a href='https://t.me/eightexprotocol'>
+              <img src={Images.telegramLogo}/>
+            </a>
+            <a href='https://github.com/8xprotocol'>
+              <img src={Images.githubLogo}/>
+            </a>
+            <a href='https://twitter.com/8x_Protocol'>
+              <img src={Images.twitterLogo}/>
+            </a>
+            <a href='https://medium.com/8xprotocol'>
+              <img src={Images.mediumLogo}/>
+            </a>
+            <a href='https://www.reddit.com/r/8xProtocol/'>
+              <img src={Images.redditLogo}/>
+            </a>
           </div>
         </div>
       </div>
