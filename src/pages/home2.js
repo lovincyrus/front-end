@@ -20,7 +20,7 @@ class HomeRevised extends React.Component {
               <h1>Pay for your</h1>
               <TypistCycle
                 content={[
-                  'Subscriptions',
+                  'Subscriptions', //pushes hero section /width/padding
                   'Netflix',
                   'Spotify',
                   'Rent',
@@ -40,12 +40,12 @@ class HomeRevised extends React.Component {
               </div> 
 
               <div className='buttons'>
-                <div className='whitepaper cta' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>
-                  <p>Read our Whitepaper</p>
+                <div className='whitepaper cta'>
+                  <a href="https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf">Read our Whitepaper</a>
                 </div>
-                <div className='video cta'target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'>
-                  <img src={Images.buttonplay}/>
-                  <p>Watch Video</p>
+                <div className='video cta'>
+                  <img href="https://www.youtube.com/watch?v=ajJk2W6VF4E" src={Images.buttonplay}/>
+                  <a href="https://www.youtube.com/watch?v=ajJk2W6VF4E">Watch Video</a>
                 </div>
               </div>
             </div>
