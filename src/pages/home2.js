@@ -1,12 +1,18 @@
 import React from 'react';
-import {default as Images} from '../middleware/images';
+
+import { default as Images } from '../middleware/images';
+
 import TypistCycle from '../components/typist-cycle';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 class HomeRevised extends React.Component {
 
   render() {
     return (
       <div>
+        <Header theme='light'/>
+
         <div className='hero section'>
           <div className='container'>
             <div className='content-side'>
@@ -34,7 +40,7 @@ class HomeRevised extends React.Component {
               </div> 
 
               <div className='buttons'>
-                <div className='whitepaper cta' target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>
+                <div className='whitepaper cta' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'>
                   <p>Read our Whitepaper</p>
                 </div>
                 <div className='video cta'target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=ajJk2W6VF4E'>
@@ -111,6 +117,8 @@ class HomeRevised extends React.Component {
 
           </div>
         </div>
+
+        <Footer/>
       </div>
     );
   };

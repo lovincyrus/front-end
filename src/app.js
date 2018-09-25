@@ -31,16 +31,12 @@ class App extends React.Component {
       <Router history={history} onUpdate={() => window.scrollTo(0, 0)}>
         <ScrollToTop>
           <div>
-            <Header/>
-
             <Switch>
               <Route exact path="/" component={HomeRevised}/>
               <Route exact path="/token-sale" component={TokenSale}/>
               <Route exact path="/about" component={About}/>
               <Route exact path="/protocol-weekly" component={ProtocolWeekly}/>
             </Switch>
-
-            <Footer/>
           </div>
         </ScrollToTop>
       </Router>
