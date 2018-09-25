@@ -32,9 +32,10 @@ class ProtocolWeekly extends React.Component {
             </div>
 
             <div className='subscribe-cta'>
-              <p>Enter your Email Address</p>
+              <input className='input' type="email" placeholder="Enter your Email Address">
+              </input>
               <div className='subscribe-button'>
-                <p1>Subscribe</p1>
+                <p>Subscribe</p>
               </div>
             </div>
 
@@ -50,7 +51,6 @@ class ProtocolWeekly extends React.Component {
             <h5>Participating Projects</h5>
 
             <div className='logos-container'>
-
               <div className='logo'>
                 <img className='img' src={Images.kyberLogo}/>
               </div>
@@ -110,12 +110,25 @@ class ProtocolWeekly extends React.Component {
               <div className='logo'>
                 <img className='img' src={Images.logoBorder}/>
               </div>
-
             </div>
-
-
           </div>
         </div>
+
+        <div className='onboard-section'>
+          <div className='container'>
+
+            <div className='text-section'>
+              <h3>Are you building a protocol on Ethereum</h3>
+              <h3>and would like to join the newsletter?</h3>
+            </div>
+
+            <div className='contact-button'>
+              <p>Contact Us</p>
+            </div>
+          </div>
+        </div>
+
+
         <Footer/>
       </div>
     );
