@@ -29,7 +29,8 @@ import connextLogo from '../assets/images/connextlogo.png';
 import thegraphLogo from '../assets/images/thegraphlogo.png';
 import abacusLogo from '../assets/images/abacuslogo.png';
 import whiteLogo from '../assets/images/white8x.png';
-
+import logoNoBorder from '../assets/images/logonoborder.png';
+import path4 from '../assets/images/path4.png';
 
 
 export default {
@@ -64,5 +65,7 @@ export default {
   thegraphLogo,
   abacusLogo,
   whiteLogo,
+  logoNoBorder,
+  path4,
 
 };
