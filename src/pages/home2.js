@@ -34,9 +34,9 @@ class HomeRevised extends React.Component {
               <h1>with crypto.</h1>
 
               <div className='description'>
-                <h3>8x is a protocol built on Ethereum </h3>
-                <h3>that enables decentralised </h3>
-                <h3>repeating payments.</h3>
+                <h3>8x is a protocol built on Ethereum <br/>
+                that enables decentralised<br/>
+                repeating payments.</h3>
               </div> 
 
               <div className='buttons'>
@@ -60,8 +60,7 @@ class HomeRevised extends React.Component {
         <div className='features section'>
 
           <div className='sub-heading-container'>
-            <h2>Subscription payments</h2> 
-            <h2>are finally coming to Ethereum</h2>
+            <h2>Subscription payments<br/>are finally coming to Ethereum</h2>
           </div>
 
           <div className='list-container'>    
@@ -108,7 +107,7 @@ class HomeRevised extends React.Component {
               <p>Sign up as a Beta Tester today.</p>
             </div>
 
-            <div className='email-cta'>
+            <div className='email cta'>
               <p> Enter your Email Address</p>
               <div className='subscribe-button'>
                 <p1>Subscribe</p1>
