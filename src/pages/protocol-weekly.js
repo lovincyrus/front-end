@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Subscribe from '../components/subscribe';
 
 class ProtocolWeekly extends React.Component {
   constructor(){
@@ -42,6 +43,11 @@ class ProtocolWeekly extends React.Component {
             <div className='subscribe-button-mobile'>
               <p>Subscribe</p>
             </div>
+
+            <Subscribe 
+              backgroundColor='#211A3E'
+              url='https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=d692742510'
+            />
 
           </div>
         </div>
