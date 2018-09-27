@@ -32,7 +32,7 @@
     }
   }
 
-  .menu {
+  .web-menu {
     display: flex;
     flex: 1;
     align-items: center;
@@ -49,6 +49,7 @@
     a:link {
       margin: 0em 1.25em;
       text-decoration: none;
+      color: #958DB7;
     }
 
     a:visited {
@@ -98,8 +99,7 @@
     position: fixed;
     right: 1.5em;
     top: 1em;
-    //display: inline-block;
-    display: none;
+    display: inline-block;
   }
 }
 

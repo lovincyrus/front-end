@@ -23,7 +23,7 @@ class Header extends Component {
           <Link to='/'><img src={this.props.theme == 'light' ? Images.fullLogo : Images.whiteLogo }/></Link>
         </div>
       
-        <div className='menu'>
+        <div className='web-menu'>
           <Link className='hide-mobile' to='/'>Demo</Link>
           <a className='hide-mobile' href='https://docs.8xprotocol.com/'>Docs</a>
           <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
