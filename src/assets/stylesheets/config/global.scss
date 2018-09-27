@@ -31,6 +31,7 @@ h1 {
 
   @include mobile {
     font-size: 3em;
+    white-space: nowrap;
   }
 }
 

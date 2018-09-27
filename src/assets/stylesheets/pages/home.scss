@@ -29,11 +29,13 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 0em;
+    width: 40%;
 
     @include mobile {
       margin: auto;
       text-align: center;
       align-items: center;
+      width: 100%;
     }
 
     .description {
@@ -139,6 +141,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    width: 60%;
 
     @include mobile {
       justify-content: center;
