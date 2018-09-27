@@ -6,7 +6,7 @@ import TypistCycle from '../components/typist-cycle';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Subscribe from '../components/subscribe';
-import EightExPay from '8x.pay';
+// import EightExPay from '8x.pay';
 
 class Home extends React.Component {
 
@@ -22,15 +22,15 @@ class Home extends React.Component {
 
               <div className='text'>
                 <h1>Pay for your</h1>
-                
+
                 <TypistCycle
                   content={[
                     'Subscriptions', //pushes hero section /width/padding
-                    'Netflix', /*
+                    'Netflix',
                     'Spotify',
                     'Rent',
                     'Insurance',
-                    'Loans' */
+                    'Loans'
                   ]}
                   numberOfCycles={-1} // loop indefinitely
                   segmentDelay={1.2} // stop for 0.8s at end line
@@ -43,7 +43,7 @@ class Home extends React.Component {
                 <h3>8x is a protocol built on Ethereum <br/>
                 that enables decentralised<br/>
                 repeating payments.</h3>
-              </div> 
+              </div>
 
               <div className='buttons'>
                 <div className='whitepaper cta'>
@@ -58,10 +58,10 @@ class Home extends React.Component {
 
             <div className='image-side'>
               <img src={Images.iPhoneX}/>
-            </div> 
+            </div>
 
           </div>
-        </div> 
+        </div>
 
         <div className='features section'>
 
@@ -69,7 +69,7 @@ class Home extends React.Component {
             <h2>Subscription payments<br/>are finally coming to Ethereum</h2>
           </div>
 
-          <div className='list-container'>    
+          <div className='list-container'>
             <div className='left-side'>
               <img src={Images.netflixsubscription}/>
             </div>
@@ -103,7 +103,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        
+
         <div className='buidl'>
           <div className='container'>
 

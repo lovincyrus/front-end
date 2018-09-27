@@ -22,11 +22,12 @@ class Header extends Component {
         <div className='logo'>
           <Link to='/'><img src={this.props.theme == 'light' ? Images.fullLogo : Images.whiteLogo }/></Link>
         </div>
-      
+
         <div className='web-menu'>
-          <Link className='hide-mobile' to='/'>Demo</Link>
-          <a className='hide-mobile' href='https://docs.8xprotocol.com/'>Docs</a>
-          <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
+          <Link className='hide-mobile' to='/'><p>Home</p></Link>
+          <Link className='hide-mobile' to='/'><p>Demo</p></Link>
+          <a className='hide-mobile' href='https://docs.8xprotocol.com/'><p>Docs</p></a>
+          <Link className='hide-mobile' to='/protocol-weekly'><p>Protocol Weekly</p></Link>
         </div>
 
         <div className='social'>

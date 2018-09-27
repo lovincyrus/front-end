@@ -7,7 +7,7 @@
 .hero {
   background-image: url('../../assets/images/path1.png');
   background-position: bottom;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 
   .container {
@@ -54,7 +54,7 @@
 
     .buttons {
       display: flex;
-      
+
       @include mobile {
         flex-direction: column;
         align-items: center;
@@ -95,9 +95,9 @@
           margin-right: 0em;
           padding: 0.5em 2em;
         }
-  
+
       }
-  
+
       .video {
         background: #5944EE;
         display: flex;
@@ -122,7 +122,7 @@
         @include mobile {
           width: 90%;
         }
-  
+
         img {
           padding-right: 1em;
           width: 12.5%;
@@ -169,7 +169,7 @@
     align-items: center;
     margin-bottom: 5em;
     text-align: center;
-    
+
     @include mobile {
       text-align: center;
       margin-bottom: 2.5em;
@@ -180,16 +180,16 @@
     display: flex;
     margin: 0em 8em;
     align-items: center;
+    justify-content: center;
 
     @include mobile {
       flex-direction: column;
       margin: 0;
     }
-  
+
     .left-side {
       margin-right: 4em;
-      width: 70%;
-      
+
       @include mobile {
         width: 100%;
         margin-right: 0em;
@@ -198,6 +198,7 @@
 
       img {
         width: 100%;
+        max-width: 50em;
 
         @include mobile {
           width: 70%;
@@ -223,7 +224,7 @@
           margin-top: 1em;
           margin-bottom: 4em;
         }
-        
+
         @include mobile {
           text-align: center
         }
@@ -238,7 +239,8 @@
 
 .partner {
   background-image: url('../../assets/images/path2.png');
-  background-position: bottom;
+  background-position: top;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 22em;
 
@@ -284,7 +286,7 @@
             max-width: 50%
           }
         }
-    
+
       @include mobile {
         display: flex;
         flex-direction: row;
@@ -293,14 +295,14 @@
         justify-content: center;
         max-width: 30em;
       }
-    } 
+    }
   }
 
   .buidl {
     margin: 2em 0em;
-    
+
     .container {
-      
+
       .text-container {
         display: flex;
         flex-direction: column;
@@ -325,14 +327,14 @@
             padding-left: 1em;
           }
          }
-        
+
 
         .subscribe-button {
           background: #5944EE;
           display: flex;
           flex: 1;
           padding: 0.75em 1.5em;
-          border-radius: 0.571em;    
+          border-radius: 0.571em;
           color: white;
           margin-left: 5em;
 

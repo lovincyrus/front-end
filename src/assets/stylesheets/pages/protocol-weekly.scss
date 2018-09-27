@@ -33,18 +33,16 @@
           margin-bottom: 5em;
 
         h1 {
-          font-family: GorditaBold;
           color: white;
 
           @include mobile {
             font-size: 2.75em;
           }
-         }   
+         }
        }
 
        .description {
          p {
-           font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
            font-size: 1.3em;
            color: #958DB7;
           }
@@ -64,7 +62,6 @@
 
       input {
         color: #958DB7;
-        font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
         border: none;
         font-size: 1em;
         background: #211A3E;
@@ -90,14 +87,14 @@
         display: flex;
         flex: 1;
         padding: 0.75em 2em;
-        border-radius: 0.571em;    
+        border-radius: 0.571em;
         color: white;
         margin-left: 5em;
 
         p {
           margin: 0;
         }
-        
+
         @include mobile {
           display: none;
         }
@@ -109,10 +106,9 @@
     display: none;
     flex: 1;
     padding: 0.5em 1.5em;
-    border-radius: 0.571em;    
+    border-radius: 0.571em;
     color: white;
     margin: 2.5em;
-    font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 
     p {
       padding: 0.1em 2em;
@@ -180,11 +176,10 @@
       display: flex;
       flex: 1;
       padding: 0.5em 0.5em;
-      border-radius: 0.571em;    
+      border-radius: 0.571em;
       color: white;
       margin: 2.5em;
-      font-family: GorditaRegular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  
+
       p {
         padding: 0.1em 2em;
         margin: 0.5em 0;
