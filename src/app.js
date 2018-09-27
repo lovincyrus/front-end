@@ -16,9 +16,6 @@ import Home from './pages/home';
 import TokenSale from './pages/token-sale';
 import About from './pages/about';
 
-/*Test for kevin*/
-import HomeRevised from './pages/home2';
-
 import './assets/stylesheets/app.scss';
 import ProtocolWeekly from './pages/protocol-weekly';
 
@@ -32,7 +29,7 @@ class App extends React.Component {
         <ScrollToTop>
           <div>
             <Switch>
-              <Route exact path="/" component={HomeRevised}/>
+              <Route exact path="/" component={Home}/>
               <Route exact path="/token-sale" component={TokenSale}/>
               <Route exact path="/about" component={About}/>
               <Route exact path="/protocol-weekly" component={ProtocolWeekly}/>
