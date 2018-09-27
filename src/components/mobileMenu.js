@@ -37,6 +37,15 @@ class Menu extends React.Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
+              href='/'
+            >
+              Demo
+            </a>
+          </li>
+          <li onClick={this.close}>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
               href='/protocol-weekly'
             >
               Protocol Weekly
@@ -49,24 +58,6 @@ class Menu extends React.Component {
               rel='noopener noreferrer'
             >
               Telegram
-            </a>
-          </li>
-          <li onClick={this.close}>
-            <a
-              target='_blank'
-              href='https://twitter.com/8x_Protocol'
-              rel='noopener noreferrer'
-            >
-              Twitter
-            </a>
-          </li>
-          <li onClick={this.close}>
-            <a
-              target='_blank'
-              href='https://github.com/8xprotocol'
-              rel='noopener noreferrer'
-            >
-              Github
             </a>
           </li>
         </ul>

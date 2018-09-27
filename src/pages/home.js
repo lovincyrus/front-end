@@ -13,7 +13,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <EightExPay planHash=''/>
+        {/*<EightExPay planHash=''/>*/}
         <Header theme='light'/>
 
         <div className='hero section'>
