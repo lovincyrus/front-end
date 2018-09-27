@@ -6,14 +6,12 @@ import TypistCycle from '../components/typist-cycle';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Subscribe from '../components/subscribe';
-// import EightExPay from '8x.pay';
 
 class Home extends React.Component {
 
   render() {
     return (
       <div>
-        {/*<EightExPay planHash=''/>*/}
         <Header theme='light'/>
 
         <div className='hero section'>
