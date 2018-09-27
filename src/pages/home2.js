@@ -5,6 +5,7 @@ import { default as Images } from '../middleware/images';
 import TypistCycle from '../components/typist-cycle';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Subscribe from '../components/subscribe';
 
 class HomeRevised extends React.Component {
 
@@ -107,12 +108,14 @@ class HomeRevised extends React.Component {
               <p>Sign up as a Beta Tester today.</p>
             </div>
 
-            <div className='email cta'>
+            {/*<div className='email cta'>
               <p> Enter your Email Address</p>
+
               <div className='subscribe-button'>
                 <p1>Subscribe</p1>
               </div>
-            </div>
+              </div>*/}
+            <Subscribe/>
 
           </div>
         </div>
