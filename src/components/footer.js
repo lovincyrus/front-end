@@ -12,8 +12,8 @@ class Footer extends Component {
         <div className='footer-container container'>
 
           <div className='footer-menu'>
-            <Link className='hide-mobile' to='/about'>About</Link>
-            <Link className='hide-mobile' to='/token-sale'>Token Sale</Link>
+            <Link className='hide-mobile' to='/'>Demo</Link>
+            <a className='hide-mobile' href='https://docs.8xprotocol.com/'>Docs</a>
             <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
           </div>
 
