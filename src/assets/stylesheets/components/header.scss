@@ -52,8 +52,8 @@
     }
 
     a:visited {
-    color: #958DB7;
-    text-decoration: none;
+      color: #958DB7;
+      text-decoration: none;
     }
 
   }
@@ -67,16 +67,17 @@
 
     .items {
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       margin-right: 1em;
       height: 2em;
+      width: 2em;
 
       @include mobile {
         display: none;
       }
 
       img {
-        //width: 2em;
+        width: 2em;
         height: 100%;
         padding: 0em 0.75em;
       }
