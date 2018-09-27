@@ -111,13 +111,6 @@ class Home extends React.Component {
               <p>Sign up as a Beta Tester today.</p>
             </div>
 
-            {/*<div className='email cta'>
-              <p> Enter your Email Address</p>
-
-              <div className='subscribe-button'>
-                <p1>Subscribe</p1>
-              </div>
-              </div>*/}
             <Subscribe
               backgroundColor='#ffffff'
               url='https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=7a717337e6'
