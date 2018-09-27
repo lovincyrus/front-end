@@ -118,7 +118,10 @@ class Home extends React.Component {
                 <p1>Subscribe</p1>
               </div>
               </div>*/}
-            <Subscribe/>
+            <Subscribe
+              backgroundColor='#ffffff'
+              url='https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=7a717337e6'
+            />
 
           </div>
         </div>
