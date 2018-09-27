@@ -32,18 +32,6 @@ class ProtocolWeekly extends React.Component {
 
             </div>
 
-            <div className='subscribe-cta'>
-              <input className='input' type="email" placeholder="Enter your Email Address">
-              </input>
-              <div className='subscribe-button'>
-                <p>Subscribe</p>
-              </div>
-            </div>
-
-            <div className='subscribe-button-mobile'>
-              <p>Subscribe</p>
-            </div>
-
             <Subscribe 
               backgroundColor='#211A3E'
               url='https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=d692742510'
