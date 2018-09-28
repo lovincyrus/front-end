@@ -11,7 +11,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='home'>
         <Header theme='light'/>
 
         <div className='hero section'>

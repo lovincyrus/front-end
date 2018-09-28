@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 
 import { default as Images } from '../middleware/images';
 import { Link } from 'react-router-dom';
@@ -14,7 +14,7 @@ class ProtocolWeekly extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundColor: '#100832'}}>
+      <div className='protocol-weekly' style={{backgroundColor: '#100832'}}>
         <Header theme='dark'/>
         <div className='hero-section'>
           <div className='container'>
@@ -32,7 +32,7 @@ class ProtocolWeekly extends React.Component {
 
             </div>
 
-            <Subscribe 
+            <Subscribe
               backgroundColor='#211A3E'
               url='https://8xprotocol.us18.list-manage.com/subscribe/post?u=a6505d4982ebb2a66c4f9dcea&amp;id=d692742510'
             />
@@ -129,4 +129,4 @@ class ProtocolWeekly extends React.Component {
   }
 };
 
-export default ProtocolWeekly; 
+export default ProtocolWeekly;

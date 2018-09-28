@@ -25,8 +25,7 @@ class Header extends Component {
 
         <div className='web-menu'>
           <Link className='hide-mobile' to='/'><p>Home</p></Link>
-          <Link className='hide-mobile' to='/'><p>Demo</p></Link>
-          <a className='hide-mobile' href='https://docs.8xprotocol.com/'><p>Docs</p></a>
+          <Link className='hide-mobile' to='/beta'><p>Beta</p></Link>
           <Link className='hide-mobile' to='/protocol-weekly'><p>Protocol Weekly</p></Link>
         </div>
 
