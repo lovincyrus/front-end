@@ -12,9 +12,9 @@ class Footer extends Component {
         <div className='footer-container container'>
 
           <div className='footer-menu'>
-            <Link className='hide-mobile' to='/'>Demo</Link>
-            <a className='hide-mobile' href='https://docs.8xprotocol.com/'>Docs</a>
-            <Link className='hide-mobile' to='/protocol-weekly'>Protocol Weekly</Link>
+            <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
+            <Link className='hide-mobile' to='/beta'><p>Beta</p></Link>
+            <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://docs.8xprotocol.com/'><p>Docs</p></a>
           </div>
 
           <div className='footer-social'>

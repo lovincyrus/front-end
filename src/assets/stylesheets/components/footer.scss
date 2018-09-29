@@ -11,6 +11,9 @@
   flex: 1;
 
   .footer-menu {
+    display: flex;
+    align-items: center;
+
     @include mobile {
       display: none;
     }

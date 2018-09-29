@@ -67,13 +67,13 @@ class Beta extends React.Component {
           <div className='product-item'>
             <h2>Manage</h2>
             <p>Create a plan, view your subscriptions and cancel any that you don’t want to subscribe to anymore.</p>
-            <button type='button' className='manage'>Manage</button>
+            <a target='_blank' rel='noopener noreferrer' href='https://manage.8xprotocol.com/'><button className='manage'>Manage</button></a>
           </div>
         </div>
 
         <div className='developer section'>
           <div className='container'>
-            <a href='https://docs.8xprotocol.com/'><h2>Are you a developer?</h2></a>
+            <a target='_blank' rel='noopener noreferrer' href='https://docs.8xprotocol.com/'><h2>Are you a developer?</h2></a>
           </div>
         </div>
 

@@ -24,8 +24,9 @@ class Header extends Component {
         </div>
 
         <div className='web-menu'>
-          <Link className='hide-mobile' to='/'><p>Home</p></Link>
+          <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
           <Link className='hide-mobile' to='/beta'><p>Beta</p></Link>
+          <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://docs.8xprotocol.com/'><p>Docs</p></a>
           <Link className='hide-mobile' to='/protocol-weekly'><p>Protocol Weekly</p></Link>
         </div>
 

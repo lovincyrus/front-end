@@ -27,6 +27,14 @@ class Menu extends React.Component {
           </li>
           <li onClick={this.close}>
             <a
+              rel='noopener noreferrer'
+              href='/beta'
+            >
+              Beta
+            </a>
+          </li>
+          <li onClick={this.close}>
+            <a
               href='https://docs.8xprotocol.com/'
               rel='noopener noreferrer'
             >
@@ -35,20 +43,19 @@ class Menu extends React.Component {
           </li>
           <li onClick={this.close}>
             <a
-              target='_blank'
               rel='noopener noreferrer'
-              href='/'
+              href='/protocol-weekly'
             >
-              Demo
+              Protocol Weekly
             </a>
           </li>
           <li onClick={this.close}>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='/protocol-weekly'
+              href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'
             >
-              Protocol Weekly
+              Whitepaper
             </a>
           </li>
           <li onClick={this.close}>

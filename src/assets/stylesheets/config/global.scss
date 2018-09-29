@@ -4,12 +4,12 @@
   }
 }
 
-@font-face {
-  font-family: 'Avenir';
-  src: url('/assets/fonts/Avenir-Roman') format('truetype'),
-       url('/assets/fonts/Avenir-Medium') format('truetype'),
-       url('/assets/fonts/Avenir-Heavy') format('truetype');
-}
+  @font-face {
+    font-family: 'Avenir';
+    src: url('/assets/fonts/Avenir-Roman') format('truetype'),
+        url('/assets/fonts/Avenir-Medium') format('truetype'),
+        url('/assets/fonts/Avenir-Heavy') format('truetype');
+  }
 
 body {
   font-family: 'Avenir-Roman', sans-serif;
@@ -26,7 +26,7 @@ h1 {
   font-family: GorditaMedium,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: 550;
   line-height: 1.2em;
-  font-size: 4em;
+  font-size: 3.75em;
   margin: 0;
 
   @include mobile {

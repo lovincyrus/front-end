@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { default as Images } from '../middleware/images';
+import { Link } from 'react-router-dom';
 
 import TypistCycle from '../components/typist-cycle';
 import Header from '../components/header';
@@ -45,7 +46,7 @@ class Home extends React.Component {
 
               <div className='buttons'>
                 <div className='whitepaper cta'>
-                  <a href="https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf">Read our Whitepaper</a>
+                  <Link to='/beta'>Try out our beta now!</Link>
                 </div>
                 <div className='video cta'>
                   <img href="https://www.youtube.com/watch?v=ajJk2W6VF4E" src={Images.buttonplay}/>
@@ -108,7 +109,7 @@ class Home extends React.Component {
             <div className='text-container'>
               <h2>We&apos;re #buidling the</h2>
               <h2>future of payments.</h2>
-              <p>Sign up as a Beta Tester today.</p>
+              <p>Sign to receive updates.</p>
             </div>
 
             <Subscribe
