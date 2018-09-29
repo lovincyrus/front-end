@@ -13,9 +13,17 @@
     background-size: 100% 80%;
     background-repeat: no-repeat;
 
+    @include mobile {
+      padding-bottom: 0;
+    }
+
     .text-section {
       margin: 5em auto;
       text-align: center;
+
+      @include mobile {
+        margin: 1em auto;
+      }
 
       .description {
         p {
@@ -31,10 +39,23 @@
     flex-direction: row;
     justify-content: center;
 
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: center;
+    }
+
     .product-item {
       width: 30%;
       margin: 0 5em;
       max-width: 22em;
+
+      @include mobile {
+        width: 100%;
+        margin: 2em;
+      }
     }
 
     .pay-box {
@@ -79,6 +100,11 @@
 
   .developer {
     margin-top: 5em;
+
+    @include mobile {
+      margin-top: 0;
+      padding-top: 0;
+    }
 
     a {
       color: black;
