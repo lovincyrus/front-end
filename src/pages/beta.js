@@ -8,6 +8,22 @@ import EightExPay from '8x.pay';
 
 class Beta extends React.Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      planHash: ''
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange({ target }) {
+    this.setState({
+      [target.name]: target.value
+    });
+  }
+
   render() {
     return (
       <div className='beta'>
@@ -31,25 +47,33 @@ class Beta extends React.Component {
         </div>
 
         <div className='products section'>
-          <div className='item'>
+          <div className='product-item'>
             <h2>8x Pay</h2>
-            <p>Payment gateway to allow people to pay with 8x. To get started create a plan from the manage portal and enter the returned plan hash below.</p>
-            <EightExPay planHash=''/>
+            <p>Enable your users to pay with 8x. To get started create a plan from the manage portal and enter the returned plan hash.</p>
+
+            <div className='pay-box'>
+              <input
+                className='card'
+                type='text'
+                name='planHash'
+                onChange={this.handleChange}
+                placeholder='Enter plan hash'
+              />
+
+              <EightExPay planHash={this.state.planHash} label='Pay'/>
+            </div>
+
           </div>
-          <div className='item'>
-            <h2>Manage Portal</h2>
-            <p>Create a plan, view your subscriptions and cancel any that you don’t want to subscribe to.</p>
+          <div className='product-item'>
+            <h2>Manage</h2>
+            <p>Create a plan, view your subscriptions and cancel any that you don’t want to subscribe to anymore.</p>
+            <button type='button' className='manage'>Manage</button>
           </div>
         </div>
 
-
         <div className='developer section'>
           <div className='container'>
-            <h2>Are you a developer?</h2>
-            <div>
-              <p>API Reference</p>
-              <img/>
-            </div>
+            <a href='https://docs.8xprotocol.com/'><h2>Are you a developer?</h2></a>
           </div>
         </div>
 
