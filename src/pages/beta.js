@@ -20,11 +20,20 @@ class Beta extends React.Component {
 
   handleChange({ target }) {
     this.setState({
-      [target.name]: target.value
+      planHash: target.value,
+    }, () => {
+      //this.setState({state: this.state});
     });
+
+    //this.setState({planHash: this.state.planHash});
+    console.log('Plan hash is: ' + this.state.planHash);
+
   }
 
   render() {
+    const { planHash } = this.state;
+
+    console.log('The hash is: ' + planHash);
     return (
       <div className='beta'>
         <Header theme='light'/>
@@ -60,7 +69,7 @@ class Beta extends React.Component {
                 placeholder='Enter plan hash'
               />
 
-              <EightExPay planHash={this.state.planHash} label='Pay'/>
+              <EightExPay planHash={planHash} label='Pay'/>
             </div>
 
           </div>

@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "8x.pay": "^0.1.37",
-    "@8xprotocol/artifacts": "^0.1.20",
+    "8x.pay": "^0.2.41",
+    "@8xprotocol/artifacts": "^0.2.X",
     "clean-webpack-plugin": "^0.1.19",
     "history": "^4.7.2",
     "prop-types": "^15.6.2",
