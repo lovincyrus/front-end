@@ -10,7 +10,7 @@
     justify-content: center;
 
     input:focus {
-        outline: none; 
+        outline: none;
     }
 
     input {
@@ -28,7 +28,6 @@
 
         @include mobile {
             max-width: 24em;
-            min-width: 23em;
         }
     }
 

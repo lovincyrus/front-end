@@ -12,6 +12,10 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
+    @include mobile {
+      background-size: 100% 40%;
+    }
+
     .container {
       display: flex;
       flex-direction: row;
@@ -206,7 +210,6 @@
             display: block;
             margin-right: auto;
             margin-left: auto;
-            min-width: 24em;
             padding-bottom: 1.5em;
           }
         }
