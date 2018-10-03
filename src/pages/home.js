@@ -91,19 +91,21 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <div className='partner'>
+        <div className='developers section'>
           <div className='container'>
-            <h2> We&apos;ve partnered with</h2>
-
-            <div className='logos-container'>
-              <img className='logos' src={Images.tenzLogo}/>
-              <img className='logos' src={Images.MKRLogo}/>
-              <img className='logos' src={Images.bitfwdLogo}/>
+            <h2> Developer Friendly</h2>
+            <h5>
+              We’ve made implementing subscription payments as simple as a few lines of code.<br/><br/>
+              Don’t want to build UI components? You can use the EightExPay popup modal as shown above to charge your users.
+            </h5>
+            <img src={Images.code}/>
+            <div className='build'>
+              <a href="https:/docs.8xprotocol.com">Start building</a>
             </div>
           </div>
         </div>
 
-        <div className='buidl'>
+        <div className='buidl section'>
           <div className='container'>
 
             <div className='text-container'>

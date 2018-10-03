@@ -3,6 +3,7 @@ import abacusLogo from '../assets/images/abacuslogo.png';
 import bitfwdLogo from '../assets/images/bitfwdlogo.png';
 import buttonplay from '../assets/images/buttonplay.png';
 import civicLogo from '../assets/images/civiclogo.png';
+import code from '../assets/images/code.png';
 import codexLogo from '../assets/images/codexlogo.png';
 import connextLogo from '../assets/images/connextlogo.png';
 import dharmaLogo from '../assets/images/dharmalogo.png';
@@ -38,6 +39,7 @@ export default {
   bitfwdLogo,
   buttonplay,
   civicLogo,
+  code,
   codexLogo,
   connextLogo,
   dharmaLogo,

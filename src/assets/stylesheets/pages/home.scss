@@ -69,7 +69,7 @@
 
         .cta {
           padding: 0.75em 2em;
-          border-radius: 0.85em;
+          border-radius: 0.55em;
           white-space: nowrap;
         }
 
@@ -122,7 +122,6 @@
           a:visited {
             color: white;
             text-decoration: none;
-            margin-top: 0.3em;
           }
 
           @include mobile {
@@ -241,63 +240,46 @@
     }
   }
 
-  .partner {
+  .developers {
     background-image: url('../../assets/images/path2.png');
     background-position: top;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-bottom: 22em;
 
     @include mobile {
-      padding-bottom: 8em;
       background-position: bottom;
-      background-size: 100% 70%;
+      background-size: 100% 60%;
     }
 
     .container {
       display: flex;
       flex-direction: column;
 
+      h5 {
+        text-align: center;
+      }
+
       h2 {
         color: #100832;
         text-align: center;
-        margin-bottom: 0.75em;
-
-        @include mobile {
-          //margin-bottom: 1em;
-        }
-      }
-    }
-
-    .logos-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      width: 100%;
-      justify-content: center;
-
-      .logos {
-        //flex-basis: 30%;
-        max-width: 30%;
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        height: 5em;
-
-        @include mobile {
-          height: 3em;
-          max-width: 50%
-        }
       }
 
-      @include mobile {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 30em;
+      img {
+        margin-top: 2em;
+        object-fit: contain;
+        width: 100%;
+      }
+
+      .build {
+        margin-top: 2em;
+        padding: 1em 2em;
+        border-radius: 0.55em;
+        background: #5944EE;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }
