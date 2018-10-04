@@ -15,6 +15,11 @@ module.exports = {
         }
       },
       {
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        options: { allowTsInNodeModules: true }
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: ['eslint-loader']
@@ -30,7 +35,11 @@ module.exports = {
       },
       {
         test: /\.scss/,
-        loaders: ["style-loader", "css-loader", "sass-loader"]
+        loaders: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader'],
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2)$/,
@@ -45,6 +54,9 @@ module.exports = {
         loader: 'url-loader?limit=10000&mimetype=video/mp4'
       }
     ]
+  },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js']
   },
   plugins: [
     new CleanWebpackPlugin('dist', {} ),

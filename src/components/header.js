@@ -19,18 +19,18 @@ class Header extends Component {
   render() {
     return (
       <div className='navigation-header-container'>
-        <nav className='left-side'>
-          <ul className='link-container'>
-            <li className='links'>
-              <Link to='/'><img src={logo}/></Link>
-              <Link className='hide-mobile' to='/'>Home</Link>
-              <Link className='hide-mobile' to='/about'>About</Link>
-              <Link className='hide-mobile' to='/token-sale'>Token Sale</Link>
-            </li>
-          </ul>
-        </nav>
+        <div className='logo'>
+          <Link to='/'><img src={this.props.theme == 'light' ? Images.fullLogo : Images.whiteLogo }/></Link>
+        </div>
 
-        <nav className='right-side'>
+        <div className='web-menu'>
+          <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://rawcdn.githack.com/8xprotocol/whitepaper/master/latest.pdf'><p>Whitepaper</p></a>
+          <Link className='hide-mobile' to='/beta'><p>Beta</p></Link>
+          <a className='hide-mobile' target='_blank' rel='noopener noreferrer' href='https://docs.8xprotocol.com/'><p>Docs</p></a>
+          <Link className='hide-mobile' to='/protocol-weekly'><p>Protocol Weekly</p></Link>
+        </div>
+
+        <div className='social'>
           <Popup
             modal
             overlayStyle={{ background: 'rgba(255,255,255,0.98' }}
@@ -42,16 +42,25 @@ class Header extends Component {
           </Popup>
 
           <div className='items'>
-            <a href='https://t.me/eightexprotocol'><img src={Images.telegram}/></a>
-            <a href='https://github.com/8xprotocol'><img src={Images.github}/></a>
-            <a href='https://twitter.com/8x_Protocol'><img src={Images.twitter}/></a>
-            <a href='https://medium.com/8xprotocol'><img src={Images.medium}/></a>
-            <a href='https://www.reddit.com/r/8xProtocol/'><img src={Images.reddit}/></a>
+            <a href='https://t.me/eightexprotocol'>
+              <img src={Images.telegramLogo}/>
+            </a>
+            <a href='https://github.com/8xprotocol'>
+              <img src={Images.githubLogo}/>
+            </a>
+            <a href='https://twitter.com/8x_Protocol'>
+              <img src={Images.twitterLogo}/>
+            </a>
+            <a href='https://medium.com/8xprotocol'>
+              <img src={Images.mediumLogo}/>
+            </a>
+            <a href='https://www.reddit.com/r/8xProtocol/'>
+              <img src={Images.redditLogo}/>
+            </a>
           </div>
-        </nav>
+        </div>
       </div>
     );
   };
 }
-
 export default Header;

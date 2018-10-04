@@ -4,6 +4,10 @@
   text-align: center;
   padding: 0px;
 
+  .navigate-page {
+    margin-bottom: 1em;
+  }
+
   ul {
     position: relative;
     top: 0px;
@@ -23,6 +27,8 @@
   }
 
   a {
-    color: black;
+    color: #958DB7;
+    text-align: center;
+
   }
 }

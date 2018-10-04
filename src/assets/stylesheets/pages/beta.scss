@@ -1,0 +1,115 @@
+@mixin mobile {
+  @media (max-device-width: 1200px) {
+    @content;
+  }
+}
+
+.beta {
+
+  .hero {
+
+    background-image: url('../../assets/images/path5.png');
+    background-position: bottom;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+
+    @include mobile {
+      padding-bottom: 0;
+    }
+
+    .text-section {
+      margin: 5em auto;
+      text-align: center;
+
+      @include mobile {
+        margin: 1em auto;
+      }
+
+      .description {
+        p {
+          font-size: 1.3em;
+          color: #958DB7;
+        }
+      }
+    }
+  }
+
+  .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .product-item {
+      width: 30%;
+      margin: 0 5em;
+      max-width: 22em;
+
+      @include mobile {
+        width: 100%;
+        margin: 2em;
+      }
+    }
+
+    .pay-box {
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 2em;
+      display: flex;
+      flex-direction: row;
+      padding: 0.5em 1em;
+      border-radius: 0.85em;
+      box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.15);
+
+      .card {
+        width: 100%;
+      }
+
+      .eight-ex-pay .modal-button {
+        background-color: #5944EE;
+      }
+    }
+
+    .manage {
+      margin-top: 2.25em;
+      padding: 0.75em 2em;
+      background-color: #5944EE;
+      border: 0;
+      border-radius: 0.3em;
+      font-size: 1em;
+      color: #fff;
+      width: 100%;
+      flex: 1;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+
+      &:hover {
+        background-color: #466d87;
+      }
+    }
+  }
+
+  .developer {
+    margin-top: 5em;
+
+    @include mobile {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    a {
+      color: black;
+    }
+  }
+
+}
