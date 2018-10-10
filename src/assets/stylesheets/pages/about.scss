@@ -1,273 +1,213 @@
-.how-it-started {
-  .container {
-    align-items: flex-start;
-    margin: 3em auto;
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-
-    p {
-      margin-bottom: 2em;
-    }
+@mixin mobile {
+    @media (max-device-width: 1200px) {
+      @content;
   }
+}
 
-  .showcase {
-    flex-direction: row;
-    justify-content: flex-start;
+.about-title {
+    padding-top: 5em;
+    padding-bottom: 8em;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 
-    @include mobile {
-      flex-direction: column;
+    background-image: url('../../assets/images/path1.png');
+    background-position: bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+
+    .large-title {
+      margin-bottom: 1em;
     }
 
-    .screenshots-container {
-      width: 60%;
-      margin-right: 3em;
+    h5 {
+        line-height: 1.25em;
+    }
+}
 
-      @include mobile {
+.content-container {
+    padding: 0em 5em;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(-180deg, #F4F5F9, #FDFDFD, #FFFFFF);
+
+    h4 {
+        color: black;
+        font-size: 3.286em;
+        letter-spacing: -0.01em;
+    }
+
+    h5 {
+        color: black;
+        margin-top: 2em;
+        line-height: 1.5em;
+        letter-spacing: 0.01em;
+    }
+
+    .how-container {
         display: flex;
-        flex-direction: column;
-      }
-
-      img {
-        width: 33%;
-
-        @include mobile {
-          width: 100%;
-        }
-      }
-
-      .hide-mobile {
-        @include mobile {
-          display: none;
-        }
-      }
-    }
-
-    .media-container {
-      width: 15%;
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      padding: 2em 0;
-
-      @include mobile {
-        width: 100%;
         flex-direction: row;
-      }
-
-      img {
-        width: 100%;
-
-        @include mobile {
-          width: 25%;
-          height: 100%;
+        margin: 3em 0em;
+        align-items: center;
+    
+        .how-text {
+            display: flex;
+            flex-direction: column;
+            padding-right: 3em;
+    
         }
-      }
-    }
-  }
-}
-
-.introduction-crypto {
-  background: black;
-
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
-
-    @include mobile {
-      flex-direction: column-reverse;
+    
+        .how-image {
+    
+        }
     }
 
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
+    .intro-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
 
-  .people {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 4em;
-    width: 55%;
+        .intro-text {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            padding-left: 3em;
+        }
 
-    @include mobile {
-      width: 100%;
-      margin: 2em auto 0 auto;
-    }
+        .intro-image {
+            max-width: 40%;
 
-    img {
-      border-radius: 50%;
-      width: 20%;
-      height: 100%;
-    }
-  }
+            img {
+                width: 100%;
+            }
 
-  .info {
-    width: 45%;
-
-    @include mobile {
-      width: 100%;
-    }
-  }
-}
-
-.first-project {
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
-
-    @include mobile {
-      flex-direction: column;
+        }
     }
 
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
 
-  .info {
-    width: 45%;
-    margin-right: 3em;
+        .project-text {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5.5em;
+        }
 
-    @include mobile {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .image {
-    width: 55%;
-
-    @include mobile {
-      width: 100%;
-      margin: 2em 0 0 0;
+        .project-image {
+        }
     }
 
-    img {
-      object-fit: contain;
-      width: 100%;
-    }
-  }
+    .born-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
+        //background-image: url('../../assets/images/partybackground.png');
+        //background-size: 100% 100%;
 
-  .section {
-    flex-direction: row;
-  }
-}
+        .born-text {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            padding-left: 3em;
+        }
 
-.protocol-born {
-  //background: #FAFAFA;
+        .born-image {
+            max-width: 40%;
 
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
-
-    @include mobile {
-      flex-direction: column-reverse;
-    }
-
-    h1 {
-      margin-bottom: 0.75em;
+            img {
+                width: 100%;
+            }
+        }
     }
 
-  }
+    .community-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
 
-  .image {
-    width: 50%;
-    margin-right: 4em;
-    display: flex;
+        .community-image {
+            display: flex;
+            justify-content: center;
+            width: 55%;
+        }
 
-    @include mobile {
-      width: 100%;
-      margin-right: 0;
-      margin-top: 2em;
+        .community-text {
+            width: 45%;
+        }
     }
-
-    img {
-      object-fit: contain;
-      width: 100%;
-
-      @include mobile {
-        height: 100%;
-      }
-    }
-  }
-
-  .info {
-    width: 50%;
-
-    @include mobile {
-      width: 100%;
-    }
-  }
-}
-
-.community {
-  background: #FAFAFA;
-
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
-
-    @include mobile {
-      flex-direction: column;
-    }
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-
-  }
-
-  .info {
-    width: 60%;
-    margin-right: 4em;
-
-    @include mobile {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .image {
-    width: 40%;
-
-    @include mobile {
-      width: 100%;
-      margin-top: 2em;
-    }
-
-    img {
-      object-fit: contain;
-      width: 100%;
-    }
-  }
 }
 
 .our-team {
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 3em auto;
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
-
-  .people-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('../../assets/images/path6.png');
+    background-position: top;
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+    padding-top: 12.5em;
+    padding-bottom: 3em;
 
-    .person-container {
-      margin-right: 2em;
-      margin-bottom: 3em;
-      width: 30%;
-
-      @include mobile {
-        width: auto;
-      }
+    .our-title {
+        display: flex;
+        justify-content: center;
     }
-  }
+
+    .team-grid-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 2em;
+        justify-content: center;
+
+        .team-image {
+            flex-basis: 30%;
+            max-width: 30%;
+            display: flex;
+            padding: 1em;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+
+            .team-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 1em;
+
+                h6 {
+                    color: black;
+                    margin-bottom: 0.25em;
+                }
+
+                h5 {
+                    color: black;
+                }
+            }
+
+            .team-socials {
+                display: flex;
+                flex-direction: row;
+                margin: 0.25em;
+
+                .social-logo {
+                    height: 1.429em;
+                    max-width: 1.429em;
+                    margin: 0.3em;
+                }
+            }
+        }
+
+        img {
+            max-width: 31%;
+            }
+    }
 }
