@@ -51,6 +51,8 @@ import githubteam from '../assets/images/githubteam.png';
 import linkedinteam from '../assets/images/linkedinteam.png';
 import mediumteam from '../assets/images/mediumteam.png';
 import path6 from '../assets/images/path6.png';
+import homeworkappmobile from '../assets/images/homeworkappmobile.png';
+import protocolweeklylogo from '../assets/images/protocolweeklylogo.png';
 
 
 export default {
@@ -106,5 +108,6 @@ export default {
   mediumteam,
   linkedinteam,
   path6,
-  
+  homeworkappmobile,
+  protocolweeklylogo,
 };
