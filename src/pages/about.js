@@ -28,6 +28,10 @@ class About extends React.Component {
             <div className='how-image'>
               <img src={Images.homeworkapp}/>
             </div>
+
+            <div className='how-image-mobile'>
+              <img src={Images.homeworkappmobile}/>
+            </div>
           </div>
 
           <div className='intro-container'>
@@ -71,6 +75,9 @@ class About extends React.Component {
             <div className='community-image'>
               <img src={Images.community}/>
             </div>
+            <div className='community-image-mobile'>
+              <img src={Images.protocolweeklylogo}/>
+            </div>
           </div>
         </div>
 
@@ -89,16 +96,16 @@ class About extends React.Component {
                 <h5>Founder/Engineer</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/kermankohli'>
+                <a href='https://twitter.com/kermankohli' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://github.com/kermankohli'>
+                <a href='https://github.com/kermankohli'rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.githubteam}/>
                 </a>
-                <a href='https://medium.com/@kermankohli'>
+                <a href='https://medium.com/@kermankohli' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/kermankohli/'>
+                <a href='https://www.linkedin.com/in/kermankohli/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
@@ -111,16 +118,16 @@ class About extends React.Component {
                 <h5>Marketing</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/vndicrypto'>
+                <a href='https://twitter.com/vndicrypto' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://github.com/andytcf'>
+                <a href='https://github.com/andytcf' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.githubteam}/>
                 </a>
-                <a href='https://medium.com/@andycf'>
+                <a href='https://medium.com/@andycf' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/andy-chen-fang/'>
+                <a href='https://www.linkedin.com/in/andy-chen-fang/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
@@ -133,16 +140,16 @@ class About extends React.Component {
                 <h5>Product</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/sydneykevinlu'>
+                <a href='https://twitter.com/sydneykevinlu' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://github.com/sydneykevinlu'>
+                <a href='https://github.com/sydneykevinlu' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.githubteam}/>
                 </a>
-                <a href='https://medium.com/@kevinjaylu'>
+                <a href='https://medium.com/@kevinjaylu' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/kevin-lu-a95017147/'>
+                <a href='https://www.linkedin.com/in/kevin-lu-a95017147/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
@@ -155,13 +162,13 @@ class About extends React.Component {
                 <h5>Operations</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/Kadesda'>
+                <a href='https://twitter.com/Kadesda' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://medium.com/@kevin.zheng'>
+                <a href='https://medium.com/@kevin.zheng' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/kevin-zheng-04470a58/'>
+                <a href='https://www.linkedin.com/in/kevin-zheng-04470a58/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
@@ -174,13 +181,13 @@ class About extends React.Component {
                 <h5>Advisor</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/rob_prismatik'>
+                <a href='https://twitter.com/rob_prismatik' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://medium.com/@rob_prismatik'>
+                <a href='https://medium.com/@rob_prismatik' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/robmorris/'>
+                <a href='https://www.linkedin.com/in/robmorris/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
@@ -193,13 +200,13 @@ class About extends React.Component {
                 <h5>Advisor</h5>
               </div>
               <div className='team-socials'>
-                <a href='https://twitter.com/danieltbar'>
+                <a href='https://twitter.com/danieltbar' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.twitterteam}/>
                 </a>
-                <a href='https://medium.com/@damndaniel'>
+                <a href='https://medium.com/@damndaniel' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.mediumteam}/>
                 </a>
-                <a href='https://www.linkedin.com/in/dtbar/'>
+                <a href='https://www.linkedin.com/in/dtbar/' rel='noopener noreferrer' target="_blank">
                   <img className='social-logo' src={Images.linkedinteam}/>
                 </a>
               </div>
