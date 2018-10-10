@@ -53,6 +53,7 @@ import mediumteam from '../assets/images/mediumteam.png';
 import path6 from '../assets/images/path6.png';
 import homeworkappmobile from '../assets/images/homeworkappmobile.png';
 import protocolweeklylogo from '../assets/images/protocolweeklylogo.png';
+import discordLogo from '../assets/images/discordlogo.png';
 
 
 export default {
@@ -110,4 +111,6 @@ export default {
   path6,
   homeworkappmobile,
   protocolweeklylogo,
+  discordLogo,
+  
 };
