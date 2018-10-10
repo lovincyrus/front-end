@@ -45,14 +45,17 @@ class Header extends Component {
             <a href='https://t.me/eightexprotocol'>
               <img src={Images.telegramLogo}/>
             </a>
-            <a href='https://github.com/8xprotocol'>
-              <img src={Images.githubLogo}/>
-            </a>
             <a href='https://twitter.com/8x_Protocol'>
               <img src={Images.twitterLogo}/>
             </a>
+            <a href='https://discord.gg/nVevyHf'>
+              <img src={Images.discordLogo}/>
+            </a>
             <a href='https://medium.com/8xprotocol'>
               <img src={Images.mediumLogo}/>
+            </a>
+            <a href='https://github.com/8xprotocol'>
+              <img src={Images.githubLogo}/>
             </a>
             <a href='https://www.reddit.com/r/8xProtocol/'>
               <img src={Images.redditLogo}/>
