@@ -11,11 +11,14 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-
     background-image: url('../../assets/images/path1.png');
     background-position: bottom;
     background-size: 100% 50%;
     background-repeat: no-repeat;
+
+    @include mobile {
+        background-size: 100% 35%;
+    }
 
     .large-title {
       margin-bottom: 1em;
@@ -33,10 +36,18 @@
     align-items: center;
     background-image: linear-gradient(-180deg, #F4F5F9, #FDFDFD, #FFFFFF);
 
+    @include mobile {
+        padding: 0em 1em;
+    }
+
     h4 {
         color: black;
         font-size: 3.286em;
         letter-spacing: -0.01em;
+
+        @include mobile {
+            text-align: center;
+        }
     }
 
     h5 {
@@ -44,6 +55,10 @@
         margin-top: 2em;
         line-height: 1.5em;
         letter-spacing: 0.01em;
+
+        @include mobile {
+            text-align: center;
+        }
     }
 
     .how-container {
@@ -51,16 +66,38 @@
         flex-direction: row;
         margin: 3em 0em;
         align-items: center;
+
+        @include mobile {
+            width: 100%;
+            flex-direction: column;
+        }
     
         .how-text {
             display: flex;
             flex-direction: column;
             padding-right: 3em;
+
+            @include mobile {
+                padding-right: 0em;
+            }
     
         }
     
         .how-image {
-    
+            @include mobile {
+                display: none;
+            }
+        }
+
+        .how-image-mobile {
+            display: none;
+
+            @include mobile {
+                display: flex;
+                width: 90%;
+                margin-top: 2em;
+                justify-content: center;
+            }
         }
     }
 
@@ -70,15 +107,29 @@
         margin: 4em 0em;
         align-items: center;
 
+        @include mobile {
+            flex-direction: column-reverse;
+        }
+
         .intro-text {
             display: flex;
             flex-direction: column;
             width: 55%;
             padding-left: 3em;
+
+            @include mobile {
+                width: 100%;
+                padding-left: 0em;
+            }
         }
 
         .intro-image {
             max-width: 40%;
+
+            @include mobile {
+                max-width: 100%;
+                margin-top: 2em;
+            }
 
             img {
                 width: 100%;
@@ -93,13 +144,28 @@
         margin: 4em 0em;
         align-items: center;
 
+        @include mobile {
+            flex-direction: column;
+            width: 100%;
+        }
+
         .project-text {
             display: flex;
             flex-direction: column;
             padding-right: 5.5em;
+
+            @include mobile {
+                padding-right: 0em;
+            }
         }
 
         .project-image {
+            img {
+                @include mobile {
+                    width: 100%;
+                    margin-top: 2em;
+                }
+            }
         }
     }
 
@@ -111,15 +177,29 @@
         //background-image: url('../../assets/images/partybackground.png');
         //background-size: 100% 100%;
 
+        @include mobile {
+            flex-direction: column-reverse
+        }
+
         .born-text {
             display: flex;
             flex-direction: column;
             width: 55%;
             padding-left: 3em;
+
+            @include mobile {
+                padding-left: 0em;
+                width: 100%;
+            }
         }
 
         .born-image {
             max-width: 40%;
+
+            @include mobile {
+                max-width: 100%;
+                margin-top: 2em;
+            }
 
             img {
                 width: 100%;
@@ -133,14 +213,38 @@
         margin: 4em 0em;
         align-items: center;
 
+        @include mobile {
+            flex-direction: column;
+            width: 100%;
+        }
+
         .community-image {
             display: flex;
             justify-content: center;
             width: 55%;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        .community-image-mobile {
+            display: none;
+
+            @include mobile {
+                display: flex;
+                width: 90%;
+                margin-top: 2em;
+                justify-content: center;
+            }
         }
 
         .community-text {
             width: 45%;
+
+            @include mobile {
+                width: 100%;
+            }
         }
     }
 }
@@ -155,6 +259,11 @@
     padding-top: 12.5em;
     padding-bottom: 3em;
 
+    @include mobile {
+        padding-top: 10em;
+        background-size: 100% 15%;
+    }
+
     .our-title {
         display: flex;
         justify-content: center;
@@ -168,6 +277,10 @@
         margin: 2em;
         justify-content: center;
 
+        @include mobile {
+            margin: 1em;
+        }
+
         .team-image {
             flex-basis: 30%;
             max-width: 30%;
@@ -176,6 +289,10 @@
             text-align: center;
             flex-direction: column;
             align-items: center;
+
+            @include mobile {
+                padding: 1em 2em;
+            }
 
             .team-text {
                 display: flex;
@@ -208,6 +325,10 @@
 
         img {
             max-width: 31%;
+
+            @include mobile {
+                max-width: 100%;
             }
+        }
     }
 }
