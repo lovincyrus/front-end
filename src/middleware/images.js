@@ -40,6 +40,18 @@ import project from '../assets/images/project.png';
 import born from '../assets/images/8xborn.png';
 import community from '../assets/images/community.png';
 import party from '../assets/images/partybackground.png';
+import daniel from '../assets/images/daniel.png';
+import rob from '../assets/images/rob.png';
+import kevinz from '../assets/images/kevinz.png';
+import andy from '../assets/images/andy.png';
+import kerman from '../assets/images/kerman.png';
+import kevinl from '../assets/images/kevinl.png';
+import twitterteam from '../assets/images/twitterteam.png';
+import githubteam from '../assets/images/githubteam.png';
+import linkedinteam from '../assets/images/linkedinteam.png';
+import mediumteam from '../assets/images/mediumteam.png';
+import path6 from '../assets/images/path6.png';
+
 
 export default {
   abacusLogo,
@@ -83,4 +95,16 @@ export default {
   born,
   community,
   party,
+  daniel,
+  rob,
+  kevinz,
+  andy,
+  kerman,
+  kevinl,
+  twitterteam,
+  githubteam,
+  mediumteam,
+  linkedinteam,
+  path6,
+  
 };
