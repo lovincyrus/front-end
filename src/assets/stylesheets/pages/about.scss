@@ -261,7 +261,7 @@
 
     @include mobile {
         padding-top: 10em;
-        background-size: 100% 15%;
+        background-size: 100% 13%;
     }
 
     .our-title {
@@ -292,6 +292,7 @@
 
             @include mobile {
                 padding: 1em 2em;
+                transform: scale(0.9);
             }
 
             .team-text {
