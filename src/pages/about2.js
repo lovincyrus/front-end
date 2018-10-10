@@ -2,7 +2,6 @@
 import React from 'react';
 import Subscribe from '../components/subscribe';
 import PersonBox from '../components/personBox';
-import FeatureBox from '../components/feature-box';
 
 import {default as Images} from '../middleware/images';
 
