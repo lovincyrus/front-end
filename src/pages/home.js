@@ -50,7 +50,7 @@ class Home extends React.Component {
                     <button className='whitepaper cta'>Try out our beta now!</button>
                   </div>
                 </Link>
-                <a href="https://www.youtube.com/watch?v=ajJk2W6VF4E" target="_blank">
+                <a href="https://www.youtube.com/watch?v=ajJk2W6VF4E" target="_blank" rel="noopener noreferrer">
                   <div>
                     <button className='video cta'>Watch Video</button>
                   </div>
@@ -102,7 +102,7 @@ class Home extends React.Component {
               Don’t want to build UI components? You can use the EightExPay popup modal as shown above to charge your users.
             </h5>
             <img src={Images.code}/>
-            <a href="https:/docs.8xprotocol.com" target="_blank">
+            <a href="https:/docs.8xprotocol.com" target="_blank" rel="noopener noreferrer">
               <div>
                 <button className='build cta'>Start building</button>
               </div>
