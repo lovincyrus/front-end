@@ -15,6 +15,7 @@ import Footer from './components/footer';
 import Home from './pages/home';
 import Beta from './pages/beta';
 import ProtocolWeekly from './pages/protocol-weekly';
+import About from './pages/about';
 
 import './assets/stylesheets/app.scss';
 
@@ -31,6 +32,7 @@ class App extends React.Component {
               <Route exact path="/" component={Home}/>
               <Route exact path="/beta" component={Beta}/>
               <Route exact path="/protocol-weekly" component={ProtocolWeekly}/>
+              <Route exact path="/about" component={About}/>
             </Switch>
           </div>
         </ScrollToTop>

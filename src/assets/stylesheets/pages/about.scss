@@ -1,273 +1,335 @@
-.how-it-started {
-  .container {
-    align-items: flex-start;
-    margin: 3em auto;
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-
-    p {
-      margin-bottom: 2em;
-    }
+@mixin mobile {
+    @media (max-device-width: 1200px) {
+      @content;
   }
+}
 
-  .showcase {
-    flex-direction: row;
-    justify-content: flex-start;
+.about-title {
+    padding-top: 5em;
+    padding-bottom: 8em;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url('../../assets/images/path1.png');
+    background-position: bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
 
     @include mobile {
-      flex-direction: column;
+        background-size: 100% 35%;
     }
 
-    .screenshots-container {
-      width: 60%;
-      margin-right: 3em;
+    .large-title {
+      margin-bottom: 1em;
+    }
 
-      @include mobile {
+    h5 {
+        line-height: 1.25em;
+    }
+}
+
+.content-container {
+    padding: 0em 5em;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(-180deg, #F4F5F9, #FDFDFD, #FFFFFF);
+
+    @include mobile {
+        padding: 0em 1em;
+    }
+
+    h4 {
+        color: black;
+        font-size: 3.286em;
+        letter-spacing: -0.01em;
+
+        @include mobile {
+            text-align: center;
+        }
+    }
+
+    h5 {
+        color: black;
+        margin-top: 2em;
+        line-height: 1.5em;
+        letter-spacing: 0.01em;
+
+        @include mobile {
+            text-align: center;
+        }
+    }
+
+    .how-container {
         display: flex;
-        flex-direction: column;
-      }
-
-      img {
-        width: 33%;
-
-        @include mobile {
-          width: 100%;
-        }
-      }
-
-      .hide-mobile {
-        @include mobile {
-          display: none;
-        }
-      }
-    }
-
-    .media-container {
-      width: 15%;
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      padding: 2em 0;
-
-      @include mobile {
-        width: 100%;
         flex-direction: row;
-      }
-
-      img {
-        width: 100%;
+        margin: 3em 0em;
+        align-items: center;
 
         @include mobile {
-          width: 25%;
-          height: 100%;
+            width: 100%;
+            flex-direction: column;
         }
-      }
-    }
-  }
-}
+    
+        .how-text {
+            display: flex;
+            flex-direction: column;
+            padding-right: 3em;
 
-.introduction-crypto {
-  background: black;
+            @include mobile {
+                padding-right: 0em;
+            }
+    
+        }
+    
+        .how-image {
+            @include mobile {
+                display: none;
+            }
+        }
 
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
+        .how-image-mobile {
+            display: none;
 
-    @include mobile {
-      flex-direction: column-reverse;
-    }
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
-
-  .people {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 4em;
-    width: 55%;
-
-    @include mobile {
-      width: 100%;
-      margin: 2em auto 0 auto;
+            @include mobile {
+                display: flex;
+                width: 90%;
+                margin-top: 2em;
+                justify-content: center;
+            }
+        }
     }
 
-    img {
-      border-radius: 50%;
-      width: 20%;
-      height: 100%;
-    }
-  }
+    .intro-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
 
-  .info {
-    width: 45%;
+        @include mobile {
+            flex-direction: column-reverse;
+        }
 
-    @include mobile {
-      width: 100%;
-    }
-  }
-}
+        .intro-text {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            padding-left: 3em;
 
-.first-project {
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
+            @include mobile {
+                width: 100%;
+                padding-left: 0em;
+            }
+        }
 
-    @include mobile {
-      flex-direction: column;
-    }
+        .intro-image {
+            max-width: 40%;
 
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
+            @include mobile {
+                max-width: 100%;
+                margin-top: 2em;
+            }
 
-  .info {
-    width: 45%;
-    margin-right: 3em;
+            img {
+                width: 100%;
+            }
 
-    @include mobile {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .image {
-    width: 55%;
-
-    @include mobile {
-      width: 100%;
-      margin: 2em 0 0 0;
+        }
     }
 
-    img {
-      object-fit: contain;
-      width: 100%;
-    }
-  }
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
 
-  .section {
-    flex-direction: row;
-  }
-}
+        @include mobile {
+            flex-direction: column;
+            width: 100%;
+        }
 
-.protocol-born {
-  //background: #FAFAFA;
+        .project-text {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5.5em;
 
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
+            @include mobile {
+                padding-right: 0em;
+            }
+        }
 
-    @include mobile {
-      flex-direction: column-reverse;
-    }
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-
-  }
-
-  .image {
-    width: 50%;
-    margin-right: 4em;
-    display: flex;
-
-    @include mobile {
-      width: 100%;
-      margin-right: 0;
-      margin-top: 2em;
+        .project-image {
+            img {
+                @include mobile {
+                    width: 100%;
+                    margin-top: 2em;
+                }
+            }
+        }
     }
 
-    img {
-      object-fit: contain;
-      width: 100%;
+    .born-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
+        //background-image: url('../../assets/images/partybackground.png');
+        //background-size: 100% 100%;
 
-      @include mobile {
-        height: 100%;
-      }
-    }
-  }
+        @include mobile {
+            flex-direction: column-reverse
+        }
 
-  .info {
-    width: 50%;
+        .born-text {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            padding-left: 3em;
 
-    @include mobile {
-      width: 100%;
-    }
-  }
-}
+            @include mobile {
+                padding-left: 0em;
+                width: 100%;
+            }
+        }
 
-.community {
-  background: #FAFAFA;
+        .born-image {
+            max-width: 40%;
 
-  .container {
-    flex-direction: row;
-    margin: 3em auto;
+            @include mobile {
+                max-width: 100%;
+                margin-top: 2em;
+            }
 
-    @include mobile {
-      flex-direction: column;
-    }
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-
-  }
-
-  .info {
-    width: 60%;
-    margin-right: 4em;
-
-    @include mobile {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-  .image {
-    width: 40%;
-
-    @include mobile {
-      width: 100%;
-      margin-top: 2em;
+            img {
+                width: 100%;
+            }
+        }
     }
 
-    img {
-      object-fit: contain;
-      width: 100%;
+    .community-container {
+        display: flex;
+        flex-direction: row;
+        margin: 4em 0em;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .community-image {
+            display: flex;
+            justify-content: center;
+            width: 55%;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        .community-image-mobile {
+            display: none;
+
+            @include mobile {
+                display: flex;
+                width: 90%;
+                margin-top: 2em;
+                justify-content: center;
+            }
+        }
+
+        .community-text {
+            width: 45%;
+
+            @include mobile {
+                width: 100%;
+            }
+        }
     }
-  }
 }
 
 .our-team {
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 3em auto;
-
-    h1 {
-      margin-bottom: 0.75em;
-    }
-  }
-
-  .people-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('../../assets/images/path6.png');
+    background-position: top;
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+    padding-top: 12.5em;
+    padding-bottom: 3em;
 
-    .person-container {
-      margin-right: 2em;
-      margin-bottom: 3em;
-      width: 30%;
-
-      @include mobile {
-        width: auto;
-      }
+    @include mobile {
+        padding-top: 10em;
+        background-size: 100% 13%;
     }
-  }
+
+    .our-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-grid-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 2em;
+        justify-content: center;
+
+        @include mobile {
+            margin: 1em;
+        }
+
+        .team-image {
+            flex-basis: 30%;
+            max-width: 30%;
+            display: flex;
+            padding: 1em;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+
+            @include mobile {
+                padding: 1em 2em;
+                transform: scale(0.9);
+            }
+
+            .team-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 1em;
+
+                h6 {
+                    color: black;
+                    margin-bottom: 0.25em;
+                }
+
+                h5 {
+                    color: black;
+                }
+            }
+
+            .team-socials {
+                display: flex;
+                flex-direction: row;
+                margin: 0.25em;
+
+                .social-logo {
+                    height: 1.429em;
+                    max-width: 1.429em;
+                    margin: 0.3em;
+                }
+            }
+        }
+
+        img {
+            max-width: 31%;
+
+            @include mobile {
+                max-width: 100%;
+            }
+        }
+    }
 }

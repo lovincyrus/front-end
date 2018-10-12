@@ -33,6 +33,28 @@ import tenzLogo from '../assets/images/tenzlogo.png';
 import thegraphLogo from '../assets/images/thegraphlogo.png';
 import twitterLogo from '../assets/images/twitterlogo.png';
 import whiteLogo from '../assets/images/white8x.png';
+import aboutpath from '../assets/images/aboutpath.png';
+import homeworkapp from '../assets/images/homeworkapp.png';
+import team from '../assets/images/team.png';
+import project from '../assets/images/project.png';
+import born from '../assets/images/8xborn.png';
+import community from '../assets/images/community.png';
+import party from '../assets/images/partybackground.png';
+import daniel from '../assets/images/daniel.png';
+import rob from '../assets/images/rob.png';
+import kevinz from '../assets/images/kevinz.png';
+import andy from '../assets/images/andy.png';
+import kerman from '../assets/images/kerman.png';
+import kevinl from '../assets/images/kevinl.png';
+import twitterteam from '../assets/images/twitterteam.png';
+import githubteam from '../assets/images/githubteam.png';
+import linkedinteam from '../assets/images/linkedinteam.png';
+import mediumteam from '../assets/images/mediumteam.png';
+import path6 from '../assets/images/path6.png';
+import homeworkappmobile from '../assets/images/homeworkappmobile.png';
+import protocolweeklylogo from '../assets/images/protocolweeklylogo.png';
+import discordLogo from '../assets/images/discordlogo.png';
+
 
 export default {
   abacusLogo,
@@ -69,4 +91,26 @@ export default {
   thegraphLogo,
   twitterLogo,
   whiteLogo,
+  aboutpath,
+  homeworkapp,
+  team,
+  project,
+  born,
+  community,
+  party,
+  daniel,
+  rob,
+  kevinz,
+  andy,
+  kerman,
+  kevinl,
+  twitterteam,
+  githubteam,
+  mediumteam,
+  linkedinteam,
+  path6,
+  homeworkappmobile,
+  protocolweeklylogo,
+  discordLogo,
+  
 };

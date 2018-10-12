@@ -44,6 +44,14 @@ class Menu extends React.Component {
           <li onClick={this.close}>
             <a
               rel='noopener noreferrer'
+              href='/about'
+            >
+              About
+            </a>
+          </li>
+          <li onClick={this.close}>
+            <a
+              rel='noopener noreferrer'
               href='/protocol-weekly'
             >
               Protocol Weekly
