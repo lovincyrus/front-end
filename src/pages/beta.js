@@ -76,7 +76,9 @@ class Beta extends React.Component {
           <div className='product-item'>
             <h2>Manage</h2>
             <p>Create a plan, view your subscriptions and cancel any that you don’t want to subscribe to anymore.</p>
-            <a target='_blank' rel='noopener noreferrer' href='https://manage.8xprotocol.com/'><button className='manage'>Manage</button></a>
+            <a target='_blank' rel='noopener noreferrer' href='https://manage.8xprotocol.com/'>
+              <button className='manage'>Manage</button>
+            </a>
           </div>
         </div>
 
