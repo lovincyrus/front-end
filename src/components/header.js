@@ -42,19 +42,19 @@ class Header extends Component {
           </Popup>
 
           <div className='items'>
-            <a href='https://t.me/eightexprotocol'>
+            <a href='https://t.me/eightexprotocol' target="_blank">
               <img src={Images.telegramLogo}/>
             </a>
-            <a href='https://github.com/8xprotocol'>
+            <a href='https://github.com/8xprotocol' target="_blank">
               <img src={Images.githubLogo}/>
             </a>
-            <a href='https://twitter.com/8x_Protocol'>
+            <a href='https://twitter.com/8x_Protocol' target="_blank">
               <img src={Images.twitterLogo}/>
             </a>
-            <a href='https://medium.com/8xprotocol'>
+            <a href='https://medium.com/8xprotocol' target="_blank">
               <img src={Images.mediumLogo}/>
             </a>
-            <a href='https://www.reddit.com/r/8xProtocol/'>
+            <a href='https://www.reddit.com/r/8xProtocol/' target="_blank">
               <img src={Images.redditLogo}/>
             </a>
           </div>
